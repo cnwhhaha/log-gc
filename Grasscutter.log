@@ -1,0 +1,1283 @@
+Microsoft Windows [版本 10.0.28000.3231]
+(c) Microsoft Corporation。保留所有权利。
+
+E:\sifu\test3\Grasscutter-development>java -jar grasscutter-1.7.4.jar -debug=all
+14:07:41 <INFO:Grasscutter> Loading Grasscutter...
+14:07:41 <DEBUG:StartupArguments> The logger is now running in debug mode.
+14:07:41 <INFO:Grasscutter> 正在启动 Grasscutter...
+14:07:41 <INFO:Grasscutter> 游戏版本：4.8.0
+14:07:41 <INFO:Grasscutter> Grasscutter 版本：1.7.4-
+14:07:41 <INFO:SLF4JLogger> Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+14:07:42 <INFO:SLF4JLogger> Opened connection [connectionId{localValue:2, serverValue:1}] to localhost:27017
+14:07:42 <INFO:SLF4JLogger> Opened connection [connectionId{localValue:1, serverValue:2}] to localhost:27017
+14:07:42 <INFO:SLF4JLogger> Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=29, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=16704200}
+14:07:42 <INFO:SLF4JLogger> Opened connection [connectionId{localValue:3, serverValue:3}] to localhost:27017
+14:07:42 <DEBUG:EnergyManager> Energy drop data successfully loaded.
+14:07:42 <DEBUG:EnergyManager> Skill particle generation data successfully loaded.
+14:07:42 <DEBUG:CombineManger> Loaded 14 reliquary decompose entries.
+14:07:42 <DEBUG:GameServerPacketHandler> Registered 144 PacketHandlers
+14:07:42 <INFO:StdSchedulerFactory> Using default implementation for ThreadExecutor
+14:07:42 <INFO:SimpleThreadPool> Job execution threads will use class loader of thread: main
+14:07:42 <INFO:SchedulerSignalerImpl> Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+14:07:42 <INFO:QuartzScheduler> Quartz Scheduler v.2.3.2 created.
+14:07:42 <INFO:RAMJobStore> RAMJobStore initialized.
+14:07:42 <INFO:QuartzScheduler> Scheduler meta-data: Quartz Scheduler (v2.3.2) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+14:07:42 <INFO:StdSchedulerFactory> Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+14:07:42 <INFO:StdSchedulerFactory> Quartz scheduler version: 2.3.2
+14:07:42 <DEBUG:AnnouncementTask> [Task] Announcement task enabled.
+14:07:42 <DEBUG:MoonCard> [Task] MoonCard task enabled.
+14:07:42 <INFO:QuartzScheduler> Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+14:07:42 <DEBUG:GachaSystem> Banners successfully loaded.
+14:07:42 <DEBUG:ShopSystem> Shop data successfully loaded.
+14:07:42 <DEBUG:ShopSystem> Loaded 26 ShopChest entries.
+14:07:42 <DEBUG:DropSystemLegacy> Drop data successfully loaded.
+14:07:42 <DEBUG:ExpeditionSystem> Expedition reward successfully loaded.
+14:07:42 <INFO:JavalinLogger> JAVALIN HANDLER REGISTRATION DEBUG LOG: BEFORE[*]
+14:07:42 <INFO:JavalinLogger> JAVALIN HANDLER REGISTRATION DEBUG LOG: AFTER[*]
+14:07:42 <INFO:JavalinLogger> JAVALIN HANDLER REGISTRATION DEBUG LOG: GET[/]
+14:07:42 <INFO:JavalinLogger> JAVALIN HANDLER REGISTRATION DEBUG LOG: GET[/query_region_list]
+14:07:42 <INFO:JavalinLogger> JAVALIN HANDLER REGISTRATION DEBUG LOG: GET[/query_cur_region/{region}]
+14:07:42 <INFO:JavalinLogger> JAVALIN HANDLER REGISTRATION DEBUG LOG: POST[/log]
+14:07:42 <INFO:JavalinLogger> JAVALIN HANDLER REGISTRATION DEBUG LOG: POST[/crash/dataUpload]
+14:07:42 <INFO:JavalinLogger> JAVALIN HANDLER REGISTRATION DEBUG LOG: GET[/hk4e_global/mdk/agreement/api/getAgreementInfos]
+14:07:42 <INFO:JavalinLogger> JAVALIN HANDLER REGISTRATION DEBUG LOG: GET[/hk4e_global/combo/granter/api/compareProtocolVersion]
+14:07:42 <INFO:JavalinLogger> JAVALIN HANDLER REGISTRATION DEBUG LOG: POST[/hk4e_global/combo/granter/api/compareProtocolVersion]
+14:07:42 <INFO:JavalinLogger> JAVALIN HANDLER REGISTRATION DEBUG LOG: PUT[/hk4e_global/combo/granter/api/compareProtocolVersion]
+14:07:42 <INFO:JavalinLogger> JAVALIN HANDLER REGISTRATION DEBUG LOG: PATCH[/hk4e_global/combo/granter/api/compareProtocolVersion]
+14:07:42 <INFO:JavalinLogger> JAVALIN HANDLER REGISTRATION DEBUG LOG: DELETE[/hk4e_global/combo/granter/api/compareProtocolVersion]
+14:07:42 <INFO:JavalinLogger> JAVALIN HANDLER REGISTRATION DEBUG LOG: POST[/account/risky/api/check]
+14:07:42 <INFO:JavalinLogger> JAVALIN HANDLER REGISTRATION DEBUG LOG: GET[/combo/box/api/config/sdk/combo]
+14:07:42 <INFO:JavalinLogger> JAVALIN HANDLER REGISTRATION DEBUG LOG: GET[/hk4e_global/combo/granter/api/getConfig]
+14:07:42 <INFO:JavalinLogger> JAVALIN HANDLER REGISTRATION DEBUG LOG: GET[/hk4e_global/mdk/shield/api/loadConfig]
+14:07:42 <INFO:JavalinLogger> JAVALIN HANDLER REGISTRATION DEBUG LOG: POST[/data_abtest_api/config/experiment/list]
+14:07:42 <INFO:JavalinLogger> JAVALIN HANDLER REGISTRATION DEBUG LOG: GET[/log/sdk/upload]
+14:07:42 <INFO:JavalinLogger> JAVALIN HANDLER REGISTRATION DEBUG LOG: POST[/log/sdk/upload]
+14:07:42 <INFO:JavalinLogger> JAVALIN HANDLER REGISTRATION DEBUG LOG: PUT[/log/sdk/upload]
+14:07:42 <INFO:JavalinLogger> JAVALIN HANDLER REGISTRATION DEBUG LOG: PATCH[/log/sdk/upload]
+14:07:42 <INFO:JavalinLogger> JAVALIN HANDLER REGISTRATION DEBUG LOG: DELETE[/log/sdk/upload]
+14:07:42 <INFO:JavalinLogger> JAVALIN HANDLER REGISTRATION DEBUG LOG: GET[/sdk/upload]
+14:07:42 <INFO:JavalinLogger> JAVALIN HANDLER REGISTRATION DEBUG LOG: POST[/sdk/upload]
+14:07:42 <INFO:JavalinLogger> JAVALIN HANDLER REGISTRATION DEBUG LOG: PUT[/sdk/upload]
+14:07:42 <INFO:JavalinLogger> JAVALIN HANDLER REGISTRATION DEBUG LOG: PATCH[/sdk/upload]
+14:07:42 <INFO:JavalinLogger> JAVALIN HANDLER REGISTRATION DEBUG LOG: DELETE[/sdk/upload]
+14:07:42 <INFO:JavalinLogger> JAVALIN HANDLER REGISTRATION DEBUG LOG: POST[/sdk/dataUpload]
+14:07:42 <INFO:JavalinLogger> JAVALIN HANDLER REGISTRATION DEBUG LOG: GET[/perf/config/verify]
+14:07:42 <INFO:JavalinLogger> JAVALIN HANDLER REGISTRATION DEBUG LOG: POST[/perf/config/verify]
+14:07:42 <INFO:JavalinLogger> JAVALIN HANDLER REGISTRATION DEBUG LOG: PUT[/perf/config/verify]
+14:07:42 <INFO:JavalinLogger> JAVALIN HANDLER REGISTRATION DEBUG LOG: PATCH[/perf/config/verify]
+14:07:42 <INFO:JavalinLogger> JAVALIN HANDLER REGISTRATION DEBUG LOG: DELETE[/perf/config/verify]
+14:07:42 <INFO:JavalinLogger> JAVALIN HANDLER REGISTRATION DEBUG LOG: GET[/admin/mi18n/plat_oversea/*]
+14:07:42 <INFO:JavalinLogger> JAVALIN HANDLER REGISTRATION DEBUG LOG: GET[/status/server]
+14:07:42 <INFO:JavalinLogger> JAVALIN HANDLER REGISTRATION DEBUG LOG: GET[/common/hk4e_global/announcement/api/getAlertPic]
+14:07:42 <INFO:JavalinLogger> JAVALIN HANDLER REGISTRATION DEBUG LOG: POST[/common/hk4e_global/announcement/api/getAlertPic]
+14:07:42 <INFO:JavalinLogger> JAVALIN HANDLER REGISTRATION DEBUG LOG: PUT[/common/hk4e_global/announcement/api/getAlertPic]
+14:07:42 <INFO:JavalinLogger> JAVALIN HANDLER REGISTRATION DEBUG LOG: PATCH[/common/hk4e_global/announcement/api/getAlertPic]
+14:07:42 <INFO:JavalinLogger> JAVALIN HANDLER REGISTRATION DEBUG LOG: DELETE[/common/hk4e_global/announcement/api/getAlertPic]
+14:07:42 <INFO:JavalinLogger> JAVALIN HANDLER REGISTRATION DEBUG LOG: GET[/common/hk4e_global/announcement/api/getAlertAnn]
+14:07:42 <INFO:JavalinLogger> JAVALIN HANDLER REGISTRATION DEBUG LOG: POST[/common/hk4e_global/announcement/api/getAlertAnn]
+14:07:42 <INFO:JavalinLogger> JAVALIN HANDLER REGISTRATION DEBUG LOG: PUT[/common/hk4e_global/announcement/api/getAlertAnn]
+14:07:42 <INFO:JavalinLogger> JAVALIN HANDLER REGISTRATION DEBUG LOG: PATCH[/common/hk4e_global/announcement/api/getAlertAnn]
+14:07:42 <INFO:JavalinLogger> JAVALIN HANDLER REGISTRATION DEBUG LOG: DELETE[/common/hk4e_global/announcement/api/getAlertAnn]
+14:07:42 <INFO:JavalinLogger> JAVALIN HANDLER REGISTRATION DEBUG LOG: GET[/common/hk4e_global/announcement/api/getAnnList]
+14:07:42 <INFO:JavalinLogger> JAVALIN HANDLER REGISTRATION DEBUG LOG: POST[/common/hk4e_global/announcement/api/getAnnList]
+14:07:42 <INFO:JavalinLogger> JAVALIN HANDLER REGISTRATION DEBUG LOG: PUT[/common/hk4e_global/announcement/api/getAnnList]
+14:07:42 <INFO:JavalinLogger> JAVALIN HANDLER REGISTRATION DEBUG LOG: PATCH[/common/hk4e_global/announcement/api/getAnnList]
+14:07:42 <INFO:JavalinLogger> JAVALIN HANDLER REGISTRATION DEBUG LOG: DELETE[/common/hk4e_global/announcement/api/getAnnList]
+14:07:42 <INFO:JavalinLogger> JAVALIN HANDLER REGISTRATION DEBUG LOG: GET[/common/hk4e_global/announcement/api/getAnnContent]
+14:07:42 <INFO:JavalinLogger> JAVALIN HANDLER REGISTRATION DEBUG LOG: POST[/common/hk4e_global/announcement/api/getAnnContent]
+14:07:42 <INFO:JavalinLogger> JAVALIN HANDLER REGISTRATION DEBUG LOG: PUT[/common/hk4e_global/announcement/api/getAnnContent]
+14:07:42 <INFO:JavalinLogger> JAVALIN HANDLER REGISTRATION DEBUG LOG: PATCH[/common/hk4e_global/announcement/api/getAnnContent]
+14:07:42 <INFO:JavalinLogger> JAVALIN HANDLER REGISTRATION DEBUG LOG: DELETE[/common/hk4e_global/announcement/api/getAnnContent]
+14:07:42 <INFO:JavalinLogger> JAVALIN HANDLER REGISTRATION DEBUG LOG: GET[/hk4e_global/mdk/shopwindow/shopwindow/listPriceTier]
+14:07:42 <INFO:JavalinLogger> JAVALIN HANDLER REGISTRATION DEBUG LOG: POST[/hk4e_global/mdk/shopwindow/shopwindow/listPriceTier]
+14:07:42 <INFO:JavalinLogger> JAVALIN HANDLER REGISTRATION DEBUG LOG: PUT[/hk4e_global/mdk/shopwindow/shopwindow/listPriceTier]
+14:07:42 <INFO:JavalinLogger> JAVALIN HANDLER REGISTRATION DEBUG LOG: PATCH[/hk4e_global/mdk/shopwindow/shopwindow/listPriceTier]
+14:07:42 <INFO:JavalinLogger> JAVALIN HANDLER REGISTRATION DEBUG LOG: DELETE[/hk4e_global/mdk/shopwindow/shopwindow/listPriceTier]
+14:07:42 <INFO:JavalinLogger> JAVALIN HANDLER REGISTRATION DEBUG LOG: GET[/hk4e/announcement/*]
+14:07:42 <INFO:JavalinLogger> JAVALIN HANDLER REGISTRATION DEBUG LOG: POST[/hk4e_global/mdk/shield/api/login]
+14:07:42 <INFO:JavalinLogger> JAVALIN HANDLER REGISTRATION DEBUG LOG: POST[/hk4e_global/mdk/shield/api/verify]
+14:07:42 <INFO:JavalinLogger> JAVALIN HANDLER REGISTRATION DEBUG LOG: POST[/hk4e_global/combo/granter/login/v2/login]
+14:07:42 <INFO:JavalinLogger> JAVALIN HANDLER REGISTRATION DEBUG LOG: POST[/hk4e_cn/mdk/shield/api/login]
+14:07:42 <INFO:JavalinLogger> JAVALIN HANDLER REGISTRATION DEBUG LOG: POST[/hk4e_cn/mdk/shield/api/verify]
+14:07:42 <INFO:JavalinLogger> JAVALIN HANDLER REGISTRATION DEBUG LOG: POST[/hk4e_cn/combo/granter/login/v2/login]
+14:07:42 <INFO:JavalinLogger> JAVALIN HANDLER REGISTRATION DEBUG LOG: GET[/authentication/type]
+14:07:42 <INFO:JavalinLogger> JAVALIN HANDLER REGISTRATION DEBUG LOG: POST[/authentication/login]
+14:07:42 <INFO:JavalinLogger> JAVALIN HANDLER REGISTRATION DEBUG LOG: POST[/authentication/register]
+14:07:42 <INFO:JavalinLogger> JAVALIN HANDLER REGISTRATION DEBUG LOG: POST[/authentication/change_password]
+14:07:42 <INFO:JavalinLogger> JAVALIN HANDLER REGISTRATION DEBUG LOG: POST[/hk4e_global/mdk/shield/api/loginByThirdparty]
+14:07:42 <INFO:JavalinLogger> JAVALIN HANDLER REGISTRATION DEBUG LOG: GET[/authentication/openid/redirect]
+14:07:42 <INFO:JavalinLogger> JAVALIN HANDLER REGISTRATION DEBUG LOG: GET[/sdkFacebookLogin.html]
+14:07:42 <INFO:JavalinLogger> JAVALIN HANDLER REGISTRATION DEBUG LOG: GET[/Api/twitter_login]
+14:07:42 <INFO:JavalinLogger> JAVALIN HANDLER REGISTRATION DEBUG LOG: GET[/sdkTwitterLogin.html]
+14:07:42 <INFO:JavalinLogger> JAVALIN HANDLER REGISTRATION DEBUG LOG: GET[/gacha]
+14:07:42 <INFO:JavalinLogger> JAVALIN HANDLER REGISTRATION DEBUG LOG: GET[/gacha/details]
+14:07:42 <INFO:JavalinLogger> JAVALIN HANDLER REGISTRATION DEBUG LOG: GET[/gacha/mappings]
+14:07:42 <DEBUG:Language> Cache modified 1791022779726, textmap modified 1723857923000
+14:07:42 <DEBUG:Language> Loading cached 'TextMaps'...
+14:07:43 <INFO:JavalinLogger> JAVALIN HANDLER REGISTRATION DEBUG LOG: GET[/documentation/handbook]
+14:07:43 <INFO:JavalinLogger> JAVALIN HANDLER REGISTRATION DEBUG LOG: GET[/documentation/gachamapping]
+14:07:43 <INFO:JavalinLogger> JAVALIN HANDLER REGISTRATION DEBUG LOG: GET[/documentation]
+14:07:43 <WARN:FileUtils> Failed to read resource: /html/handbook.html
+14:07:43 <DEBUG:FileUtils> Failed to load resource: /html/handbook.html
+java.lang.NullPointerException: Cannot invoke "java.io.InputStream.readAllBytes()" because "is" is null
+        at emu.grasscutter.utils.FileUtils.readResource(FileUtils.java:203)
+        at emu.grasscutter.server.http.documentation.HandbookHandler.<init>(HandbookHandler.java:28)
+        at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+        at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+        at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+        at emu.grasscutter.server.http.HttpServer.addRouter(HttpServer.java:145)
+        at emu.grasscutter.Grasscutter.main(Grasscutter.java:141)
+14:07:43 <DEBUG:Grasscutter> Set day of week to 7
+14:07:43 <INFO:ResourceLoader> 正在加载 resources...
+14:07:44 <DEBUG:ResourceLoader> Loaded 0 emu.grasscutter.data.binout.config.ConfigEntityAvatar entries.
+14:07:47 <INFO:JavalinLogger> It looks like you created a Javalin instance, but you never started it.
+14:07:47 <INFO:JavalinLogger> Try: Javalin app = Javalin.create().start();
+14:07:47 <INFO:JavalinLogger> For more help, visit https://javalin.io/documentation#server-setup
+14:07:48 <DEBUG:ResourceLoader> Loaded 509 emu.grasscutter.data.binout.config.ConfigEntityMonster entries.
+14:07:51 <DEBUG:ResourceLoader> Loaded 509 emu.grasscutter.data.binout.config.ConfigEntityGadget entries.
+14:08:00 <DEBUG:ResourceLoader> Priorities are [HIGHEST, HIGH, NORMAL, LOW, LOWEST]
+14:08:02 <DEBUG:ResourceLoader> Loading resources took 2002099900ns == 2002ms
+14:08:20 <DEBUG:ResourceLoader> Loaded 0 quest keys.
+14:08:20 <DEBUG:ResourceLoader> Loaded 2918 MainQuestDatas.
+14:08:20 <DEBUG:ResourceLoader> Loaded 1 ScriptSceneDatas.
+14:08:24 <DEBUG:ResourceLoader> Loaded 11 HomeworldDefaultSaveDatas.
+14:08:25 <DEBUG:ResourceLoader> Loaded 33 SceneNpcBornDatas.
+14:08:28 <DEBUG:ResourceLoader> Loaded 33 SceneRouteDatas.
+14:08:28 <DEBUG:ResourceLoader> Loaded BlossomConfig.
+14:08:28 <DEBUG:ActivityManager> Enable 1 activities.
+14:08:38 <DEBUG:ResourceLoader> Loaded 2119 gadget mappings.
+14:08:38 <DEBUG:ResourceLoader> Loaded 60 subfield mappings.
+14:08:38 <DEBUG:ResourceLoader> Loaded 38 drop subfield mappings.
+14:08:38 <DEBUG:ResourceLoader> Loaded 13823 drop table configs.
+14:08:38 <DEBUG:ResourceLoader> Loaded 773 monster mappings.
+14:08:38 <DEBUG:ResourceLoader> Loaded 75 ActivityCondGroups.
+14:08:38 <DEBUG:ResourceLoader> Loaded 932 group replacements.
+14:08:38 <DEBUG:ResourceLoader> Loaded trial activity custom data.
+14:08:38 <DEBUG:ResourceLoader> Loaded trial activity schedule custom data.
+14:08:38 <DEBUG:ResourceLoader> Loaded trial avatar custom data.
+14:08:38 <DEBUG:EntityControllerScriptManager> Loaded 117 gadget controllers
+14:08:38 <INFO:ResourceLoader> 完成加载 resources
+14:08:38 <INFO:JavalinLogger> Starting Javalin ...
+14:08:38 <INFO:Server> jetty-11.0.15; built: 2023-04-11T18:37:53.775Z; git: 5bc5e562c8d05c5862505aebe5cf83a61bdbcb96; jvm 21.0.12+7-LTS-205
+14:08:38 <INFO:DefaultSessionIdManager> Session workerName=node0
+14:08:39 <INFO:ContextHandler> Started i.j.j.@5f5fe604{/,null,AVAILABLE}
+14:08:39 <INFO:AbstractConnector> Started ServerConnector@22be8211{HTTP/1.1, (http/1.1)}{0.0.0.0:8088}
+14:08:39 <INFO:Server> Started Server@364b2c46{STARTING}[11.0.15,sto=0] @59693ms
+14:08:39 <INFO:JavalinLogger>
+       __                  ___          ______
+      / /___ __   ______ _/ (_)___     / ____/
+ __  / / __ `/ | / / __ `/ / / __ \   /___ \
+/ /_/ / /_/ /| |/ / /_/ / / / / / /  ____/ /
+\____/\__,_/ |___/\__,_/_/_/_/ /_/  /_____/
+
+       https://javalin.io/documentation
+
+14:08:39 <INFO:JavalinLogger> Listening on http://0.0.0.0:8088/
+14:08:39 <INFO:JavalinLogger> You are running Javalin 5.5.0 (released May 1, 2023. Your Javalin version is 1271 days old. Consider checking for a newer version.).
+14:08:39 <INFO:JavalinLogger> Javalin started in 179ms \o/
+14:08:39 <INFO:HttpServer> [Dispatch] Dispatch 服务器启动于 127.0.0.1:8088
+14:08:39 <INFO:GameServer> Grasscutter 是免费开源软件，遵循 AGPL-3.0 license。
+        如果你是付费购买的，那你已经被骗了。
+        项目地址：https://github.com/Grasscutters/Grasscutter
+14:08:39 <INFO:GameServer> 游戏服务器启动于 127.0.0.1:22102
+14:08:39 <INFO:Grasscutter> 加载完成！输入 "help" 查看命令列表
+14:12:47 <INFO:RegionHandler> [Dispatch] Client 127.0.0.1 request: query_region_list
+14:12:47 <INFO:JavalinLogger> JAVALIN REQUEST DEBUG LOG:
+Request: GET [/query_region_list]
+    Matching endpoint-handlers: [BEFORE=*, GET=/query_region_list, AFTER=*]
+    Headers: {Accept=*/*, X-Unity-Version=2017.4.30f1, User-Agent=UnityPlayer/2017.4.30f1 (UnityWebRequest/1.0, libcurl/7.51.0-DEV), Host=127.0.0.1:8088, Accept-Encoding=identity, Content-Type=application/x-www-form-urlencoded}
+    Cookies: {}
+    Body:
+    QueryString: version=OSRELWin4.8.0&lang=2&platform=3&binary=1&time=568&channel_id=1&sub_channel_id=1
+    QueryParams: {version=[OSRELWin4.8.0], lang=[2], platform=[3], binary=[1], time=[568], channel_id=[1], sub_channel_id=[1]}
+    FormParams: {}
+Response: [200 OK], execution took 107.28 ms
+    Headers: {Date=Sat, 24 Oct 2026 06:12:47 GMT, Content-Type=text/plain}
+    Body is 3172 bytes (starts on next line):
+    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
+----------------------------------------------------------------------------------
+14:12:48 <INFO:JavalinLogger> JAVALIN REQUEST DEBUG LOG:
+Request: GET [/admin/mi18n/plat_oversea/m2020030410/m2020030410-version.json]
+    Matching endpoint-handlers: [BEFORE=*, GET=/admin/mi18n/plat_oversea/*, AFTER=*]
+    Headers: {X-Rpc-Language=null, X-Rpc-Device_id=b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145, X-Rpc-Channel_id=1, Accept=*/*, X-Unity-Version=2017.4.30f1, X-Rpc-Mdk_version=2.27.0.0, User-Agent=UnityPlayer/2017.4.30f1 (UnityWebRequest/1.0, libcurl/7.51.0-DEV), Host=127.0.0.1:8088, Accept-Encoding=identity, X-Rpc-Device_model=B760M%20GAMING%20AC%20DDR4%20%28Gigabyte%20Technology%20Co.,%20Ltd.%29, X-Rpc-Combo_version=2.27.0, X-Rpc-Device_fp=38d81c81f33c2, X-Rpc-Sys_version=Windows%2011%20%20%2810.0.28000%29%2064bit, X-Rpc-Game_biz=hk4e_global, X-Rpc-Goods_third_party=unsupported, X-Rpc-Device_name=BIGWORKSTATION, X-Rpc-Channel_version=2.27.0.0, X-Rpc-Client_type=3, X-Rpc-Sub_channel_id=1, X-Rpc-Payment_version=2.27.0}
+    Cookies: {}
+    Body:
+    QueryString: null
+    QueryParams: {}
+    FormParams: {}
+Response: [200 OK], execution took 1.95 ms
+    Headers: {Date=Sat, 24 Oct 2026 06:12:48 GMT, Content-Type=application/json}
+    Body is 19 bytes (starts on next line):
+    {
+  "version": 51
+}
+----------------------------------------------------------------------------------
+14:12:48 <INFO:JavalinLogger> JAVALIN REQUEST DEBUG LOG:
+Request: GET [/device-fp/api/getExtList]
+    Matching endpoint-handlers: [BEFORE=*, AFTER=*]
+    Headers: {X-Rpc-Language=zh-cn, X-Rpc-Device_id=b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145, X-Rpc-Channel_id=1, Accept=*/*, X-Unity-Version=2017.4.30f1, X-Rpc-Mdk_version=2.27.0.0, User-Agent=UnityPlayer/2017.4.30f1 (UnityWebRequest/1.0, libcurl/7.51.0-DEV), Host=127.0.0.1:8088, Accept-Encoding=identity, X-Rpc-Device_model=B760M%20GAMING%20AC%20DDR4%20%28Gigabyte%20Technology%20Co.,%20Ltd.%29, X-Rpc-Combo_version=2.27.0, X-Rpc-Device_fp=38d81c81f33c2, X-Rpc-Sys_version=Windows%2011%20%20%2810.0.28000%29%2064bit, X-Rpc-Game_biz=hk4e_global, X-Rpc-Goods_third_party=unsupported, X-Rpc-Device_name=BIGWORKSTATION, X-Rpc-Channel_version=2.27.0.0, X-Rpc-Client_type=3, X-Rpc-Sub_channel_id=1, X-Rpc-Payment_version=2.27.0}
+    Cookies: {}
+    Body:
+    QueryString: platform=3
+    QueryParams: {platform=[3]}
+    FormParams: {}
+Response: [404 Not Found], execution took 0.61 ms
+    Headers: {Date=Sat, 24 Oct 2026 06:12:48 GMT, Content-Type=text/html}
+    Body is 337 bytes (starts on next line):
+    <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf8">
+    </head>
+
+    <body>
+        <img src="https://http.cat/404" />
+        <h1>Grasscutter cannot find the route you're trying to access.</h1>
+        <p>Your proxy is active, so if you're trying to download something close the game/stop the proxy.</p>
+    </body>
+</html>
+
+----------------------------------------------------------------------------------
+14:12:48 <INFO:JavalinLogger> JAVALIN REQUEST DEBUG LOG:
+Request: POST [/sdk/dataUpload]
+    Matching endpoint-handlers: [BEFORE=*, POST=/sdk/dataUpload, AFTER=*]
+    Headers: {X-Rpc-Language=zh-cn, User-Agent=UnityPlayer/2017.4.30f1 (UnityWebRequest/1.0, libcurl/7.51.0-DEV), Accept-Encoding=identity, X-Rpc-Combo_version=2.27.0, X-Rpc-Device_fp=38d81c81f33c2, Authorization=cb56d249055c6b16f24897b7802e251f58cce5df, X-Rpc-Sys_version=Windows%2011%20%20%2810.0.28000%29%2064bit, X-Rpc-Game_biz=hk4e_global, X-Rpc-Device_name=BIGWORKSTATION, X-Rpc-Channel_version=2.27.0.0, X-Rpc-Client_type=3, X-Rpc-Sub_channel_id=1, Content-Length=1333, Content-Type=application/json, X-Rpc-Device_id=b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145, X-Rpc-Channel_id=1, Accept=*/*, X-Unity-Version=2017.4.30f1, X-Rpc-Mdk_version=2.27.0.0, Host=127.0.0.1:8088, X-Rpc-Device_model=B760M%20GAMING%20AC%20DDR4%20%28Gigabyte%20Technology%20Co.,%20Ltd.%29, Date=1792822368371, Content-MD5=02BB8F718FD5093C5C45714ED18B6B14, Expect=100-continue, X-Rpc-Goods_third_party=unsupported, Cms-Signature=hmac-sha1, X-Rpc-Payment_version=2.27.0}
+    Cookies: {}
+    Body: [{"applicationId":900001,"applicationName":"mihoyosdk","msgId":"b3be686fc95d5ff222de0caa763cbc6af80e04081792822368371","eventTime":"1792822368","eventId":900001,"eventName":"UserBehavior","uploadContent":{"eventTimeMs":"1792822368371","launchTraceId":"3f576a21-a807-4279-a7e5-4567f0afd736","deviceInfo":{"ip":"","platform":3,"systemInfo":"Windows 11  (10.0.28000) 64bit","deviceId":"b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145","deviceName":"BIGWORKSTATION","deviceModel":"B760M GAMING AC DDR4 (Gigabyte Technology Co., Ltd.)","registerCPS":"","cps":"","uapc":"","bundleId":"hk4e_global","isp":"","device_fp":"38d81c81f33c2","device_sciX":3840,"device_sciY":2160,"soft_sciX":3840,"soft_sciY":2160,"romCapacity":476923.0,"romRemain":248915.45,"ramCapacity":16218.0,"ramRemain":9525.15,"network_type":"","wmac":"","addressMac":"10FFE00D6585","gpuName":"NVIDIA GeForce RTX 4060","gpuMemSize":7957.0,"processorCount":16,"processorFrequency":3.6,"processorType":"12th Gen Intel(R) Core(TM) i5-12600KF"},"userInfo":{"userId":"","accountType":"","accountId":"","channelId":"1"},"versionInfo":{"clientVersion":"2.27.0.0","logVersion":"1.0.0"},"logInfo":{"logTime":"1792822368","actionId":100,"actionName":"main","cBody":"{\"type\":0,\"stage\":1,\"gamebiz\":\"hk4e_global\",\"env\":2,\"channelId\":\"1\",\"subchannelId\":\"1\"}"}}}]
+    QueryString: null
+    QueryParams: {}
+    FormParams: {}
+Response: [200 OK], execution took 0.12 ms
+    Headers: {Date=Sat, 24 Oct 2026 06:12:48 GMT, Content-Type=text/plain}
+    Body is 10 bytes (starts on next line):
+    {"code":0}
+----------------------------------------------------------------------------------
+14:12:48 <INFO:JavalinLogger> JAVALIN REQUEST DEBUG LOG:
+Request: GET [/admin/mi18n/plat_os/m09291531181441/m09291531181441-version.json]
+    Matching endpoint-handlers: [BEFORE=*, AFTER=*]
+    Headers: {X-Rpc-Language=zh-cn, X-Rpc-Device_id=b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145, X-Rpc-Channel_id=1, Accept=*/*, X-Unity-Version=2017.4.30f1, X-Rpc-Mdk_version=2.27.0.0, User-Agent=UnityPlayer/2017.4.30f1 (UnityWebRequest/1.0, libcurl/7.51.0-DEV), Host=127.0.0.1:8088, Accept-Encoding=identity, X-Rpc-Device_model=B760M%20GAMING%20AC%20DDR4%20%28Gigabyte%20Technology%20Co.,%20Ltd.%29, X-Rpc-Combo_version=2.27.0, X-Rpc-Device_fp=38d81c81f33c2, X-Rpc-Sys_version=Windows%2011%20%20%2810.0.28000%29%2064bit, X-Rpc-Game_biz=hk4e_global, X-Rpc-Goods_third_party=unsupported, X-Rpc-Device_name=BIGWORKSTATION, X-Rpc-Channel_version=2.27.0.0, X-Rpc-Client_type=3, X-Rpc-Sub_channel_id=1, X-Rpc-Payment_version=2.27.0}
+    Cookies: {}
+    Body:
+    QueryString: null
+    QueryParams: {}
+    FormParams: {}
+Response: [404 Not Found], execution took 4.10 ms
+    Headers: {Date=Sat, 24 Oct 2026 06:12:48 GMT, Content-Type=text/html}
+    Body is 337 bytes (starts on next line):
+    <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf8">
+    </head>
+
+    <body>
+        <img src="https://http.cat/404" />
+        <h1>Grasscutter cannot find the route you're trying to access.</h1>
+        <p>Your proxy is active, so if you're trying to download something close the game/stop the proxy.</p>
+    </body>
+</html>
+
+----------------------------------------------------------------------------------
+14:12:48 <INFO:JavalinLogger> JAVALIN REQUEST DEBUG LOG:
+Request: POST [/hk4e_global/combo/granter/api/compareProtocolVersion]
+    Matching endpoint-handlers: [BEFORE=*, POST=/hk4e_global/combo/granter/api/compareProtocolVersion, AFTER=*]
+    Headers: {X-Rpc-Language=zh-cn, X-Rpc-Device_id=b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145, X-Rpc-Channel_id=1, Accept=*/*, X-Unity-Version=2017.4.30f1, X-Rpc-Mdk_version=2.27.0.0, User-Agent=UnityPlayer/2017.4.30f1 (UnityWebRequest/1.0, libcurl/7.51.0-DEV), Host=127.0.0.1:8088, Accept-Encoding=identity, X-Rpc-Device_model=B760M%20GAMING%20AC%20DDR4%20%28Gigabyte%20Technology%20Co.,%20Ltd.%29, X-Rpc-Combo_version=2.27.0, X-Rpc-Device_fp=38d81c81f33c2, X-Rpc-Sys_version=Windows%2011%20%20%2810.0.28000%29%2064bit, X-Rpc-Game_biz=hk4e_global, X-Rpc-Goods_third_party=unsupported, X-Rpc-Device_name=BIGWORKSTATION, X-Rpc-Channel_version=2.27.0.0, Content-Length=74, X-Rpc-Client_type=3, X-Rpc-Sub_channel_id=1, X-Rpc-Payment_version=2.27.0, Content-Type=application/json}
+    Cookies: {}
+    Body: {"app_id":"4","channel_id":"1","language":"zh-cn","major":"","minimum":""}
+    QueryString:
+    QueryParams: {}
+    FormParams: {}
+Response: [200 OK], execution took 0.29 ms
+    Headers: {Date=Sat, 24 Oct 2026 06:12:48 GMT, Content-Type=text/plain}
+    Body is 209 bytes (starts on next line):
+    {"retcode":0,"message":"OK","data":{"modified":true,"protocol":{"id":0,"app_id":4,"language":"en","user_proto":"","priv_proto":"","major":7,"minimum":0,"create_time":"0","teenager_proto":"","third_proto":""}}}
+----------------------------------------------------------------------------------
+14:12:48 <INFO:JavalinLogger> JAVALIN REQUEST DEBUG LOG:
+Request: GET [/hk4e_global/combo/granter/api/getConfig]
+    Matching endpoint-handlers: [BEFORE=*, GET=/hk4e_global/combo/granter/api/getConfig, AFTER=*]
+    Headers: {X-Rpc-Language=zh-cn, X-Rpc-Device_id=b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145, X-Rpc-Channel_id=1, Accept=*/*, X-Unity-Version=2017.4.30f1, X-Rpc-Mdk_version=2.27.0.0, User-Agent=UnityPlayer/2017.4.30f1 (UnityWebRequest/1.0, libcurl/7.51.0-DEV), Host=127.0.0.1:8088, Accept-Encoding=identity, X-Rpc-Device_model=B760M%20GAMING%20AC%20DDR4%20%28Gigabyte%20Technology%20Co.,%20Ltd.%29, X-Rpc-Combo_version=2.27.0, X-Rpc-Device_fp=38d81c81f33c2, X-Rpc-Sys_version=Windows%2011%20%20%2810.0.28000%29%2064bit, X-Rpc-Game_biz=hk4e_global, X-Rpc-Goods_third_party=unsupported, X-Rpc-Device_name=BIGWORKSTATION, X-Rpc-Channel_version=2.27.0.0, X-Rpc-Client_type=3, X-Rpc-Sub_channel_id=1, X-Rpc-Payment_version=2.27.0}
+    Cookies: {}
+    Body:
+    QueryString: app_id=4&channel_id=1&client_type=3
+    QueryParams: {app_id=[4], channel_id=[1], client_type=[3]}
+    FormParams: {}
+Response: [200 OK], execution took 0.37 ms
+    Headers: {Date=Sat, 24 Oct 2026 06:12:48 GMT, Content-Type=text/plain}
+    Body is 392 bytes (starts on next line):
+    {"retcode":0,"message":"OK","data":{"protocol":true,"qr_enabled":false,"log_level":"INFO","announce_url":"https://webstatic-sea.hoyoverse.com/hk4e/announcement/index.html?sdk_presentation_style=fullscreen\u0026sdk_screen_transparent=true\u0026game_biz=hk4e_global\u0026auth_appid=announcement\u0026game=hk4e#/","push_alias_type":2,"disable_ysdk_guard":false,"enable_announce_pic_popup":true}}
+----------------------------------------------------------------------------------
+14:12:48 <INFO:JavalinLogger> JAVALIN REQUEST DEBUG LOG:
+Request: GET [/hk4e_global/mdk/shield/api/loadConfig]
+    Matching endpoint-handlers: [BEFORE=*, GET=/hk4e_global/mdk/shield/api/loadConfig, AFTER=*]
+    Headers: {X-Rpc-Language=zh-cn, X-Rpc-Device_id=b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145, X-Rpc-Channel_id=1, Accept=*/*, X-Unity-Version=2017.4.30f1, X-Rpc-Mdk_version=2.27.0.0, User-Agent=UnityPlayer/2017.4.30f1 (UnityWebRequest/1.0, libcurl/7.51.0-DEV), Host=127.0.0.1:8088, Accept-Encoding=identity, X-Rpc-Device_model=B760M%20GAMING%20AC%20DDR4%20%28Gigabyte%20Technology%20Co.,%20Ltd.%29, X-Rpc-Combo_version=2.27.0, X-Rpc-Device_fp=38d81c81f33c2, X-Rpc-Sys_version=Windows%2011%20%20%2810.0.28000%29%2064bit, X-Rpc-Game_biz=hk4e_global, X-Rpc-Goods_third_party=unsupported, X-Rpc-Device_name=BIGWORKSTATION, X-Rpc-Channel_version=2.27.0.0, X-Rpc-Client_type=3, X-Rpc-Sub_channel_id=1, X-Rpc-Payment_version=2.27.0}
+    Cookies: {}
+    Body:
+    QueryString: client=3&game_key=hk4e_global
+    QueryParams: {client=[3], game_key=[hk4e_global]}
+    FormParams: {}
+Response: [200 OK], execution took 0.22 ms
+    Headers: {Date=Sat, 24 Oct 2026 06:12:48 GMT, Content-Type=text/plain}
+    Body is 525 bytes (starts on next line):
+    {"retcode":0,"message":"OK","data":{"id":6,"game_key":"hk4e_global","client":"PC","identity":"I_IDENTITY","guest":false,"ignore_versions":"","scene":"S_NORMAL","name":"????","disable_regist":false,"enable_email_captcha":false,"thirdparty":["fb","tw"],"disable_mmt":false,"server_guest":false,"thirdparty_ignore":{"tw":"","fb":""},"enable_ps_bind_account":false,"thirdparty_login_configs":{"tw":{"token_type":"TK_GAME_TOKEN","game_token_expires_in":604800},"fb":{"token_type":"TK_GAME_TOKEN","game_token_expires_in":604800}}}}
+----------------------------------------------------------------------------------
+14:12:48 <INFO:JavalinLogger> JAVALIN REQUEST DEBUG LOG:
+Request: GET [/combo/box/api/config/sdk/combo]
+    Matching endpoint-handlers: [BEFORE=*, GET=/combo/box/api/config/sdk/combo, AFTER=*]
+    Headers: {X-Rpc-Language=zh-cn, X-Rpc-Device_id=b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145, X-Rpc-Channel_id=1, Accept=*/*, X-Unity-Version=2017.4.30f1, X-Rpc-Mdk_version=2.27.0.0, User-Agent=UnityPlayer/2017.4.30f1 (UnityWebRequest/1.0, libcurl/7.51.0-DEV), Host=127.0.0.1:8088, Accept-Encoding=identity, X-Rpc-Device_model=B760M%20GAMING%20AC%20DDR4%20%28Gigabyte%20Technology%20Co.,%20Ltd.%29, X-Rpc-Combo_version=2.27.0, X-Rpc-Device_fp=38d81c81f33c2, X-Rpc-Sys_version=Windows%2011%20%20%2810.0.28000%29%2064bit, X-Rpc-Game_biz=hk4e_global, X-Rpc-Goods_third_party=unsupported, X-Rpc-Device_name=BIGWORKSTATION, X-Rpc-Channel_version=2.27.0.0, X-Rpc-Client_type=3, X-Rpc-Sub_channel_id=1, X-Rpc-Payment_version=2.27.0}
+    Cookies: {}
+    Body:
+    QueryString: biz_key=hk4e_global&client_type=3
+    QueryParams: {biz_key=[hk4e_global], client_type=[3]}
+    FormParams: {}
+Response: [200 OK], execution took 0.32 ms
+    Headers: {Date=Sat, 24 Oct 2026 06:12:48 GMT, Content-Type=text/plain}
+    Body is 140 bytes (starts on next line):
+    {"retcode":0,"message":"OK","data":{"vals":{"disable_email_bind_skip":"false","email_bind_remind_interval":"7","email_bind_remind":"true"}}}
+----------------------------------------------------------------------------------
+14:12:48 <INFO:JavalinLogger> JAVALIN REQUEST DEBUG LOG:
+Request: POST [/sdk/dataUpload]
+    Matching endpoint-handlers: [BEFORE=*, POST=/sdk/dataUpload, AFTER=*]
+    Headers: {X-Rpc-Language=zh-cn, User-Agent=UnityPlayer/2017.4.30f1 (UnityWebRequest/1.0, libcurl/7.51.0-DEV), Accept-Encoding=identity, X-Rpc-Combo_version=2.27.0, X-Rpc-Device_fp=38d81c81f33c2, Authorization=6e4882aa32c253fcec0df4558b17397230e76b3f, X-Rpc-Sys_version=Windows%2011%20%20%2810.0.28000%29%2064bit, X-Rpc-Game_biz=hk4e_global, X-Rpc-Device_name=BIGWORKSTATION, X-Rpc-Channel_version=2.27.0.0, X-Rpc-Client_type=3, X-Rpc-Sub_channel_id=1, Content-Length=1388, Content-Type=application/json, X-Rpc-Device_id=b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145, X-Rpc-Channel_id=1, Accept=*/*, X-Unity-Version=2017.4.30f1, X-Rpc-Mdk_version=2.27.0.0, Host=127.0.0.1:8088, X-Rpc-Device_model=B760M%20GAMING%20AC%20DDR4%20%28Gigabyte%20Technology%20Co.,%20Ltd.%29, Date=1792822368417, Content-MD5=2DB943B7861DBD1A2E589AE9640D6425, Expect=100-continue, X-Rpc-Goods_third_party=unsupported, Cms-Signature=hmac-sha1, X-Rpc-Payment_version=2.27.0}
+    Cookies: {}
+    Body: [{"applicationId":900001,"applicationName":"mihoyosdk","msgId":"b3be686fc95d5ff222de0caa763cbc6af80e04081792822368379","eventTime":"1792822368","eventId":900001,"eventName":"UserBehavior","uploadContent":{"eventTimeMs":"1792822368379","launchTraceId":"3f576a21-a807-4279-a7e5-4567f0afd736","deviceInfo":{"ip":"","platform":3,"systemInfo":"Windows 11  (10.0.28000) 64bit","deviceId":"b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145","deviceName":"BIGWORKSTATION","deviceModel":"B760M GAMING AC DDR4 (Gigabyte Technology Co., Ltd.)","registerCPS":"","cps":"","uapc":"","bundleId":"hk4e_global","isp":"","device_fp":"38d81c81f33c2","device_sciX":3840,"device_sciY":2160,"soft_sciX":3840,"soft_sciY":2160,"romCapacity":476923.0,"romRemain":248915.45,"ramCapacity":16218.0,"ramRemain":9524.25,"network_type":"","wmac":"","addressMac":"10FFE00D6585","gpuName":"NVIDIA GeForce RTX 4060","gpuMemSize":7957.0,"processorCount":16,"processorFrequency":3.6,"processorType":"12th Gen Intel(R) Core(TM) i5-12600KF"},"userInfo":{"userId":"","accountType":"","accountId":"","channelId":"1"},"versionInfo":{"clientVersion":"2.27.0.0","logVersion":"1.0.0"},"logInfo":{"logTime":"1792822368","actionId":100,"actionName":"main","cBody":"{\"mac_address\":\"10FFE00D6585\",\"type\":0,\"stage\":0,\"lifecycle_id\":\"\",\"gamebiz\":\"hk4e_global\",\"env\":2,\"channelId\":\"1\",\"subchannelId\":\"1\"}"}}}]
+    QueryString: null
+    QueryParams: {}
+    FormParams: {}
+Response: [200 OK], execution took 0.17 ms
+    Headers: {Date=Sat, 24 Oct 2026 06:12:48 GMT, Content-Type=text/plain}
+    Body is 10 bytes (starts on next line):
+    {"code":0}
+----------------------------------------------------------------------------------
+14:12:48 <INFO:JavalinLogger> JAVALIN REQUEST DEBUG LOG:
+Request: POST [/sdk/dataUpload]
+    Matching endpoint-handlers: [BEFORE=*, POST=/sdk/dataUpload, AFTER=*]
+    Headers: {X-Rpc-Language=zh-cn, X-Rpc-Lifecycle_id=e271183c-2861-4967-9ed4-6e160b5ba66d, User-Agent=UnityPlayer/2017.4.30f1 (UnityWebRequest/1.0, libcurl/7.51.0-DEV), Accept-Encoding=identity, X-Rpc-Combo_version=2.27.0, X-Rpc-Device_fp=38d81c81f33c2, Authorization=1bbe0df1ddc5fbe7aaeaea2471dcbd9ebf255841, X-Rpc-Sys_version=Windows%2011%20%20%2810.0.28000%29%2064bit, X-Rpc-Game_biz=hk4e_global, X-Rpc-Device_name=BIGWORKSTATION, X-Rpc-Channel_version=2.27.0.0, X-Rpc-Client_type=3, X-Rpc-Sub_channel_id=1, Content-Length=4172, Content-Type=application/json, X-Rpc-Device_id=b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145, X-Rpc-Channel_id=1, Accept=*/*, X-Unity-Version=2017.4.30f1, X-Rpc-Mdk_version=2.27.0.0, Host=127.0.0.1:8088, X-Rpc-Device_model=B760M%20GAMING%20AC%20DDR4%20%28Gigabyte%20Technology%20Co.,%20Ltd.%29, Date=1792822368661, Content-MD5=80B58A909AFD799FE426F72E70AEA499, Expect=100-continue, X-Rpc-Goods_third_party=unsupported, Cms-Signature=hmac-sha1, X-Rpc-Payment_version=2.27.0}
+    Cookies: {}
+    Body: [{"applicationId":900001,"applicationName":"mihoyosdk","msgId":"b3be686fc95d5ff222de0caa763cbc6af80e04081792822368418","eventTime":"1792822368","eventId":900001,"eventName":"UserBehavior","uploadContent":{"eventTimeMs":"1792822368418","launchTraceId":"3f576a21-a807-4279-a7e5-4567f0afd736","deviceInfo":{"ip":"","platform":3,"systemInfo":"Windows 11  (10.0.28000) 64bit","deviceId":"b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145","deviceName":"BIGWORKSTATION","deviceModel":"B760M GAMING AC DDR4 (Gigabyte Technology Co., Ltd.)","registerCPS":"","cps":"","uapc":"","bundleId":"hk4e_global","isp":"","device_fp":"38d81c81f33c2","device_sciX":3840,"device_sciY":2160,"soft_sciX":3840,"soft_sciY":2160,"romCapacity":476923.0,"romRemain":248915.41,"ramCapacity":16218.0,"ramRemain":9524.51,"network_type":"","wmac":"","addressMac":"10FFE00D6585","gpuName":"NVIDIA GeForce RTX 4060","gpuMemSize":7957.0,"processorCount":16,"processorFrequency":3.6,"processorType":"12th Gen Intel(R) Core(TM) i5-12600KF"},"userInfo":{"userId":"","accountType":"","accountId":"","channelId":"1"},"versionInfo":{"clientVersion":"2.27.0.0","logVersion":"1.0.0"},"logInfo":{"logTime":"1792822368","actionId":100,"actionName":"main","cBody":"{\"type\":0,\"stage\":2,\"lifecycle_id\":\"e271183c-2861-4967-9ed4-6e160b5ba66d\",\"gamebiz\":\"hk4e_global\",\"env\":2,\"channelId\":\"1\",\"subchannelId\":\"1\"}"}}},{"applicationId":900001,"applicationName":"mihoyosdk","msgId":"b3be686fc95d5ff222de0caa763cbc6af80e04081792822368419","eventTime":"1792822368","eventId":900001,"eventName":"UserBehavior","uploadContent":{"eventTimeMs":"1792822368419","launchTraceId":"3f576a21-a807-4279-a7e5-4567f0afd736","deviceInfo":{"ip":"","platform":3,"systemInfo":"Windows 11  (10.0.28000) 64bit","deviceId":"b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145","deviceName":"BIGWORKSTATION","deviceModel":"B760M GAMING AC DDR4 (Gigabyte Technology Co., Ltd.)","registerCPS":"","cps":"","uapc":"","bundleId":"hk4e_global","isp":"","device_fp":"38d81c81f33c2","device_sciX":3840,"device_sciY":2160,"soft_sciX":3840,"soft_sciY":2160,"romCapacity":476923.0,"romRemain":248915.41,"ramCapacity":16218.0,"ramRemain":9524.51,"network_type":"","wmac":"","addressMac":"10FFE00D6585","gpuName":"NVIDIA GeForce RTX 4060","gpuMemSize":7957.0,"processorCount":16,"processorFrequency":3.6,"processorType":"12th Gen Intel(R) Core(TM) i5-12600KF"},"userInfo":{"userId":"","accountType":"","accountId":"","channelId":"1"},"versionInfo":{"clientVersion":"2.27.0.0","logVersion":"1.0.0"},"logInfo":{"logTime":"1792822368","actionId":100,"actionName":"main","cBody":"{\"type\":0,\"stage\":3,\"lifecycle_id\":\"e271183c-2861-4967-9ed4-6e160b5ba66d\",\"gamebiz\":\"hk4e_global\",\"env\":2,\"channelId\":\"1\",\"subchannelId\":\"1\"}"}}},{"applicationId":900001,"applicationName":"mihoyosdk","msgId":"b3be686fc95d5ff222de0caa763cbc6af80e04081792822368421","eventTime":"1792822368","eventId":900001,"eventName":"UserBehavior","uploadContent":{"eventTimeMs":"1792822368421","launchTraceId":"3f576a21-a807-4279-a7e5-4567f0afd736","deviceInfo":{"ip":"","platform":3,"systemInfo":"Windows 11  (10.0.28000) 64bit","deviceId":"b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145","deviceName":"BIGWORKSTATION","deviceModel":"B760M GAMING AC DDR4 (Gigabyte Technology Co., Ltd.)","registerCPS":"","cps":"","uapc":"","bundleId":"hk4e_global","isp":"","device_fp":"38d81c81f33c2","device_sciX":3840,"device_sciY":2160,"soft_sciX":3840,"soft_sciY":2160,"romCapacity":476923.0,"romRemain":248915.41,"ramCapacity":16218.0,"ramRemain":9524.54,"network_type":"","wmac":"","addressMac":"10FFE00D6585","gpuName":"NVIDIA GeForce RTX 4060","gpuMemSize":7957.0,"processorCount":16,"processorFrequency":3.6,"processorType":"12th Gen Intel(R) Core(TM) i5-12600KF"},"userInfo":{"userId":"","accountType":"","accountId":"","channelId":"1"},"versionInfo":{"clientVersion":"2.27.0.0","logVersion":"1.0.0"},"logInfo":{"logTime":"1792822368","actionId":102,"actionName":"login","cBody":"{\"type\":1,\"stage\":1,\"lifecycle_id\":\"e271183c-2861-4967-9ed4-6e160b5ba66d\",\"gamebiz\":\"hk4e_global\",\"env\":2,\"channelId\":\"1\",\"subchannelId\":\"1\"}"}}}]
+    QueryString: null
+    QueryParams: {}
+    FormParams: {}
+Response: [200 OK], execution took 0.18 ms
+    Headers: {Date=Sat, 24 Oct 2026 06:12:48 GMT, Content-Type=text/plain}
+    Body is 10 bytes (starts on next line):
+    {"code":0}
+----------------------------------------------------------------------------------
+14:12:48 <INFO:JavalinLogger> JAVALIN REQUEST DEBUG LOG:
+Request: GET [/device-fp/api/getExtList]
+    Matching endpoint-handlers: [BEFORE=*, AFTER=*]
+    Headers: {X-Rpc-Language=zh-cn, X-Rpc-Device_id=b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145, X-Rpc-Channel_id=1, Accept=*/*, X-Unity-Version=2017.4.30f1, X-Rpc-Lifecycle_id=e271183c-2861-4967-9ed4-6e160b5ba66d, X-Rpc-Mdk_version=2.27.0.0, User-Agent=UnityPlayer/2017.4.30f1 (UnityWebRequest/1.0, libcurl/7.51.0-DEV), Host=127.0.0.1:8088, Accept-Encoding=identity, X-Rpc-Device_model=B760M%20GAMING%20AC%20DDR4%20%28Gigabyte%20Technology%20Co.,%20Ltd.%29, X-Rpc-Combo_version=2.27.0, X-Rpc-Device_fp=38d81c81f33c2, X-Rpc-Sys_version=Windows%2011%20%20%2810.0.28000%29%2064bit, X-Rpc-Game_biz=hk4e_global, X-Rpc-Goods_third_party=unsupported, X-Rpc-Device_name=BIGWORKSTATION, X-Rpc-Channel_version=2.27.0.0, X-Rpc-Client_type=3, X-Rpc-Sub_channel_id=1, X-Rpc-Payment_version=2.27.0}
+    Cookies: {}
+    Body:
+    QueryString: platform=3
+    QueryParams: {platform=[3]}
+    FormParams: {}
+Response: [404 Not Found], execution took 0.30 ms
+    Headers: {Date=Sat, 24 Oct 2026 06:12:48 GMT, Content-Type=text/html}
+    Body is 337 bytes (starts on next line):
+    <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf8">
+    </head>
+
+    <body>
+        <img src="https://http.cat/404" />
+        <h1>Grasscutter cannot find the route you're trying to access.</h1>
+        <p>Your proxy is active, so if you're trying to download something close the game/stop the proxy.</p>
+    </body>
+</html>
+
+----------------------------------------------------------------------------------
+14:12:50 <INFO:JavalinLogger> JAVALIN REQUEST DEBUG LOG:
+Request: GET [/admin/mi18n/plat_os/m09291531181441/m09291531181441-version.json]
+    Matching endpoint-handlers: [BEFORE=*, AFTER=*]
+    Headers: {X-Rpc-Language=zh-cn, X-Rpc-Device_id=b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145, X-Rpc-Channel_id=1, Accept=*/*, X-Unity-Version=2017.4.30f1, X-Rpc-Lifecycle_id=e271183c-2861-4967-9ed4-6e160b5ba66d, X-Rpc-Mdk_version=2.27.0.0, User-Agent=UnityPlayer/2017.4.30f1 (UnityWebRequest/1.0, libcurl/7.51.0-DEV), Host=127.0.0.1:8088, Accept-Encoding=identity, X-Rpc-Device_model=B760M%20GAMING%20AC%20DDR4%20%28Gigabyte%20Technology%20Co.,%20Ltd.%29, X-Rpc-Combo_version=2.27.0, X-Rpc-Device_fp=38d81c81f33c2, X-Rpc-Sys_version=Windows%2011%20%20%2810.0.28000%29%2064bit, X-Rpc-Game_biz=hk4e_global, X-Rpc-Goods_third_party=unsupported, X-Rpc-Device_name=BIGWORKSTATION, X-Rpc-Channel_version=2.27.0.0, X-Rpc-Client_type=3, X-Rpc-Sub_channel_id=1, X-Rpc-Payment_version=2.27.0}
+    Cookies: {}
+    Body:
+    QueryString: null
+    QueryParams: {}
+    FormParams: {}
+Response: [404 Not Found], execution took 0.28 ms
+    Headers: {Date=Sat, 24 Oct 2026 06:12:50 GMT, Content-Type=text/html}
+    Body is 337 bytes (starts on next line):
+    <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf8">
+    </head>
+
+    <body>
+        <img src="https://http.cat/404" />
+        <h1>Grasscutter cannot find the route you're trying to access.</h1>
+        <p>Your proxy is active, so if you're trying to download something close the game/stop the proxy.</p>
+    </body>
+</html>
+
+----------------------------------------------------------------------------------
+14:12:54 <INFO:JavalinLogger> JAVALIN REQUEST DEBUG LOG:
+Request: POST [/sdk/dataUpload]
+    Matching endpoint-handlers: [BEFORE=*, POST=/sdk/dataUpload, AFTER=*]
+    Headers: {X-Rpc-Language=zh-cn, X-Rpc-Lifecycle_id=e271183c-2861-4967-9ed4-6e160b5ba66d, User-Agent=UnityPlayer/2017.4.30f1 (UnityWebRequest/1.0, libcurl/7.51.0-DEV), Accept-Encoding=identity, X-Rpc-Combo_version=2.27.0, X-Rpc-Device_fp=38d81c81f33c2, Authorization=64bd75e130cef925c273c59a5083edee5f5a084f, X-Rpc-Sys_version=Windows%2011%20%20%2810.0.28000%29%2064bit, X-Rpc-Game_biz=hk4e_global, X-Rpc-Device_name=BIGWORKSTATION, X-Rpc-Channel_version=2.27.0.0, X-Rpc-Client_type=3, X-Rpc-Sub_channel_id=1, Content-Length=1392, Content-Type=application/json, X-Rpc-Device_id=b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145, X-Rpc-Channel_id=1, Accept=*/*, X-Unity-Version=2017.4.30f1, X-Rpc-Mdk_version=2.27.0.0, Host=127.0.0.1:8088, X-Rpc-Device_model=B760M%20GAMING%20AC%20DDR4%20%28Gigabyte%20Technology%20Co.,%20Ltd.%29, Date=1792822374333, Content-MD5=A142DCC5C32A5EE9C70A18A295D01FB0, Expect=100-continue, X-Rpc-Goods_third_party=unsupported, Cms-Signature=hmac-sha1, X-Rpc-Payment_version=2.27.0}
+    Cookies: {}
+    Body: [{"applicationId":900001,"applicationName":"mihoyosdk","msgId":"b3be686fc95d5ff222de0caa763cbc6af80e04081792822374333","eventTime":"1792822374","eventId":900001,"eventName":"UserBehavior","uploadContent":{"eventTimeMs":"1792822374333","launchTraceId":"3f576a21-a807-4279-a7e5-4567f0afd736","deviceInfo":{"ip":"","platform":3,"systemInfo":"Windows 11  (10.0.28000) 64bit","deviceId":"b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145","deviceName":"BIGWORKSTATION","deviceModel":"B760M GAMING AC DDR4 (Gigabyte Technology Co., Ltd.)","registerCPS":"","cps":"","uapc":"","bundleId":"hk4e_global","isp":"","device_fp":"38d81c81f33c2","device_sciX":3840,"device_sciY":2160,"soft_sciX":3840,"soft_sciY":2160,"romCapacity":476923.0,"romRemain":248915.38,"ramCapacity":16218.0,"ramRemain":9498.11,"network_type":"","wmac":"","addressMac":"10FFE00D6585","gpuName":"NVIDIA GeForce RTX 4060","gpuMemSize":7957.0,"processorCount":16,"processorFrequency":3.6,"processorType":"12th Gen Intel(R) Core(TM) i5-12600KF"},"userInfo":{"userId":"","accountType":"","accountId":"","channelId":"1"},"versionInfo":{"clientVersion":"2.27.0.0","logVersion":"1.0.0"},"logInfo":{"logTime":"1792822374","actionId":102,"actionName":"login","cBody":"{\"type\":1,\"stage\":2,\"lifecycle_id\":\"e271183c-2861-4967-9ed4-6e160b5ba66d\",\"gamebiz\":\"hk4e_global\",\"env\":2,\"channelId\":\"1\",\"subchannelId\":\"1\"}"}}}]
+    QueryString: null
+    QueryParams: {}
+    FormParams: {}
+Response: [200 OK], execution took 0.22 ms
+    Headers: {Date=Sat, 24 Oct 2026 06:12:54 GMT, Content-Type=text/plain}
+    Body is 10 bytes (starts on next line):
+    {"code":0}
+----------------------------------------------------------------------------------
+14:12:54 <INFO:JavalinLogger> JAVALIN REQUEST DEBUG LOG:
+Request: POST [/account/risky/api/check]
+    Matching endpoint-handlers: [BEFORE=*, POST=/account/risky/api/check, AFTER=*]
+    Headers: {X-Rpc-Language=zh-cn, X-Rpc-Device_id=b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145, X-Rpc-Channel_id=1, Accept=*/*, X-Unity-Version=2017.4.30f1, X-Rpc-Lifecycle_id=e271183c-2861-4967-9ed4-6e160b5ba66d, X-Rpc-Mdk_version=2.27.0.0, User-Agent=UnityPlayer/2017.4.30f1 (UnityWebRequest/1.0, libcurl/7.51.0-DEV), Host=127.0.0.1:8088, Accept-Encoding=identity, X-Rpc-Device_model=B760M%20GAMING%20AC%20DDR4%20%28Gigabyte%20Technology%20Co.,%20Ltd.%29, X-Rpc-Combo_version=2.27.0, X-Rpc-Device_fp=38d81c81f33c2, X-Rpc-Sys_version=Windows%2011%20%20%2810.0.28000%29%2064bit, X-Rpc-Game_biz=hk4e_global, X-Rpc-Goods_third_party=unsupported, X-Rpc-Device_name=BIGWORKSTATION, X-Rpc-Channel_version=2.27.0.0, Content-Length=69, X-Rpc-Client_type=3, X-Rpc-Sub_channel_id=1, X-Rpc-Payment_version=2.27.0, Content-Type=application/json}
+    Cookies: {}
+    Body: {"action_type":"login","api_name":"/shield/api/login","username":"6"}
+    QueryString:
+    QueryParams: {}
+    FormParams: {}
+Response: [200 OK], execution took 0.16 ms
+    Headers: {Date=Sat, 24 Oct 2026 06:12:54 GMT, Content-Type=text/plain}
+    Body is 87 bytes (starts on next line):
+    {"retcode":0,"message":"OK","data":{"id":"none","action":"ACTION_NONE","geetest":null}}
+----------------------------------------------------------------------------------
+14:12:54 <INFO:DefaultAuthenticators$PasswordAuthenticator> [Dispatch] 客户端 127.0.0.1 登录失败：账号不存在
+14:12:54 <DEBUG:AuthenticationHandler> [Dispatch] 客户端 127.0.0.1 正在尝试登录
+14:12:54 <INFO:JavalinLogger> JAVALIN REQUEST DEBUG LOG:
+Request: POST [/hk4e_global/mdk/shield/api/login]
+    Matching endpoint-handlers: [BEFORE=*, POST=/hk4e_global/mdk/shield/api/login, AFTER=*]
+    Headers: {X-Rpc-Language=zh-cn, X-Rpc-Device_id=b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145, X-Rpc-Channel_id=1, Accept=*/*, X-Unity-Version=2017.4.30f1, X-Rpc-Lifecycle_id=e271183c-2861-4967-9ed4-6e160b5ba66d, X-Rpc-Mdk_version=2.27.0.0, User-Agent=UnityPlayer/2017.4.30f1 (UnityWebRequest/1.0, libcurl/7.51.0-DEV), Host=127.0.0.1:8088, Accept-Encoding=identity, X-Rpc-Device_model=B760M%20GAMING%20AC%20DDR4%20%28Gigabyte%20Technology%20Co.,%20Ltd.%29, X-Rpc-Combo_version=2.27.0, X-Rpc-Device_fp=38d81c81f33c2, X-Rpc-Risky=id=none;c=;s=;v=, X-Rpc-Sys_version=Windows%2011%20%20%2810.0.28000%29%2064bit, X-Rpc-Game_biz=hk4e_global, X-Rpc-Goods_third_party=unsupported, X-Rpc-Device_name=BIGWORKSTATION, X-Rpc-Channel_version=2.27.0.0, Content-Length=218, X-Rpc-Client_type=3, X-Rpc-Sub_channel_id=1, X-Rpc-Payment_version=2.27.0, Content-Type=application/json}
+    Cookies: {}
+    Body: {"account":"6","password":"ERHOaufGOnxKltWAA19JCdIqe1IuQvBjEizsHquFUhNoweWh5kurDeX7ajqEUPQrpkPPMnFhN0Z83Vmq6dxAc8iHkNmRXxIdmJspsvhLZHkPw8lL5+JgtUgKmDUY3scG3MfW/p5GFVyMG1D117q23jGgfJimW34Nv3rv8Qge0GI=","is_crypto":true}
+    QueryString: null
+    QueryParams: {}
+    FormParams: {}
+Response: [200 OK], execution took 117.67 ms
+    Headers: {Date=Sat, 24 Oct 2026 06:12:54 GMT, Content-Type=application/json}
+    Body is 477 bytes (starts on next line):
+    {"message":"未找到用户名","retcode":-201,"data":{"account":{"name":"","email":"","mobile":"","is_email_verify":"0","realname":"","identity_card":"","safe_mobile":"","facebook_name":"","twitter_name":"","game_center_name":"","google_name":"","apple_name":"","sony_name":"","tap_name":"","country":"US","reactivate_ticket":"","area_code":"**","device_grant_ticket":""},"device_grant_required":false,"realname_operation":"NONE","realperson_required":false,"safe_mobile_required":false}}
+----------------------------------------------------------------------------------
+14:12:54 <INFO:JavalinLogger> JAVALIN REQUEST DEBUG LOG:
+Request: POST [/sdk/dataUpload]
+    Matching endpoint-handlers: [BEFORE=*, POST=/sdk/dataUpload, AFTER=*]
+    Headers: {X-Rpc-Language=zh-cn, X-Rpc-Lifecycle_id=e271183c-2861-4967-9ed4-6e160b5ba66d, User-Agent=UnityPlayer/2017.4.30f1 (UnityWebRequest/1.0, libcurl/7.51.0-DEV), Accept-Encoding=identity, X-Rpc-Combo_version=2.27.0, X-Rpc-Device_fp=38d81c81f33c2, Authorization=836c344fb9bfeb12a685c39299948ae50c3c7037, X-Rpc-Sys_version=Windows%2011%20%20%2810.0.28000%29%2064bit, X-Rpc-Game_biz=hk4e_global, X-Rpc-Device_name=BIGWORKSTATION, X-Rpc-Channel_version=2.27.0.0, X-Rpc-Client_type=3, X-Rpc-Sub_channel_id=1, Content-Length=1391, Content-Type=application/json, X-Rpc-Device_id=b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145, X-Rpc-Channel_id=1, Accept=*/*, X-Unity-Version=2017.4.30f1, X-Rpc-Mdk_version=2.27.0.0, Host=127.0.0.1:8088, X-Rpc-Device_model=B760M%20GAMING%20AC%20DDR4%20%28Gigabyte%20Technology%20Co.,%20Ltd.%29, Date=1792822374628, Content-MD5=029B065BE8FF8DAB17C2EFF4D45FA162, Expect=100-continue, X-Rpc-Goods_third_party=unsupported, Cms-Signature=hmac-sha1, X-Rpc-Payment_version=2.27.0}
+    Cookies: {}
+    Body: [{"applicationId":900001,"applicationName":"mihoyosdk","msgId":"b3be686fc95d5ff222de0caa763cbc6af80e04081792822374628","eventTime":"1792822375","eventId":900001,"eventName":"UserBehavior","uploadContent":{"eventTimeMs":"1792822374628","launchTraceId":"3f576a21-a807-4279-a7e5-4567f0afd736","deviceInfo":{"ip":"","platform":3,"systemInfo":"Windows 11  (10.0.28000) 64bit","deviceId":"b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145","deviceName":"BIGWORKSTATION","deviceModel":"B760M GAMING AC DDR4 (Gigabyte Technology Co., Ltd.)","registerCPS":"","cps":"","uapc":"","bundleId":"hk4e_global","isp":"","device_fp":"38d81c81f33c2","device_sciX":3840,"device_sciY":2160,"soft_sciX":3840,"soft_sciY":2160,"romCapacity":476923.0,"romRemain":248915.38,"ramCapacity":16218.0,"ramRemain":9498.0,"network_type":"","wmac":"","addressMac":"10FFE00D6585","gpuName":"NVIDIA GeForce RTX 4060","gpuMemSize":7957.0,"processorCount":16,"processorFrequency":3.6,"processorType":"12th Gen Intel(R) Core(TM) i5-12600KF"},"userInfo":{"userId":"","accountType":"","accountId":"","channelId":"1"},"versionInfo":{"clientVersion":"2.27.0.0","logVersion":"1.0.0"},"logInfo":{"logTime":"1792822375","actionId":102,"actionName":"login","cBody":"{\"type\":1,\"stage\":4,\"lifecycle_id\":\"e271183c-2861-4967-9ed4-6e160b5ba66d\",\"gamebiz\":\"hk4e_global\",\"env\":2,\"channelId\":\"1\",\"subchannelId\":\"1\"}"}}}]
+    QueryString: null
+    QueryParams: {}
+    FormParams: {}
+Response: [200 OK], execution took 0.30 ms
+    Headers: {Date=Sat, 24 Oct 2026 06:12:54 GMT, Content-Type=text/plain}
+    Body is 10 bytes (starts on next line):
+    {"code":0}
+----------------------------------------------------------------------------------
+14:13:05 <INFO:JavalinLogger> JAVALIN REQUEST DEBUG LOG:
+Request: POST [/sdk/dataUpload]
+    Matching endpoint-handlers: [BEFORE=*, POST=/sdk/dataUpload, AFTER=*]
+    Headers: {X-Rpc-Language=zh-cn, X-Rpc-Lifecycle_id=e271183c-2861-4967-9ed4-6e160b5ba66d, User-Agent=UnityPlayer/2017.4.30f1 (UnityWebRequest/1.0, libcurl/7.51.0-DEV), Accept-Encoding=identity, X-Rpc-Combo_version=2.27.0, X-Rpc-Device_fp=38d81c81f33c2, Authorization=8938a01f2700c23845c5a91d143f07a771b7de52, X-Rpc-Sys_version=Windows%2011%20%20%2810.0.28000%29%2064bit, X-Rpc-Game_biz=hk4e_global, X-Rpc-Device_name=BIGWORKSTATION, X-Rpc-Channel_version=2.27.0.0, X-Rpc-Client_type=3, X-Rpc-Sub_channel_id=1, Content-Length=1392, Content-Type=application/json, X-Rpc-Device_id=b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145, X-Rpc-Channel_id=1, Accept=*/*, X-Unity-Version=2017.4.30f1, X-Rpc-Mdk_version=2.27.0.0, Host=127.0.0.1:8088, X-Rpc-Device_model=B760M%20GAMING%20AC%20DDR4%20%28Gigabyte%20Technology%20Co.,%20Ltd.%29, Date=1792822385543, Content-MD5=250049E058947301DDF871887C842D33, Expect=100-continue, X-Rpc-Goods_third_party=unsupported, Cms-Signature=hmac-sha1, X-Rpc-Payment_version=2.27.0}
+    Cookies: {}
+    Body: [{"applicationId":900001,"applicationName":"mihoyosdk","msgId":"b3be686fc95d5ff222de0caa763cbc6af80e04081792822385543","eventTime":"1792822386","eventId":900001,"eventName":"UserBehavior","uploadContent":{"eventTimeMs":"1792822385543","launchTraceId":"3f576a21-a807-4279-a7e5-4567f0afd736","deviceInfo":{"ip":"","platform":3,"systemInfo":"Windows 11  (10.0.28000) 64bit","deviceId":"b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145","deviceName":"BIGWORKSTATION","deviceModel":"B760M GAMING AC DDR4 (Gigabyte Technology Co., Ltd.)","registerCPS":"","cps":"","uapc":"","bundleId":"hk4e_global","isp":"","device_fp":"38d81c81f33c2","device_sciX":3840,"device_sciY":2160,"soft_sciX":3840,"soft_sciY":2160,"romCapacity":476923.0,"romRemain":248915.38,"ramCapacity":16218.0,"ramRemain":9557.61,"network_type":"","wmac":"","addressMac":"10FFE00D6585","gpuName":"NVIDIA GeForce RTX 4060","gpuMemSize":7957.0,"processorCount":16,"processorFrequency":3.6,"processorType":"12th Gen Intel(R) Core(TM) i5-12600KF"},"userInfo":{"userId":"","accountType":"","accountId":"","channelId":"1"},"versionInfo":{"clientVersion":"2.27.0.0","logVersion":"1.0.0"},"logInfo":{"logTime":"1792822386","actionId":102,"actionName":"login","cBody":"{\"type\":1,\"stage\":2,\"lifecycle_id\":\"e271183c-2861-4967-9ed4-6e160b5ba66d\",\"gamebiz\":\"hk4e_global\",\"env\":2,\"channelId\":\"1\",\"subchannelId\":\"1\"}"}}}]
+    QueryString: null
+    QueryParams: {}
+    FormParams: {}
+Response: [200 OK], execution took 0.17 ms
+    Headers: {Date=Sat, 24 Oct 2026 06:13:05 GMT, Content-Type=text/plain}
+    Body is 10 bytes (starts on next line):
+    {"code":0}
+----------------------------------------------------------------------------------
+14:13:05 <INFO:JavalinLogger> JAVALIN REQUEST DEBUG LOG:
+Request: POST [/account/risky/api/check]
+    Matching endpoint-handlers: [BEFORE=*, POST=/account/risky/api/check, AFTER=*]
+    Headers: {X-Rpc-Language=zh-cn, X-Rpc-Device_id=b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145, X-Rpc-Channel_id=1, Accept=*/*, X-Unity-Version=2017.4.30f1, X-Rpc-Lifecycle_id=e271183c-2861-4967-9ed4-6e160b5ba66d, X-Rpc-Mdk_version=2.27.0.0, User-Agent=UnityPlayer/2017.4.30f1 (UnityWebRequest/1.0, libcurl/7.51.0-DEV), Host=127.0.0.1:8088, Accept-Encoding=identity, X-Rpc-Device_model=B760M%20GAMING%20AC%20DDR4%20%28Gigabyte%20Technology%20Co.,%20Ltd.%29, X-Rpc-Combo_version=2.27.0, X-Rpc-Device_fp=38d81c81f33c2, X-Rpc-Sys_version=Windows%2011%20%20%2810.0.28000%29%2064bit, X-Rpc-Game_biz=hk4e_global, X-Rpc-Goods_third_party=unsupported, X-Rpc-Device_name=BIGWORKSTATION, X-Rpc-Channel_version=2.27.0.0, Content-Length=84, X-Rpc-Client_type=3, X-Rpc-Sub_channel_id=1, X-Rpc-Payment_version=2.27.0, Content-Type=application/json}
+    Cookies: {}
+    Body: {"action_type":"login","api_name":"/shield/api/login","username":"8@grasscutter.io"}
+    QueryString:
+    QueryParams: {}
+    FormParams: {}
+Response: [200 OK], execution took 0.14 ms
+    Headers: {Date=Sat, 24 Oct 2026 06:13:05 GMT, Content-Type=text/plain}
+    Body is 87 bytes (starts on next line):
+    {"retcode":0,"message":"OK","data":{"id":"none","action":"ACTION_NONE","geetest":null}}
+----------------------------------------------------------------------------------
+14:13:05 <INFO:DefaultAuthenticators$PasswordAuthenticator> [Dispatch] 客户端 127.0.0.1 登录失败：账号不存在
+14:13:05 <DEBUG:AuthenticationHandler> [Dispatch] 客户端 127.0.0.1 正在尝试登录
+14:13:05 <INFO:JavalinLogger> JAVALIN REQUEST DEBUG LOG:
+Request: POST [/hk4e_global/mdk/shield/api/login]
+    Matching endpoint-handlers: [BEFORE=*, POST=/hk4e_global/mdk/shield/api/login, AFTER=*]
+    Headers: {X-Rpc-Language=zh-cn, X-Rpc-Device_id=b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145, X-Rpc-Channel_id=1, Accept=*/*, X-Unity-Version=2017.4.30f1, X-Rpc-Lifecycle_id=e271183c-2861-4967-9ed4-6e160b5ba66d, X-Rpc-Mdk_version=2.27.0.0, User-Agent=UnityPlayer/2017.4.30f1 (UnityWebRequest/1.0, libcurl/7.51.0-DEV), Host=127.0.0.1:8088, Accept-Encoding=identity, X-Rpc-Device_model=B760M%20GAMING%20AC%20DDR4%20%28Gigabyte%20Technology%20Co.,%20Ltd.%29, X-Rpc-Combo_version=2.27.0, X-Rpc-Device_fp=38d81c81f33c2, X-Rpc-Risky=id=none;c=;s=;v=, X-Rpc-Sys_version=Windows%2011%20%20%2810.0.28000%29%2064bit, X-Rpc-Game_biz=hk4e_global, X-Rpc-Goods_third_party=unsupported, X-Rpc-Device_name=BIGWORKSTATION, X-Rpc-Channel_version=2.27.0.0, Content-Length=233, X-Rpc-Client_type=3, X-Rpc-Sub_channel_id=1, X-Rpc-Payment_version=2.27.0, Content-Type=application/json}
+    Cookies: {}
+    Body: {"account":"8@grasscutter.io","password":"XqDrVgVW4Vd6071jGjgybF8d6/re2x2xPwMtS4AtLe7fEh4JCjOxlu5L1tWgMHqpPoHL4G9On6JA3JwPyBMvJZbcisfmzdnYEGS7Z/fXrLw36mnrcEbVxP+Co5OWD43lcfjA/8T0mMiKwaYEuTKqDVR2i4k5SPoUXwGn+YRMnmU=","is_crypto":true}
+    QueryString: null
+    QueryParams: {}
+    FormParams: {}
+Response: [200 OK], execution took 2.75 ms
+    Headers: {Date=Sat, 24 Oct 2026 06:13:05 GMT, Content-Type=application/json}
+    Body is 477 bytes (starts on next line):
+    {"message":"未找到用户名","retcode":-201,"data":{"account":{"name":"","email":"","mobile":"","is_email_verify":"0","realname":"","identity_card":"","safe_mobile":"","facebook_name":"","twitter_name":"","game_center_name":"","google_name":"","apple_name":"","sony_name":"","tap_name":"","country":"US","reactivate_ticket":"","area_code":"**","device_grant_ticket":""},"device_grant_required":false,"realname_operation":"NONE","realperson_required":false,"safe_mobile_required":false}}
+----------------------------------------------------------------------------------
+14:13:05 <INFO:JavalinLogger> JAVALIN REQUEST DEBUG LOG:
+Request: POST [/sdk/dataUpload]
+    Matching endpoint-handlers: [BEFORE=*, POST=/sdk/dataUpload, AFTER=*]
+    Headers: {X-Rpc-Language=zh-cn, X-Rpc-Lifecycle_id=e271183c-2861-4967-9ed4-6e160b5ba66d, User-Agent=UnityPlayer/2017.4.30f1 (UnityWebRequest/1.0, libcurl/7.51.0-DEV), Accept-Encoding=identity, X-Rpc-Combo_version=2.27.0, X-Rpc-Device_fp=38d81c81f33c2, Authorization=959188b3f390d9126f45f7354cc5f4366fcd9625, X-Rpc-Sys_version=Windows%2011%20%20%2810.0.28000%29%2064bit, X-Rpc-Game_biz=hk4e_global, X-Rpc-Device_name=BIGWORKSTATION, X-Rpc-Channel_version=2.27.0.0, X-Rpc-Client_type=3, X-Rpc-Sub_channel_id=1, Content-Length=1392, Content-Type=application/json, X-Rpc-Device_id=b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145, X-Rpc-Channel_id=1, Accept=*/*, X-Unity-Version=2017.4.30f1, X-Rpc-Mdk_version=2.27.0.0, Host=127.0.0.1:8088, X-Rpc-Device_model=B760M%20GAMING%20AC%20DDR4%20%28Gigabyte%20Technology%20Co.,%20Ltd.%29, Date=1792822385576, Content-MD5=904D82046C5035083EFC939BA63878E3, Expect=100-continue, X-Rpc-Goods_third_party=unsupported, Cms-Signature=hmac-sha1, X-Rpc-Payment_version=2.27.0}
+    Cookies: {}
+    Body: [{"applicationId":900001,"applicationName":"mihoyosdk","msgId":"b3be686fc95d5ff222de0caa763cbc6af80e04081792822385576","eventTime":"1792822386","eventId":900001,"eventName":"UserBehavior","uploadContent":{"eventTimeMs":"1792822385576","launchTraceId":"3f576a21-a807-4279-a7e5-4567f0afd736","deviceInfo":{"ip":"","platform":3,"systemInfo":"Windows 11  (10.0.28000) 64bit","deviceId":"b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145","deviceName":"BIGWORKSTATION","deviceModel":"B760M GAMING AC DDR4 (Gigabyte Technology Co., Ltd.)","registerCPS":"","cps":"","uapc":"","bundleId":"hk4e_global","isp":"","device_fp":"38d81c81f33c2","device_sciX":3840,"device_sciY":2160,"soft_sciX":3840,"soft_sciY":2160,"romCapacity":476923.0,"romRemain":248915.38,"ramCapacity":16218.0,"ramRemain":9557.47,"network_type":"","wmac":"","addressMac":"10FFE00D6585","gpuName":"NVIDIA GeForce RTX 4060","gpuMemSize":7957.0,"processorCount":16,"processorFrequency":3.6,"processorType":"12th Gen Intel(R) Core(TM) i5-12600KF"},"userInfo":{"userId":"","accountType":"","accountId":"","channelId":"1"},"versionInfo":{"clientVersion":"2.27.0.0","logVersion":"1.0.0"},"logInfo":{"logTime":"1792822386","actionId":102,"actionName":"login","cBody":"{\"type\":1,\"stage\":4,\"lifecycle_id\":\"e271183c-2861-4967-9ed4-6e160b5ba66d\",\"gamebiz\":\"hk4e_global\",\"env\":2,\"channelId\":\"1\",\"subchannelId\":\"1\"}"}}}]
+    QueryString: null
+    QueryParams: {}
+    FormParams: {}
+Response: [200 OK], execution took 0.23 ms
+    Headers: {Date=Sat, 24 Oct 2026 06:13:05 GMT, Content-Type=text/plain}
+    Body is 10 bytes (starts on next line):
+    {"code":0}
+----------------------------------------------------------------------------------
+14:13:23 <INFO:JavalinLogger> JAVALIN REQUEST DEBUG LOG:
+Request: POST [/account/risky/api/check]
+    Matching endpoint-handlers: [BEFORE=*, POST=/account/risky/api/check, AFTER=*]
+    Headers: {X-Rpc-Language=zh-cn, X-Rpc-Device_id=b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145, X-Rpc-Channel_id=1, Accept=*/*, X-Unity-Version=2017.4.30f1, X-Rpc-Lifecycle_id=e271183c-2861-4967-9ed4-6e160b5ba66d, X-Rpc-Mdk_version=2.27.0.0, User-Agent=UnityPlayer/2017.4.30f1 (UnityWebRequest/1.0, libcurl/7.51.0-DEV), Host=127.0.0.1:8088, Accept-Encoding=identity, X-Rpc-Device_model=B760M%20GAMING%20AC%20DDR4%20%28Gigabyte%20Technology%20Co.,%20Ltd.%29, X-Rpc-Combo_version=2.27.0, X-Rpc-Device_fp=38d81c81f33c2, X-Rpc-Sys_version=Windows%2011%20%20%2810.0.28000%29%2064bit, X-Rpc-Game_biz=hk4e_global, X-Rpc-Goods_third_party=unsupported, X-Rpc-Device_name=BIGWORKSTATION, X-Rpc-Channel_version=2.27.0.0, Content-Length=84, X-Rpc-Client_type=3, X-Rpc-Sub_channel_id=1, X-Rpc-Payment_version=2.27.0, Content-Type=application/json}
+    Cookies: {}
+    Body: {"action_type":"login","api_name":"/shield/api/login","username":"9@grasscutter.io"}
+    QueryString:
+    QueryParams: {}
+    FormParams: {}
+Response: [200 OK], execution took 0.24 ms
+    Headers: {Date=Sat, 24 Oct 2026 06:13:23 GMT, Content-Type=text/plain}
+    Body is 87 bytes (starts on next line):
+    {"retcode":0,"message":"OK","data":{"id":"none","action":"ACTION_NONE","geetest":null}}
+----------------------------------------------------------------------------------
+14:13:23 <INFO:JavalinLogger> JAVALIN REQUEST DEBUG LOG:
+Request: POST [/sdk/dataUpload]
+    Matching endpoint-handlers: [BEFORE=*, POST=/sdk/dataUpload, AFTER=*]
+    Headers: {X-Rpc-Language=zh-cn, X-Rpc-Lifecycle_id=e271183c-2861-4967-9ed4-6e160b5ba66d, User-Agent=UnityPlayer/2017.4.30f1 (UnityWebRequest/1.0, libcurl/7.51.0-DEV), Accept-Encoding=identity, X-Rpc-Combo_version=2.27.0, X-Rpc-Device_fp=38d81c81f33c2, Authorization=5e9d9cb4704c61b553c260bb44409a9bc2184982, X-Rpc-Sys_version=Windows%2011%20%20%2810.0.28000%29%2064bit, X-Rpc-Game_biz=hk4e_global, X-Rpc-Device_name=BIGWORKSTATION, X-Rpc-Channel_version=2.27.0.0, X-Rpc-Client_type=3, X-Rpc-Sub_channel_id=1, Content-Length=1392, Content-Type=application/json, X-Rpc-Device_id=b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145, X-Rpc-Channel_id=1, Accept=*/*, X-Unity-Version=2017.4.30f1, X-Rpc-Mdk_version=2.27.0.0, Host=127.0.0.1:8088, X-Rpc-Device_model=B760M%20GAMING%20AC%20DDR4%20%28Gigabyte%20Technology%20Co.,%20Ltd.%29, Date=1792822403942, Content-MD5=5B48627B39FCCC1FD7B9BDC63286BE9B, Expect=100-continue, X-Rpc-Goods_third_party=unsupported, Cms-Signature=hmac-sha1, X-Rpc-Payment_version=2.27.0}
+    Cookies: {}
+    Body: [{"applicationId":900001,"applicationName":"mihoyosdk","msgId":"b3be686fc95d5ff222de0caa763cbc6af80e04081792822403942","eventTime":"1792822404","eventId":900001,"eventName":"UserBehavior","uploadContent":{"eventTimeMs":"1792822403942","launchTraceId":"3f576a21-a807-4279-a7e5-4567f0afd736","deviceInfo":{"ip":"","platform":3,"systemInfo":"Windows 11  (10.0.28000) 64bit","deviceId":"b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145","deviceName":"BIGWORKSTATION","deviceModel":"B760M GAMING AC DDR4 (Gigabyte Technology Co., Ltd.)","registerCPS":"","cps":"","uapc":"","bundleId":"hk4e_global","isp":"","device_fp":"38d81c81f33c2","device_sciX":3840,"device_sciY":2160,"soft_sciX":3840,"soft_sciY":2160,"romCapacity":476923.0,"romRemain":248915.25,"ramCapacity":16218.0,"ramRemain":9510.27,"network_type":"","wmac":"","addressMac":"10FFE00D6585","gpuName":"NVIDIA GeForce RTX 4060","gpuMemSize":7957.0,"processorCount":16,"processorFrequency":3.6,"processorType":"12th Gen Intel(R) Core(TM) i5-12600KF"},"userInfo":{"userId":"","accountType":"","accountId":"","channelId":"1"},"versionInfo":{"clientVersion":"2.27.0.0","logVersion":"1.0.0"},"logInfo":{"logTime":"1792822404","actionId":102,"actionName":"login","cBody":"{\"type\":1,\"stage\":2,\"lifecycle_id\":\"e271183c-2861-4967-9ed4-6e160b5ba66d\",\"gamebiz\":\"hk4e_global\",\"env\":2,\"channelId\":\"1\",\"subchannelId\":\"1\"}"}}}]
+    QueryString: null
+    QueryParams: {}
+    FormParams: {}
+Response: [200 OK], execution took 0.24 ms
+    Headers: {Date=Sat, 24 Oct 2026 06:13:23 GMT, Content-Type=text/plain}
+    Body is 10 bytes (starts on next line):
+    {"code":0}
+----------------------------------------------------------------------------------
+14:13:23 <INFO:DefaultAuthenticators$PasswordAuthenticator> [Dispatch] 客户端 127.0.0.1 已登录，UID 为 10002
+14:13:23 <DEBUG:AuthenticationHandler> [Dispatch] 客户端 127.0.0.1 正在尝试登录
+14:13:23 <INFO:JavalinLogger> JAVALIN REQUEST DEBUG LOG:
+Request: POST [/hk4e_global/mdk/shield/api/login]
+    Matching endpoint-handlers: [BEFORE=*, POST=/hk4e_global/mdk/shield/api/login, AFTER=*]
+    Headers: {X-Rpc-Language=zh-cn, X-Rpc-Device_id=b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145, X-Rpc-Channel_id=1, Accept=*/*, X-Unity-Version=2017.4.30f1, X-Rpc-Lifecycle_id=e271183c-2861-4967-9ed4-6e160b5ba66d, X-Rpc-Mdk_version=2.27.0.0, User-Agent=UnityPlayer/2017.4.30f1 (UnityWebRequest/1.0, libcurl/7.51.0-DEV), Host=127.0.0.1:8088, Accept-Encoding=identity, X-Rpc-Device_model=B760M%20GAMING%20AC%20DDR4%20%28Gigabyte%20Technology%20Co.,%20Ltd.%29, X-Rpc-Combo_version=2.27.0, X-Rpc-Device_fp=38d81c81f33c2, X-Rpc-Risky=id=none;c=;s=;v=, X-Rpc-Sys_version=Windows%2011%20%20%2810.0.28000%29%2064bit, X-Rpc-Game_biz=hk4e_global, X-Rpc-Goods_third_party=unsupported, X-Rpc-Device_name=BIGWORKSTATION, X-Rpc-Channel_version=2.27.0.0, Content-Length=233, X-Rpc-Client_type=3, X-Rpc-Sub_channel_id=1, X-Rpc-Payment_version=2.27.0, Content-Type=application/json}
+    Cookies: {}
+    Body: {"account":"9@grasscutter.io","password":"OevE3pJflxkSUwdfo0gblowcru6HmQRL1awSPbEs0BY0XaXwpU9N/nuLFuBEpod56z6wEJJpJPjnlRU0TFfTDlJ20/Y8IDyKfksgt2X2tv7snHfJUdUQF33JZEif+d1JiJ/dHZUgIsH52fhBo7yczE5AY5/R3YK7HePLXFecrbM=","is_crypto":true}
+    QueryString: null
+    QueryParams: {}
+    FormParams: {}
+Response: [200 OK], execution took 36.32 ms
+    Headers: {Date=Sat, 24 Oct 2026 06:13:23 GMT, Content-Type=application/json}
+    Body is 590 bytes (starts on next line):
+    {"message":"OK","retcode":0,"data":{"account":{"uid":"10002","name":"","email":"9@grasscutter.io@grasscutter.io","mobile":"","is_email_verify":"0","realname":"","identity_card":"","token":"d4985c03f73886fdfaeaad3f520160e73b07255446fc0dfcfd87452b4a8c1d0e","safe_mobile":"","facebook_name":"","twitter_name":"","game_center_name":"","google_name":"","apple_name":"","sony_name":"","tap_name":"","country":"US","reactivate_ticket":"","area_code":"**","device_grant_ticket":""},"device_grant_required":false,"realname_operation":"NONE","realperson_required":false,"safe_mobile_required":false}}
+----------------------------------------------------------------------------------
+14:13:24 <INFO:JavalinLogger> JAVALIN REQUEST DEBUG LOG:
+Request: POST [/sdk/dataUpload]
+    Matching endpoint-handlers: [BEFORE=*, POST=/sdk/dataUpload, AFTER=*]
+    Headers: {X-Rpc-Language=zh-cn, X-Rpc-Lifecycle_id=e271183c-2861-4967-9ed4-6e160b5ba66d, User-Agent=UnityPlayer/2017.4.30f1 (UnityWebRequest/1.0, libcurl/7.51.0-DEV), Accept-Encoding=identity, X-Rpc-Combo_version=2.27.0, X-Rpc-Device_fp=38d81c81f33c2, Authorization=792cce181f00fff175726fc9ff6c0e17e0db6f93, X-Rpc-Sys_version=Windows%2011%20%20%2810.0.28000%29%2064bit, X-Rpc-Game_biz=hk4e_global, X-Rpc-Device_name=BIGWORKSTATION, X-Rpc-Channel_version=2.27.0.0, X-Rpc-Client_type=3, X-Rpc-Sub_channel_id=1, Content-Length=1396, Content-Type=application/json, X-Rpc-Device_id=b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145, X-Rpc-Channel_id=1, Accept=*/*, X-Unity-Version=2017.4.30f1, X-Rpc-Mdk_version=2.27.0.0, Host=127.0.0.1:8088, X-Rpc-Device_model=B760M%20GAMING%20AC%20DDR4%20%28Gigabyte%20Technology%20Co.,%20Ltd.%29, Date=1792822404019, Content-MD5=623AC9AD3C5121832D12F989C4B7F56B, Expect=100-continue, X-Rpc-Goods_third_party=unsupported, Cms-Signature=hmac-sha1, X-Rpc-Payment_version=2.27.0}
+    Cookies: {}
+    Body: [{"applicationId":900001,"applicationName":"mihoyosdk","msgId":"b3be686fc95d5ff222de0caa763cbc6af80e04081792822404019","eventTime":"1792822404","eventId":900001,"eventName":"UserBehavior","uploadContent":{"eventTimeMs":"1792822404019","launchTraceId":"3f576a21-a807-4279-a7e5-4567f0afd736","deviceInfo":{"ip":"","platform":3,"systemInfo":"Windows 11  (10.0.28000) 64bit","deviceId":"b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145","deviceName":"BIGWORKSTATION","deviceModel":"B760M GAMING AC DDR4 (Gigabyte Technology Co., Ltd.)","registerCPS":"","cps":"","uapc":"","bundleId":"hk4e_global","isp":"","device_fp":"38d81c81f33c2","device_sciX":3840,"device_sciY":2160,"soft_sciX":3840,"soft_sciY":2160,"romCapacity":476923.0,"romRemain":248915.25,"ramCapacity":16218.0,"ramRemain":9507.48,"network_type":"","wmac":"","addressMac":"10FFE00D6585","gpuName":"NVIDIA GeForce RTX 4060","gpuMemSize":7957.0,"processorCount":16,"processorFrequency":3.6,"processorType":"12th Gen Intel(R) Core(TM) i5-12600KF"},"userInfo":{"userId":"","accountType":"","accountId":"10002","channelId":"1"},"versionInfo":{"clientVersion":"2.27.0.0","logVersion":"1.0.0"},"logInfo":{"logTime":"1792822404","actionId":100,"actionName":"main","cBody":"{\"type\":0,\"stage\":4,\"lifecycle_id\":\"e271183c-2861-4967-9ed4-6e160b5ba66d\",\"gamebiz\":\"hk4e_global\",\"env\":2,\"channelId\":\"1\",\"subchannelId\":\"1\"}"}}}]
+    QueryString: null
+    QueryParams: {}
+    FormParams: {}
+Response: [200 OK], execution took 0.20 ms
+    Headers: {Date=Sat, 24 Oct 2026 06:13:24 GMT, Content-Type=text/plain}
+    Body is 10 bytes (starts on next line):
+    {"code":0}
+----------------------------------------------------------------------------------
+14:13:24 <INFO:JavalinLogger> JAVALIN REQUEST DEBUG LOG:
+Request: POST [/sdk/dataUpload]
+    Matching endpoint-handlers: [BEFORE=*, POST=/sdk/dataUpload, AFTER=*]
+    Headers: {X-Rpc-Language=zh-cn, X-Rpc-Lifecycle_id=e271183c-2861-4967-9ed4-6e160b5ba66d, User-Agent=UnityPlayer/2017.4.30f1 (UnityWebRequest/1.0, libcurl/7.51.0-DEV), Accept-Encoding=identity, X-Rpc-Combo_version=2.27.0, X-Rpc-Device_fp=38d81c81f33c2, Authorization=14309469c3402f4636b0f1f5b29ecb1312ded826, X-Rpc-Sys_version=Windows%2011%20%20%2810.0.28000%29%2064bit, X-Rpc-Game_biz=hk4e_global, X-Rpc-Device_name=BIGWORKSTATION, X-Rpc-Channel_version=2.27.0.0, X-Rpc-Client_type=3, X-Rpc-Sub_channel_id=1, Content-Length=2792, Content-Type=application/json, X-Rpc-Device_id=b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145, X-Rpc-Channel_id=1, Accept=*/*, X-Unity-Version=2017.4.30f1, X-Rpc-Mdk_version=2.27.0.0, Host=127.0.0.1:8088, X-Rpc-Device_model=B760M%20GAMING%20AC%20DDR4%20%28Gigabyte%20Technology%20Co.,%20Ltd.%29, Date=1792822404034, Content-MD5=8EFCE1F20B4802D98D92F37E7034E3CB, Expect=100-continue, X-Rpc-Goods_third_party=unsupported, Cms-Signature=hmac-sha1, X-Rpc-Payment_version=2.27.0}
+    Cookies: {}
+    Body: [{"applicationId":900001,"applicationName":"mihoyosdk","msgId":"b3be686fc95d5ff222de0caa763cbc6af80e04081792822404020","eventTime":"1792822404","eventId":900001,"eventName":"UserBehavior","uploadContent":{"eventTimeMs":"1792822404020","launchTraceId":"3f576a21-a807-4279-a7e5-4567f0afd736","deviceInfo":{"ip":"","platform":3,"systemInfo":"Windows 11  (10.0.28000) 64bit","deviceId":"b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145","deviceName":"BIGWORKSTATION","deviceModel":"B760M GAMING AC DDR4 (Gigabyte Technology Co., Ltd.)","registerCPS":"","cps":"","uapc":"","bundleId":"hk4e_global","isp":"","device_fp":"38d81c81f33c2","device_sciX":3840,"device_sciY":2160,"soft_sciX":3840,"soft_sciY":2160,"romCapacity":476923.0,"romRemain":248915.25,"ramCapacity":16218.0,"ramRemain":9507.48,"network_type":"","wmac":"","addressMac":"10FFE00D6585","gpuName":"NVIDIA GeForce RTX 4060","gpuMemSize":7957.0,"processorCount":16,"processorFrequency":3.6,"processorType":"12th Gen Intel(R) Core(TM) i5-12600KF"},"userInfo":{"userId":"","accountType":"","accountId":"10002","channelId":"1"},"versionInfo":{"clientVersion":"2.27.0.0","logVersion":"1.0.0"},"logInfo":{"logTime":"1792822404","actionId":100,"actionName":"main","cBody":"{\"type\":0,\"stage\":6,\"lifecycle_id\":\"e271183c-2861-4967-9ed4-6e160b5ba66d\",\"gamebiz\":\"hk4e_global\",\"env\":2,\"channelId\":\"1\",\"subchannelId\":\"1\"}"}}},{"applicationId":900001,"applicationName":"mihoyosdk","msgId":"b3be686fc95d5ff222de0caa763cbc6af80e04081792822404034","eventTime":"1792822404","eventId":900001,"eventName":"UserBehavior","uploadContent":{"eventTimeMs":"1792822404034","launchTraceId":"3f576a21-a807-4279-a7e5-4567f0afd736","deviceInfo":{"ip":"","platform":3,"systemInfo":"Windows 11  (10.0.28000) 64bit","deviceId":"b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145","deviceName":"BIGWORKSTATION","deviceModel":"B760M GAMING AC DDR4 (Gigabyte Technology Co., Ltd.)","registerCPS":"","cps":"","uapc":"","bundleId":"hk4e_global","isp":"","device_fp":"38d81c81f33c2","device_sciX":3840,"device_sciY":2160,"soft_sciX":3840,"soft_sciY":2160,"romCapacity":476923.0,"romRemain":248915.25,"ramCapacity":16218.0,"ramRemain":9507.11,"network_type":"","wmac":"","addressMac":"10FFE00D6585","gpuName":"NVIDIA GeForce RTX 4060","gpuMemSize":7957.0,"processorCount":16,"processorFrequency":3.6,"processorType":"12th Gen Intel(R) Core(TM) i5-12600KF"},"userInfo":{"userId":"","accountType":"","accountId":"10002","channelId":"1"},"versionInfo":{"clientVersion":"2.27.0.0","logVersion":"1.0.0"},"logInfo":{"logTime":"1792822404","actionId":102,"actionName":"login","cBody":"{\"type\":1,\"stage\":3,\"lifecycle_id\":\"e271183c-2861-4967-9ed4-6e160b5ba66d\",\"gamebiz\":\"hk4e_global\",\"env\":2,\"channelId\":\"1\",\"subchannelId\":\"1\"}"}}}]
+    QueryString: null
+    QueryParams: {}
+    FormParams: {}
+Response: [200 OK], execution took 0.33 ms
+    Headers: {Date=Sat, 24 Oct 2026 06:13:24 GMT, Content-Type=text/plain}
+    Body is 10 bytes (starts on next line):
+    {"code":0}
+----------------------------------------------------------------------------------
+14:13:24 <INFO:DefaultAuthenticators$SessionKeyAuthenticator> [Dispatch] 客户端 127.0.0.1 成功交换 token
+14:13:24 <DEBUG:AuthenticationHandler> [Dispatch] 客户端 127.0.0.1 正在尝试登录
+14:13:24 <INFO:JavalinLogger> JAVALIN REQUEST DEBUG LOG:
+Request: POST [/hk4e_global/combo/granter/login/v2/login]
+    Matching endpoint-handlers: [BEFORE=*, POST=/hk4e_global/combo/granter/login/v2/login, AFTER=*]
+    Headers: {X-Rpc-Language=zh-cn, X-Rpc-Device_id=b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145, X-Rpc-Channel_id=1, Accept=*/*, X-Unity-Version=2017.4.30f1, X-Rpc-Lifecycle_id=e271183c-2861-4967-9ed4-6e160b5ba66d, X-Rpc-Mdk_version=2.27.0.0, User-Agent=UnityPlayer/2017.4.30f1 (UnityWebRequest/1.0, libcurl/7.51.0-DEV), Host=127.0.0.1:8088, Accept-Encoding=identity, X-Rpc-Device_model=B760M%20GAMING%20AC%20DDR4%20%28Gigabyte%20Technology%20Co.,%20Ltd.%29, X-Rpc-Combo_version=2.27.0, X-Rpc-Device_fp=38d81c81f33c2, X-Rpc-Sys_version=Windows%2011%20%20%2810.0.28000%29%2064bit, X-Rpc-Game_biz=hk4e_global, X-Rpc-Goods_third_party=unsupported, X-Rpc-Device_name=BIGWORKSTATION, X-Rpc-Channel_version=2.27.0.0, Content-Length=290, X-Rpc-Client_type=3, X-Rpc-Sub_channel_id=1, X-Rpc-Payment_version=2.27.0, Content-Type=application/json}
+    Cookies: {}
+    Body: {"data":"{\"uid\":\"10002\",\"guest\":false,\"token\":\"d4985c03f73886fdfaeaad3f520160e73b07255446fc0dfcfd87452b4a8c1d0e\"}","app_id":4,"channel_id":1,"device":"b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145","sign":"aa6c9a9786f3812a56830505a5cbc32fb12f06bdb97186c4e61894a7fbab4678"}
+    QueryString:
+    QueryParams: {}
+    FormParams: {}
+Response: [200 OK], execution took 5.61 ms
+    Headers: {Date=Sat, 24 Oct 2026 06:13:24 GMT, Content-Type=application/json}
+    Body is 221 bytes (starts on next line):
+    {"message":"OK","retcode":0,"data":{"account_type":1,"heartbeat":false,"combo_id":"157795300","combo_token":"922c044f019343d7a45e1f8f02afb1e2a4ee1e7222c163f13c07e0a77bed6de4","open_id":"10002","data":"{\"guest\":false}"}}
+----------------------------------------------------------------------------------
+14:13:24 <INFO:JavalinLogger> JAVALIN REQUEST DEBUG LOG:
+Request: POST [/sdk/dataUpload]
+    Matching endpoint-handlers: [BEFORE=*, POST=/sdk/dataUpload, AFTER=*]
+    Headers: {X-Rpc-Language=zh-cn, X-Rpc-Lifecycle_id=e271183c-2861-4967-9ed4-6e160b5ba66d, User-Agent=UnityPlayer/2017.4.30f1 (UnityWebRequest/1.0, libcurl/7.51.0-DEV), Accept-Encoding=identity, X-Rpc-Combo_version=2.27.0, X-Rpc-Device_fp=38d81c81f33c2, Authorization=48fd4529f21ee6b9636474d32a3bbf579d03053d, X-Rpc-Sys_version=Windows%2011%20%20%2810.0.28000%29%2064bit, X-Rpc-Game_biz=hk4e_global, X-Rpc-Device_name=BIGWORKSTATION, X-Rpc-Channel_version=2.27.0.0, X-Rpc-Client_type=3, X-Rpc-Sub_channel_id=1, Content-Length=1395, Content-Type=application/json, X-Rpc-Device_id=b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145, X-Rpc-Channel_id=1, Accept=*/*, X-Unity-Version=2017.4.30f1, X-Rpc-Mdk_version=2.27.0.0, Host=127.0.0.1:8088, X-Rpc-Device_model=B760M%20GAMING%20AC%20DDR4%20%28Gigabyte%20Technology%20Co.,%20Ltd.%29, Date=1792822404054, Content-MD5=DCBDD2DF48EDB9C7BC198C13B0B0D099, Expect=100-continue, X-Rpc-Goods_third_party=unsupported, Cms-Signature=hmac-sha1, X-Rpc-Payment_version=2.27.0}
+    Cookies: {}
+    Body: [{"applicationId":900001,"applicationName":"mihoyosdk","msgId":"b3be686fc95d5ff222de0caa763cbc6af80e04081792822404054","eventTime":"1792822404","eventId":900001,"eventName":"UserBehavior","uploadContent":{"eventTimeMs":"1792822404054","launchTraceId":"3f576a21-a807-4279-a7e5-4567f0afd736","deviceInfo":{"ip":"","platform":3,"systemInfo":"Windows 11  (10.0.28000) 64bit","deviceId":"b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145","deviceName":"BIGWORKSTATION","deviceModel":"B760M GAMING AC DDR4 (Gigabyte Technology Co., Ltd.)","registerCPS":"","cps":"","uapc":"","bundleId":"hk4e_global","isp":"","device_fp":"38d81c81f33c2","device_sciX":3840,"device_sciY":2160,"soft_sciX":3840,"soft_sciY":2160,"romCapacity":476923.0,"romRemain":248915.25,"ramCapacity":16218.0,"ramRemain":9506.3,"network_type":"","wmac":"","addressMac":"10FFE00D6585","gpuName":"NVIDIA GeForce RTX 4060","gpuMemSize":7957.0,"processorCount":16,"processorFrequency":3.6,"processorType":"12th Gen Intel(R) Core(TM) i5-12600KF"},"userInfo":{"userId":"","accountType":"","accountId":"10002","channelId":"1"},"versionInfo":{"clientVersion":"2.27.0.0","logVersion":"1.0.0"},"logInfo":{"logTime":"1792822404","actionId":100,"actionName":"main","cBody":"{\"type\":0,\"stage\":7,\"lifecycle_id\":\"e271183c-2861-4967-9ed4-6e160b5ba66d\",\"gamebiz\":\"hk4e_global\",\"env\":2,\"channelId\":\"1\",\"subchannelId\":\"1\"}"}}}]
+    QueryString: null
+    QueryParams: {}
+    FormParams: {}
+Response: [200 OK], execution took 0.28 ms
+    Headers: {Date=Sat, 24 Oct 2026 06:13:24 GMT, Content-Type=text/plain}
+    Body is 10 bytes (starts on next line):
+    {"code":0}
+----------------------------------------------------------------------------------
+14:13:24 <INFO:JavalinLogger> JAVALIN REQUEST DEBUG LOG:
+Request: GET [/hk4e_global/mdk/agreement/api/getAgreementInfos]
+    Matching endpoint-handlers: [BEFORE=*, GET=/hk4e_global/mdk/agreement/api/getAgreementInfos, AFTER=*]
+    Headers: {X-Rpc-Language=zh-cn, X-Rpc-Device_id=b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145, X-Rpc-Channel_id=1, Accept=*/*, X-Unity-Version=2017.4.30f1, X-Rpc-Lifecycle_id=e271183c-2861-4967-9ed4-6e160b5ba66d, X-Rpc-Mdk_version=2.27.0.0, User-Agent=UnityPlayer/2017.4.30f1 (UnityWebRequest/1.0, libcurl/7.51.0-DEV), Host=127.0.0.1:8088, Accept-Encoding=identity, X-Rpc-Device_model=B760M%20GAMING%20AC%20DDR4%20%28Gigabyte%20Technology%20Co.,%20Ltd.%29, X-Rpc-Combo_version=2.27.0, X-Rpc-Device_fp=38d81c81f33c2, X-Rpc-Sys_version=Windows%2011%20%20%2810.0.28000%29%2064bit, X-Rpc-Game_biz=hk4e_global, X-Rpc-Goods_third_party=unsupported, X-Rpc-Device_name=BIGWORKSTATION, X-Rpc-Channel_version=2.27.0.0, X-Rpc-Client_type=3, X-Rpc-Sub_channel_id=1, X-Rpc-Payment_version=2.27.0}
+    Cookies: {}
+    Body:
+    QueryString: biz_key=hk4e_global&country_code=US&token=d4985c03f73886fdfaeaad3f520160e73b07255446fc0dfcfd87452b4a8c1d0e&uid=10002
+    QueryParams: {biz_key=[hk4e_global], country_code=[US], token=[d4985c03f73886fdfaeaad3f520160e73b07255446fc0dfcfd87452b4a8c1d0e], uid=[10002]}
+    FormParams: {}
+Response: [200 OK], execution took 0.21 ms
+    Headers: {Date=Sat, 24 Oct 2026 06:13:24 GMT, Content-Type=text/plain}
+    Body is 63 bytes (starts on next line):
+    {"retcode":0,"message":"OK","data":{"marketing_agreements":[]}}
+----------------------------------------------------------------------------------
+14:13:24 <INFO:JavalinLogger> JAVALIN REQUEST DEBUG LOG:
+Request: POST [/sdk/dataUpload]
+    Matching endpoint-handlers: [BEFORE=*, POST=/sdk/dataUpload, AFTER=*]
+    Headers: {X-Rpc-Language=zh-cn, X-Rpc-Lifecycle_id=e271183c-2861-4967-9ed4-6e160b5ba66d, User-Agent=UnityPlayer/2017.4.30f1 (UnityWebRequest/1.0, libcurl/7.51.0-DEV), Accept-Encoding=identity, X-Rpc-Combo_version=2.27.0, X-Rpc-Device_fp=38d81c81f33c2, Authorization=4169a4f417acdd2177489b1c715e880639677b8e, X-Rpc-Sys_version=Windows%2011%20%20%2810.0.28000%29%2064bit, X-Rpc-Game_biz=hk4e_global, X-Rpc-Device_name=BIGWORKSTATION, X-Rpc-Channel_version=2.27.0.0, X-Rpc-Client_type=3, X-Rpc-Sub_channel_id=1, Content-Length=1216, Content-Type=application/json, X-Rpc-Device_id=b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145, X-Rpc-Channel_id=1, Accept=*/*, X-Unity-Version=2017.4.30f1, X-Rpc-Mdk_version=2.27.0.0, Host=127.0.0.1:8088, X-Rpc-Device_model=B760M%20GAMING%20AC%20DDR4%20%28Gigabyte%20Technology%20Co.,%20Ltd.%29, Date=1792822404073, Content-MD5=476895AF7C7D3918A3A2B47395101E75, Expect=100-continue, X-Rpc-Goods_third_party=unsupported, Cms-Signature=hmac-sha1, X-Rpc-Payment_version=2.27.0}
+    Cookies: {}
+    Body: [{"applicationId":100001,"applicationName":"hk4e","msgId":"b3be686fc95d5ff222de0caa763cbc6af80e04081792822404073","eventTime":"1792822404","eventId":100004,"eventName":"ClientReport","uploadContent":{"launchTraceId":"3f576a21-a807-4279-a7e5-4567f0afd736","device_info":{"ip":"192.168.0.136","plat":3,"device_id":"b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145","device_name":"BIGWORKSTATION","device_model":"B760M GAMING AC DDR4 (Gigabyte Technology Co., Ltd.)","register_cps":"","current_cps":"","uapc":"","bundle_id":"hk4e_global","os":"Windows 11  (10.0.28000) 64bit","channel_id":"1","channel_subid":"1","network_type":"wired"},"user_info":{"uid":"0","level":"0","account_type":"1","open_id":"10002","tag":""},"version_info":{"client_version":"OSRELWin4.8.0_R24822834_S24441452_D24795089","sdk_env":2,"sdk_version":"2.27.0.0","log_version":"1.0.0"},"log_info":{"log_time":"1792822404","region":"os_usa","action_id":1000,"action_name":"FUNNEL_PASS","c_body":"{\"serial_number\":\"1792822404\", \"funnel_state\":\"2\", \"server_name\":\"\", \"packet_size\":\"0.00 MB\", \"ua_pc\":\"\", \"trace_id\":\"1792822367_b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145_38d81c81f33c2\"}","platform_type":"3"}}}]
+    QueryString: null
+    QueryParams: {}
+    FormParams: {}
+Response: [200 OK], execution took 0.16 ms
+    Headers: {Date=Sat, 24 Oct 2026 06:13:24 GMT, Content-Type=text/plain}
+    Body is 10 bytes (starts on next line):
+    {"code":0}
+----------------------------------------------------------------------------------
+14:13:24 <INFO:JavalinLogger> JAVALIN REQUEST DEBUG LOG:
+Request: POST [/sdk/dataUpload]
+    Matching endpoint-handlers: [BEFORE=*, POST=/sdk/dataUpload, AFTER=*]
+    Headers: {X-Rpc-Language=zh-cn, X-Rpc-Lifecycle_id=e271183c-2861-4967-9ed4-6e160b5ba66d, User-Agent=UnityPlayer/2017.4.30f1 (UnityWebRequest/1.0, libcurl/7.51.0-DEV), Accept-Encoding=identity, X-Rpc-Combo_version=2.27.0, X-Rpc-Device_fp=38d81c81f33c2, Authorization=d22d9e699a86bf8b95695c37a54be4cda1d04fcc, X-Rpc-Sys_version=Windows%2011%20%20%2810.0.28000%29%2064bit, X-Rpc-Game_biz=hk4e_global, X-Rpc-Device_name=BIGWORKSTATION, X-Rpc-Channel_version=2.27.0.0, X-Rpc-Client_type=3, X-Rpc-Sub_channel_id=1, Content-Length=1125, Content-Type=application/json, X-Rpc-Device_id=b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145, X-Rpc-Channel_id=1, Accept=*/*, X-Unity-Version=2017.4.30f1, X-Rpc-Mdk_version=2.27.0.0, Host=127.0.0.1:8088, X-Rpc-Device_model=B760M%20GAMING%20AC%20DDR4%20%28Gigabyte%20Technology%20Co.,%20Ltd.%29, Date=1792822404108, Content-MD5=AEFDB88144477EAC4433B42CA3A875B7, Expect=100-continue, X-Rpc-Goods_third_party=unsupported, Cms-Signature=hmac-sha1, X-Rpc-Payment_version=2.27.0}
+    Cookies: {}
+    Body: [{"applicationId":100001,"applicationName":"hk4e","msgId":"b3be686fc95d5ff222de0caa763cbc6af80e04081792822404074","eventTime":"1792822404","eventId":100004,"eventName":"ClientReport","uploadContent":{"launchTraceId":"3f576a21-a807-4279-a7e5-4567f0afd736","device_info":{"ip":"192.168.0.136","plat":3,"device_id":"b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145","device_name":"BIGWORKSTATION","device_model":"B760M GAMING AC DDR4 (Gigabyte Technology Co., Ltd.)","register_cps":"","current_cps":"","uapc":"","bundle_id":"hk4e_global","os":"Windows 11  (10.0.28000) 64bit","channel_id":"1","channel_subid":"1","network_type":"wired"},"user_info":{"uid":"0","level":"0","account_type":"1","open_id":"10002","tag":""},"version_info":{"client_version":"OSRELWin4.8.0_R24822834_S24441452_D24795089","sdk_env":2,"sdk_version":"2.27.0.0","log_version":"1.0.0"},"log_info":{"log_time":"1792822404","region":"os_usa","action_id":1000,"action_name":"FUNNEL_PASS","c_body":"{\"serial_number\":\"1792822404\", \"funnel_state\":\"3\", \"server_name\":\"os_usa\", \"packet_size\":\"0.00 MB\", \"ua_pc\":\"\"}","platform_type":"3"}}}]
+    QueryString: null
+    QueryParams: {}
+    FormParams: {}
+Response: [200 OK], execution took 0.15 ms
+    Headers: {Date=Sat, 24 Oct 2026 06:13:24 GMT, Content-Type=text/plain}
+    Body is 10 bytes (starts on next line):
+    {"code":0}
+----------------------------------------------------------------------------------
+14:13:24 <INFO:RegionHandler> Client 127.0.0.1 request: query_cur_region/os_usa
+14:13:24 <INFO:JavalinLogger> JAVALIN REQUEST DEBUG LOG:
+Request: GET [/query_cur_region/os_usa]
+    Matching endpoint-handlers: [BEFORE=*, GET=/query_cur_region/{region}, AFTER=*]
+    Headers: {Accept=*/*, X-Unity-Version=2017.4.30f1, User-Agent=UnityPlayer/2017.4.30f1 (UnityWebRequest/1.0, libcurl/7.51.0-DEV), Host=127.0.0.1:8088, Accept-Encoding=identity, Content-Type=application/x-www-form-urlencoded}
+    Cookies: {}
+    Body:
+    QueryString: version=OSRELWin4.8.0&lang=2&platform=3&binary=1&time=72&channel_id=1&sub_channel_id=1&account_type=1&dispatchSeed=708a43efa38f3121&key_id=5&aid=10002
+    QueryParams: {version=[OSRELWin4.8.0], lang=[2], platform=[3], binary=[1], time=[72], channel_id=[1], sub_channel_id=[1], account_type=[1], dispatchSeed=[708a43efa38f3121], key_id=[5], aid=[10002]}
+    FormParams: {}
+Response: [200 OK], execution took 37.55 ms
+    Headers: {Date=Sat, 24 Oct 2026 06:13:24 GMT, Content-Type=application/json}
+    Body is 3450 bytes (starts on next line):
+    {"content":"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","sign":"FfnUIbsN0xhKM6Ssr6YXiFK5PA5Ggwi1KVCIh0r686uVzicgmd+b3T0JjlYZmJfTAafqmo6FKxcLpOMd2hbkLs52yi6LiagVmjTdpQnAmCIU//lUcJdlQQTt/UU1C/xAL4MeGxrs9LUoYqkkMtcNdpjtGswgKeWh/3VfIDwdWDGQBQZjrDIkr0c/R9XTV1tM5TUq9IxNjwOC03MrASV3A1Ycvb/8bH/npqtlyaUMj3KhVPCkW0hhOne8j+LZEs4VSG5+MIaCiOY5Zbypf9eMZSpMF0uU+v8f0GitQusp6CBlqcfP2q67up/NHkuxf45eAyK+u7k7RrxIURjTkx8gPA\u003d\u003d"}
+----------------------------------------------------------------------------------
+14:13:24 <INFO:JavalinLogger> JAVALIN REQUEST DEBUG LOG:
+Request: POST [/sdk/dataUpload]
+    Matching endpoint-handlers: [BEFORE=*, POST=/sdk/dataUpload, AFTER=*]
+    Headers: {X-Rpc-Language=zh-cn, X-Rpc-Lifecycle_id=e271183c-2861-4967-9ed4-6e160b5ba66d, User-Agent=UnityPlayer/2017.4.30f1 (UnityWebRequest/1.0, libcurl/7.51.0-DEV), Accept-Encoding=identity, X-Rpc-Combo_version=2.27.0, X-Rpc-Device_fp=38d81c81f33c2, Authorization=e55571fba279d38cfb1e2460a652864c8b2d0d07, X-Rpc-Sys_version=Windows%2011%20%20%2810.0.28000%29%2064bit, X-Rpc-Game_biz=hk4e_global, X-Rpc-Device_name=BIGWORKSTATION, X-Rpc-Channel_version=2.27.0.0, X-Rpc-Client_type=3, X-Rpc-Sub_channel_id=1, Content-Length=1119, Content-Type=application/json, X-Rpc-Device_id=b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145, X-Rpc-Channel_id=1, Accept=*/*, X-Unity-Version=2017.4.30f1, X-Rpc-Mdk_version=2.27.0.0, Host=127.0.0.1:8088, X-Rpc-Device_model=B760M%20GAMING%20AC%20DDR4%20%28Gigabyte%20Technology%20Co.,%20Ltd.%29, Date=1792822404749, Content-MD5=236AFF0C0490C2FF32FB937BB0A6DBD0, Expect=100-continue, X-Rpc-Goods_third_party=unsupported, Cms-Signature=hmac-sha1, X-Rpc-Payment_version=2.27.0}
+    Cookies: {}
+    Body: [{"applicationId":100001,"applicationName":"hk4e","msgId":"b3be686fc95d5ff222de0caa763cbc6af80e04081792822404749","eventTime":"1792822405","eventId":100004,"eventName":"ClientReport","uploadContent":{"launchTraceId":"3f576a21-a807-4279-a7e5-4567f0afd736","device_info":{"ip":"192.168.0.136","plat":3,"device_id":"b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145","device_name":"BIGWORKSTATION","device_model":"B760M GAMING AC DDR4 (Gigabyte Technology Co., Ltd.)","register_cps":"","current_cps":"","uapc":"","bundle_id":"hk4e_global","os":"Windows 11  (10.0.28000) 64bit","channel_id":"1","channel_subid":"1","network_type":"wired"},"user_info":{"uid":"0","level":"0","account_type":"1","open_id":"10002","tag":""},"version_info":{"client_version":"OSRELWin4.8.0_R24822834_S24441452_D24795089","sdk_env":2,"sdk_version":"2.27.0.0","log_version":"1.0.0"},"log_info":{"log_time":"1792822405","region":"os_usa","action_id":1000,"action_name":"FUNNEL_PASS","c_body":"{\"serial_number\":\"1792822404\", \"funnel_state\":\"4\", \"server_name\":\"\", \"packet_size\":\"0.00 MB\", \"ua_pc\":\"\"}","platform_type":"3"}}}]
+    QueryString: null
+    QueryParams: {}
+    FormParams: {}
+Response: [200 OK], execution took 0.20 ms
+    Headers: {Date=Sat, 24 Oct 2026 06:13:24 GMT, Content-Type=text/plain}
+    Body is 10 bytes (starts on next line):
+    {"code":0}
+----------------------------------------------------------------------------------
+14:13:25 <INFO:JavalinLogger> JAVALIN REQUEST DEBUG LOG:
+Request: POST [/log]
+    Matching endpoint-handlers: [BEFORE=*, POST=/log, AFTER=*]
+    Headers: {Expect=100-continue, Accept=*/*, X-Unity-Version=2017.4.30f1, User-Agent=UnityPlayer/2017.4.30f1 (UnityWebRequest/1.0, libcurl/7.51.0-DEV), Host=127.0.0.1:8088, Accept-Encoding=identity, Content-Length=1237, Content-Type=application/json}
+    Cookies: {}
+    Body: {"userName":"Test","time":"2026-10-24 14:13:24.3649","frame":"","stackTrace":"MoleMole.SuperDebug:VeryImportantError(ErrorLevel, ErrorCategory, Int32, Int32, String, Object[])\nJGAOADCNLGK:MoveNext()\nUnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)\n","logStr":"SDKServer - OnConnectRegionDispatch: GameBiz==Null","logType":"Error","deviceName":"BIGWORKSTATION","deviceModel":"B760M GAMING AC DDR4 (Gigabyte Technology Co., Ltd.)","operatingSystem":"Windows 11  (10.0.28000) 64bit Microsoft Windows NT 10.0.28000.0","version":"4.8_rel OSRELWin4.8.0_24603909_24822834_24795089_24441452_24822834","exceptionSerialNum":"0","pos":"","guid":"uid:9178-time:1792822404364-auid:10002-rtt:0[0,0,0]-scene:0-server:os_usa","errorCode":"Default","errorCodeToPlatform":5000,"serverName":"os_usa","subErrorCode":0,"uid":9178,"cpuInfo":"12th Gen Intel(R) Core(TM) i5-12600KF","gpuInfo":"NVIDIA GeForce RTX 4060","memoryInfo":"887","clientIp":"fe80::2d64:2305:b632:dbb5","errorLevel":"Low","errorCategory":"Security","notifyUserName":"","auid":"10002","buildUrl":"","title":"<uid:9178-time:1792822404364-auid:10002-rtt:0[0,0,0]-scene:0-server:os_usa>SDKServer - OnConnectRegionDispatch: GameBiz==Null","needShowErrDlg":false,"is2g":false}
+    QueryString: null
+    QueryParams: {}
+    FormParams: {}
+Response: [200 OK], execution took 0.14 ms
+    Headers: {Date=Sat, 24 Oct 2026 06:13:25 GMT, Content-Type=text/plain}
+    Body is 10 bytes (starts on next line):
+    {"code":0}
+----------------------------------------------------------------------------------
+14:13:25 <INFO:JavalinLogger> JAVALIN REQUEST DEBUG LOG:
+Request: POST [/crash/dataUpload]
+    Matching endpoint-handlers: [BEFORE=*, POST=/crash/dataUpload, AFTER=*]
+    Headers: {Authorization=8a332e552fcb97b817b07542b10f9efa632b8a29, Expect=100-continue, Accept=*/*, X-Unity-Version=2017.4.30f1, Cms-Signature=hmac-sha1, User-Agent=UnityPlayer/2017.4.30f1 (UnityWebRequest/1.0, libcurl/7.51.0-DEV), Host=127.0.0.1:8088, Accept-Encoding=identity, Content-Length=1251, Content-Type=application/json, Content-MD5=022a2d278bf6c523276ac452de7f1e85}
+    Cookies: {}
+    Body: [{"applicationId":100001,"applicationName":"hk4e","msgID":"94d1845e-2fb0-42a8-9507-4d928bc309a8","eventTime":"1792822405","eventId":100003,"eventName":"WarningAlarm","uploadContent":{"error_code":5000,"message":"SDKServer - OnConnectRegionDispatch: GameBiz==Null","user_id":0,"auid":"10002","time":1792822405,"stackTrace":"MoleMole.SuperDebug:VeryImportantError(ErrorLevel, ErrorCategory, Int32, Int32, String, Object[])\nJGAOADCNLGK:MoveNext()\nUnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)\n","exceptionSerialNum":0,"frame":"","deviceModel":"B760M GAMING AC DDR4 (Gigabyte Technology Co., Ltd.)","deviceName":"BIGWORKSTATION","operatingSystem":"Windows 11  (10.0.28000) 64bit Microsoft Windows NT 10.0.28000.0","userName":"Test","version":"4.8_rel OSRELWin4.8.0_24603909_24822834_24795089_24441452_24822834","guid":"uid:9178-time:1792822404364-auid:10002-rtt:0[0,0,0]-scene:0-server:os_usa","errorCode":"Default","isRelease":true,"serverName":"os_usa","projectNick":"test","userNick":"Test","logType":"Error","subErrorCode":"0","cpuInfo":"12th Gen Intel(R) Core(TM) i5-12600KF","gpuInfo":"NVIDIA GeForce RTX 4060","memoryInfo":"887","clientIp":"fe80::2d64:2305:b632:dbb5","errorLevel":"Low","errorCategory":"None","notifyUser":""}}]
+    QueryString: null
+    QueryParams: {}
+    FormParams: {}
+Response: [200 OK], execution took 0.22 ms
+    Headers: {Date=Sat, 24 Oct 2026 06:13:25 GMT, Content-Type=text/plain}
+    Body is 10 bytes (starts on next line):
+    {"code":0}
+----------------------------------------------------------------------------------
+14:13:34 <INFO:JavalinLogger> JAVALIN REQUEST DEBUG LOG:
+Request: POST [/sdk/dataUpload]
+    Matching endpoint-handlers: [BEFORE=*, POST=/sdk/dataUpload, AFTER=*]
+    Headers: {X-Rpc-Language=zh-cn, X-Rpc-Lifecycle_id=e271183c-2861-4967-9ed4-6e160b5ba66d, User-Agent=UnityPlayer/2017.4.30f1 (UnityWebRequest/1.0, libcurl/7.51.0-DEV), Accept-Encoding=identity, X-Rpc-Combo_version=2.27.0, X-Rpc-Device_fp=38d81c81f33c2, Authorization=53123abd749cb80ad618f725cdd4640baec18e01, X-Rpc-Sys_version=Windows%2011%20%20%2810.0.28000%29%2064bit, X-Rpc-Game_biz=hk4e_global, X-Rpc-Device_name=BIGWORKSTATION, X-Rpc-Channel_version=2.27.0.0, X-Rpc-Client_type=3, X-Rpc-Sub_channel_id=1, Content-Length=1119, Content-Type=application/json, X-Rpc-Device_id=b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145, X-Rpc-Channel_id=1, Accept=*/*, X-Unity-Version=2017.4.30f1, X-Rpc-Mdk_version=2.27.0.0, Host=127.0.0.1:8088, X-Rpc-Device_model=B760M%20GAMING%20AC%20DDR4%20%28Gigabyte%20Technology%20Co.,%20Ltd.%29, Date=1792822414377, Content-MD5=78E68B79D0E5E9BA1F09EC669B428C86, Expect=100-continue, X-Rpc-Goods_third_party=unsupported, Cms-Signature=hmac-sha1, X-Rpc-Payment_version=2.27.0}
+    Cookies: {}
+    Body: [{"applicationId":100001,"applicationName":"hk4e","msgId":"b3be686fc95d5ff222de0caa763cbc6af80e04081792822414377","eventTime":"1792822414","eventId":100004,"eventName":"ClientReport","uploadContent":{"launchTraceId":"3f576a21-a807-4279-a7e5-4567f0afd736","device_info":{"ip":"192.168.0.136","plat":3,"device_id":"b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145","device_name":"BIGWORKSTATION","device_model":"B760M GAMING AC DDR4 (Gigabyte Technology Co., Ltd.)","register_cps":"","current_cps":"","uapc":"","bundle_id":"hk4e_global","os":"Windows 11  (10.0.28000) 64bit","channel_id":"1","channel_subid":"1","network_type":"wired"},"user_info":{"uid":"0","level":"0","account_type":"1","open_id":"10002","tag":""},"version_info":{"client_version":"OSRELWin4.8.0_R24822834_S24441452_D24795089","sdk_env":2,"sdk_version":"2.27.0.0","log_version":"1.0.0"},"log_info":{"log_time":"1792822414","region":"os_usa","action_id":1000,"action_name":"FUNNEL_PASS","c_body":"{\"serial_number\":\"1792822404\", \"funnel_state\":\"5\", \"server_name\":\"\", \"packet_size\":\"0.00 MB\", \"ua_pc\":\"\"}","platform_type":"3"}}}]
+    QueryString: null
+    QueryParams: {}
+    FormParams: {}
+Response: [200 OK], execution took 0.15 ms
+    Headers: {Date=Sat, 24 Oct 2026 06:13:34 GMT, Content-Type=text/plain}
+    Body is 10 bytes (starts on next line):
+    {"code":0}
+----------------------------------------------------------------------------------
+14:13:36 <INFO:JavalinLogger> JAVALIN REQUEST DEBUG LOG:
+Request: POST [/sdk/dataUpload]
+    Matching endpoint-handlers: [BEFORE=*, POST=/sdk/dataUpload, AFTER=*]
+    Headers: {X-Rpc-Language=zh-cn, X-Rpc-Lifecycle_id=e271183c-2861-4967-9ed4-6e160b5ba66d, User-Agent=UnityPlayer/2017.4.30f1 (UnityWebRequest/1.0, libcurl/7.51.0-DEV), Accept-Encoding=identity, X-Rpc-Combo_version=2.27.0, X-Rpc-Device_fp=38d81c81f33c2, Authorization=0665a0e8edc5091dfa14bfa670e35cfcc6356abb, X-Rpc-Sys_version=Windows%2011%20%20%2810.0.28000%29%2064bit, X-Rpc-Game_biz=hk4e_global, X-Rpc-Device_name=BIGWORKSTATION, X-Rpc-Channel_version=2.27.0.0, X-Rpc-Client_type=3, X-Rpc-Sub_channel_id=1, Content-Length=1216, Content-Type=application/json, X-Rpc-Device_id=b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145, X-Rpc-Channel_id=1, Accept=*/*, X-Unity-Version=2017.4.30f1, X-Rpc-Mdk_version=2.27.0.0, Host=127.0.0.1:8088, X-Rpc-Device_model=B760M%20GAMING%20AC%20DDR4%20%28Gigabyte%20Technology%20Co.,%20Ltd.%29, Date=1792822416945, Content-MD5=6E0FF24CB8A9A59C4140A7E4B2B2C67D, Expect=100-continue, X-Rpc-Goods_third_party=unsupported, Cms-Signature=hmac-sha1, X-Rpc-Payment_version=2.27.0}
+    Cookies: {}
+    Body: [{"applicationId":100001,"applicationName":"hk4e","msgId":"b3be686fc95d5ff222de0caa763cbc6af80e04081792822416945","eventTime":"1792822417","eventId":100004,"eventName":"ClientReport","uploadContent":{"launchTraceId":"3f576a21-a807-4279-a7e5-4567f0afd736","device_info":{"ip":"192.168.0.136","plat":3,"device_id":"b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145","device_name":"BIGWORKSTATION","device_model":"B760M GAMING AC DDR4 (Gigabyte Technology Co., Ltd.)","register_cps":"","current_cps":"","uapc":"","bundle_id":"hk4e_global","os":"Windows 11  (10.0.28000) 64bit","channel_id":"1","channel_subid":"1","network_type":"wired"},"user_info":{"uid":"0","level":"0","account_type":"1","open_id":"10002","tag":""},"version_info":{"client_version":"OSRELWin4.8.0_R24822834_S24441452_D24795089","sdk_env":2,"sdk_version":"2.27.0.0","log_version":"1.0.0"},"log_info":{"log_time":"1792822417","region":"os_usa","action_id":1000,"action_name":"FUNNEL_PASS","c_body":"{\"serial_number\":\"1792822404\", \"funnel_state\":\"6\", \"server_name\":\"\", \"packet_size\":\"0.00 MB\", \"ua_pc\":\"\", \"trace_id\":\"1792822367_b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145_38d81c81f33c2\"}","platform_type":"3"}}}]
+    QueryString: null
+    QueryParams: {}
+    FormParams: {}
+Response: [200 OK], execution took 0.16 ms
+    Headers: {Date=Sat, 24 Oct 2026 06:13:36 GMT, Content-Type=text/plain}
+    Body is 10 bytes (starts on next line):
+    {"code":0}
+----------------------------------------------------------------------------------
+14:13:36 <INFO:JavalinLogger> JAVALIN REQUEST DEBUG LOG:
+Request: POST [/sdk/dataUpload]
+    Matching endpoint-handlers: [BEFORE=*, POST=/sdk/dataUpload, AFTER=*]
+    Headers: {X-Rpc-Language=zh-cn, X-Rpc-Lifecycle_id=e271183c-2861-4967-9ed4-6e160b5ba66d, User-Agent=UnityPlayer/2017.4.30f1 (UnityWebRequest/1.0, libcurl/7.51.0-DEV), Accept-Encoding=identity, X-Rpc-Combo_version=2.27.0, X-Rpc-Device_fp=38d81c81f33c2, Authorization=00eb1113c97ca6303fa5e435fcb6ce0dc3fbd194, X-Rpc-Sys_version=Windows%2011%20%20%2810.0.28000%29%2064bit, X-Rpc-Game_biz=hk4e_global, X-Rpc-Device_name=BIGWORKSTATION, X-Rpc-Channel_version=2.27.0.0, X-Rpc-Client_type=3, X-Rpc-Sub_channel_id=1, Content-Length=3168, Content-Type=application/json, X-Rpc-Device_id=b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145, X-Rpc-Channel_id=1, Accept=*/*, X-Unity-Version=2017.4.30f1, X-Rpc-Mdk_version=2.27.0.0, Host=127.0.0.1:8088, X-Rpc-Device_model=B760M%20GAMING%20AC%20DDR4%20%28Gigabyte%20Technology%20Co.,%20Ltd.%29, Date=1792822416954, Content-MD5=A1CE6AA2463EBB4381AAEB7DA56793F2, Expect=100-continue, X-Rpc-Goods_third_party=unsupported, Cms-Signature=hmac-sha1, X-Rpc-Payment_version=2.27.0}
+    Cookies: {}
+    Body: [{"applicationId":100001,"applicationName":"hk4e","msgId":"b3be686fc95d5ff222de0caa763cbc6af80e04081792822416945","eventTime":"1792822417","eventId":100004,"eventName":"ClientReport","uploadContent":{"launchTraceId":"3f576a21-a807-4279-a7e5-4567f0afd736","device_info":{"ip":"192.168.0.136","plat":3,"device_id":"b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145","device_name":"BIGWORKSTATION","device_model":"B760M GAMING AC DDR4 (Gigabyte Technology Co., Ltd.)","register_cps":"","current_cps":"","uapc":"","bundle_id":"hk4e_global","os":"Windows 11  (10.0.28000) 64bit","channel_id":"1","channel_subid":"1","network_type":"wired"},"user_info":{"uid":"0","level":"0","account_type":"1","open_id":"10002","tag":""},"version_info":{"client_version":"OSRELWin4.8.0_R24822834_S24441452_D24795089","sdk_env":2,"sdk_version":"2.27.0.0","log_version":"1.0.0"},"log_info":{"log_time":"1792822417","region":"os_usa","action_id":3001,"action_name":"LANGUAGE_TEXT_CHANGED","c_body":"{\"before_text_id\":\"2\", \"after_text_id\":\"2\"}","platform_type":"3"}}},{"applicationId":100001,"applicationName":"hk4e","msgId":"b3be686fc95d5ff222de0caa763cbc6af80e04081792822416945","eventTime":"1792822417","eventId":100004,"eventName":"ClientReport","uploadContent":{"launchTraceId":"3f576a21-a807-4279-a7e5-4567f0afd736","device_info":{"ip":"192.168.0.136","plat":3,"device_id":"b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145","device_name":"BIGWORKSTATION","device_model":"B760M GAMING AC DDR4 (Gigabyte Technology Co., Ltd.)","register_cps":"","current_cps":"","uapc":"","bundle_id":"hk4e_global","os":"Windows 11  (10.0.28000) 64bit","channel_id":"1","channel_subid":"1","network_type":"wired"},"user_info":{"uid":"0","level":"0","account_type":"1","open_id":"10002","tag":""},"version_info":{"client_version":"OSRELWin4.8.0_R24822834_S24441452_D24795089","sdk_env":2,"sdk_version":"2.27.0.0","log_version":"1.0.0"},"log_info":{"log_time":"1792822417","region":"os_usa","action_id":3002,"action_name":"LANGUAGE_VOICE_CHANGED","c_body":"{\"before_voice_id\":\"0\", \"after_voice_id\":\"0\"}","platform_type":"3"}}},{"applicationId":100001,"applicationName":"hk4e","msgId":"b3be686fc95d5ff222de0caa763cbc6af80e04081792822416946","eventTime":"1792822417","eventId":100004,"eventName":"ClientReport","uploadContent":{"launchTraceId":"3f576a21-a807-4279-a7e5-4567f0afd736","device_info":{"ip":"192.168.0.136","plat":3,"device_id":"b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145","device_name":"BIGWORKSTATION","device_model":"B760M GAMING AC DDR4 (Gigabyte Technology Co., Ltd.)","register_cps":"","current_cps":"","uapc":"","bundle_id":"hk4e_global","os":"Windows 11  (10.0.28000) 64bit","channel_id":"1","channel_subid":"1","network_type":"wired"},"user_info":{"uid":"0","level":"0","account_type":"1","open_id":"10002","tag":""},"version_info":{"client_version":"OSRELWin4.8.0_R24822834_S24441452_D24795089","sdk_env":2,"sdk_version":"2.27.0.0","log_version":"1.0.0"},"log_info":{"log_time":"1792822417","region":"os_usa","action_id":3005,"action_name":"AUDIO_DEVICE_INFO","c_body":"{\"audio_device\":[ \"0\", \"0\" ], \"game_audio\":\"0\"}","platform_type":"3"}}}]
+    QueryString: null
+    QueryParams: {}
+    FormParams: {}
+Response: [200 OK], execution took 0.14 ms
+    Headers: {Date=Sat, 24 Oct 2026 06:13:36 GMT, Content-Type=text/plain}
+    Body is 10 bytes (starts on next line):
+    {"code":0}
+----------------------------------------------------------------------------------
+14:13:37 <INFO:GameSession> 客户端 /127.0.0.1:57657 已连接
+14:13:37 <INFO:GameSession> 客户端 /127.0.0.1:57657 已断开连接
+14:13:37 <INFO:GameSession> SEND: ServerDisconnectClientNotify (27072)
+> java.io.IOException: Conv inconsistency
+        at kcp.highway.Ukcp.input(Ukcp.java:225)
+        at kcp.highway.Ukcp.input(Ukcp.java:211)
+        at kcp.highway.ReadTask.execute(ReadTask.java:42)
+        at kcp.highway.threadPool.netty.NettyMessageExecutor.lambda$execute$0(NettyMessageExecutor.java:35)
+        at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+        at io.netty.channel.DefaultEventLoop.run(DefaultEventLoop.java:54)
+        at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+        at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+        at java.base/java.lang.Thread.run(Thread.java:1583)
+14:14:06 <INFO:JavalinLogger> JAVALIN REQUEST DEBUG LOG:
+Request: POST [/sdk/dataUpload]
+    Matching endpoint-handlers: [BEFORE=*, POST=/sdk/dataUpload, AFTER=*]
+    Headers: {X-Rpc-Language=zh-cn, X-Rpc-Lifecycle_id=e271183c-2861-4967-9ed4-6e160b5ba66d, User-Agent=UnityPlayer/2017.4.30f1 (UnityWebRequest/1.0, libcurl/7.51.0-DEV), Accept-Encoding=identity, X-Rpc-Combo_version=2.27.0, X-Rpc-Device_fp=38d81c81f33c2, Authorization=5befe88f8b51e108801edcd4653eb91e3bb248fd, X-Rpc-Sys_version=Windows%2011%20%20%2810.0.28000%29%2064bit, X-Rpc-Game_biz=hk4e_global, X-Rpc-Device_name=BIGWORKSTATION, X-Rpc-Channel_version=2.27.0.0, X-Rpc-Client_type=3, X-Rpc-Sub_channel_id=1, Content-Length=1365, Content-Type=application/json, X-Rpc-Device_id=b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145, X-Rpc-Channel_id=1, Accept=*/*, X-Unity-Version=2017.4.30f1, X-Rpc-Mdk_version=2.27.0.0, Host=127.0.0.1:8088, X-Rpc-Device_model=B760M%20GAMING%20AC%20DDR4%20%28Gigabyte%20Technology%20Co.,%20Ltd.%29, Date=1792822446987, Content-MD5=518EEDF030A7C769C33BF5ED42039FE8, Expect=100-continue, X-Rpc-Goods_third_party=unsupported, Cms-Signature=hmac-sha1, X-Rpc-Payment_version=2.27.0}
+    Cookies: {}
+    Body: [{"applicationId":900001,"applicationName":"mihoyosdk","msgId":"b3be686fc95d5ff222de0caa763cbc6af80e04081792822446987","eventTime":"1792822447","eventId":900001,"eventName":"UserBehavior","uploadContent":{"eventTimeMs":"1792822446987","launchTraceId":"3f576a21-a807-4279-a7e5-4567f0afd736","deviceInfo":{"ip":"","platform":3,"systemInfo":"Windows 11  (10.0.28000) 64bit","deviceId":"b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145","deviceName":"BIGWORKSTATION","deviceModel":"B760M GAMING AC DDR4 (Gigabyte Technology Co., Ltd.)","registerCPS":"","cps":"","uapc":"","bundleId":"hk4e_global","isp":"","device_fp":"38d81c81f33c2","device_sciX":3840,"device_sciY":2160,"soft_sciX":3840,"soft_sciY":2160,"romCapacity":476923.0,"romRemain":248915.25,"ramCapacity":16218.0,"ramRemain":9209.68,"network_type":"","wmac":"","addressMac":"10FFE00D6585","gpuName":"NVIDIA GeForce RTX 4060","gpuMemSize":7957.0,"processorCount":16,"processorFrequency":3.6,"processorType":"12th Gen Intel(R) Core(TM) i5-12600KF"},"userInfo":{"userId":"","accountType":"1","accountId":"10002","channelId":"1"},"versionInfo":{"clientVersion":"2.27.0.0","logVersion":"1.0.0"},"logInfo":{"logTime":"1792822447","actionId":1008,"actionName":"pay","cBody":"{\"payResult\":\"false\",\"type\":14,\"stage\":10,\"gamebiz\":\"hk4e_global\",\"env\":2,\"channelId\":\"1\",\"subchannelId\":\"1\"}"}}}]
+    QueryString: null
+    QueryParams: {}
+    FormParams: {}
+Response: [200 OK], execution took 0.19 ms
+    Headers: {Date=Sat, 24 Oct 2026 06:14:06 GMT, Content-Type=text/plain}
+    Body is 10 bytes (starts on next line):
+    {"code":0}
+----------------------------------------------------------------------------------
+14:14:07 <INFO:GameSession> 客户端 /127.0.0.1:57659 已连接
+14:14:07 <ERROR:GameSession> Bad Data Package Received: got -21371 ,expect 17767
+14:14:17 <ERROR:GameSession> Bad Data Package Received: got -7082 ,expect 17767
+14:14:27 <ERROR:GameSession> Bad Data Package Received: got -30109 ,expect 17767
+14:14:37 <ERROR:GameSession> Bad Data Package Received: got -19686 ,expect 17767
+14:14:37 <INFO:JavalinLogger> JAVALIN REQUEST DEBUG LOG:
+Request: POST [/sdk/dataUpload]
+    Matching endpoint-handlers: [BEFORE=*, POST=/sdk/dataUpload, AFTER=*]
+    Headers: {X-Rpc-Language=zh-cn, X-Rpc-Lifecycle_id=e271183c-2861-4967-9ed4-6e160b5ba66d, User-Agent=UnityPlayer/2017.4.30f1 (UnityWebRequest/1.0, libcurl/7.51.0-DEV), Accept-Encoding=identity, X-Rpc-Combo_version=2.27.0, X-Rpc-Device_fp=38d81c81f33c2, Authorization=e2a091482f2d7a1a79ff1f4ee356a8e7ab4cd5be, X-Rpc-Sys_version=Windows%2011%20%20%2810.0.28000%29%2064bit, X-Rpc-Game_biz=hk4e_global, X-Rpc-Device_name=BIGWORKSTATION, X-Rpc-Channel_version=2.27.0.0, X-Rpc-Client_type=3, X-Rpc-Sub_channel_id=1, Content-Length=1365, Content-Type=application/json, X-Rpc-Device_id=b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145, X-Rpc-Channel_id=1, Accept=*/*, X-Unity-Version=2017.4.30f1, X-Rpc-Mdk_version=2.27.0.0, Host=127.0.0.1:8088, X-Rpc-Device_model=B760M%20GAMING%20AC%20DDR4%20%28Gigabyte%20Technology%20Co.,%20Ltd.%29, Date=1792822477736, Content-MD5=D398B32C24046671CA9EF6E3710DE355, Expect=100-continue, X-Rpc-Goods_third_party=unsupported, Cms-Signature=hmac-sha1, X-Rpc-Payment_version=2.27.0}
+    Cookies: {}
+    Body: [{"applicationId":900001,"applicationName":"mihoyosdk","msgId":"b3be686fc95d5ff222de0caa763cbc6af80e04081792822477736","eventTime":"1792822478","eventId":900001,"eventName":"UserBehavior","uploadContent":{"eventTimeMs":"1792822477736","launchTraceId":"3f576a21-a807-4279-a7e5-4567f0afd736","deviceInfo":{"ip":"","platform":3,"systemInfo":"Windows 11  (10.0.28000) 64bit","deviceId":"b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145","deviceName":"BIGWORKSTATION","deviceModel":"B760M GAMING AC DDR4 (Gigabyte Technology Co., Ltd.)","registerCPS":"","cps":"","uapc":"","bundleId":"hk4e_global","isp":"","device_fp":"38d81c81f33c2","device_sciX":3840,"device_sciY":2160,"soft_sciX":3840,"soft_sciY":2160,"romCapacity":476923.0,"romRemain":248915.25,"ramCapacity":16218.0,"ramRemain":9168.46,"network_type":"","wmac":"","addressMac":"10FFE00D6585","gpuName":"NVIDIA GeForce RTX 4060","gpuMemSize":7957.0,"processorCount":16,"processorFrequency":3.6,"processorType":"12th Gen Intel(R) Core(TM) i5-12600KF"},"userInfo":{"userId":"","accountType":"1","accountId":"10002","channelId":"1"},"versionInfo":{"clientVersion":"2.27.0.0","logVersion":"1.0.0"},"logInfo":{"logTime":"1792822478","actionId":1008,"actionName":"pay","cBody":"{\"payResult\":\"false\",\"type\":14,\"stage\":10,\"gamebiz\":\"hk4e_global\",\"env\":2,\"channelId\":\"1\",\"subchannelId\":\"1\"}"}}}]
+    QueryString: null
+    QueryParams: {}
+    FormParams: {}
+Response: [200 OK], execution took 18.01 ms
+    Headers: {Date=Sat, 24 Oct 2026 06:14:37 GMT, Content-Type=text/plain}
+    Body is 10 bytes (starts on next line):
+    {"code":0}
+----------------------------------------------------------------------------------
+14:14:38 <INFO:GameSession> 客户端 /127.0.0.1:64557 已连接
+14:14:38 <ERROR:GameSession> Bad Data Package Received: got -4444 ,expect 17767
+14:14:47 <ERROR:GameSession> Bad Data Package Received: got -13008 ,expect 17767
+14:14:57 <ERROR:GameSession> Bad Data Package Received: got 27130 ,expect 17767
+14:15:07 <INFO:GameSession> 客户端 /127.0.0.1:57659 已断开连接
+14:15:07 <INFO:GameSession> SEND: ServerDisconnectClientNotify (27072)
+14:15:07 <ERROR:GameSession> Bad Data Package Received: got -801 ,expect 17767
+14:15:08 <INFO:JavalinLogger> JAVALIN REQUEST DEBUG LOG:
+Request: POST [/sdk/dataUpload]
+    Matching endpoint-handlers: [BEFORE=*, POST=/sdk/dataUpload, AFTER=*]
+    Headers: {X-Rpc-Language=zh-cn, X-Rpc-Lifecycle_id=e271183c-2861-4967-9ed4-6e160b5ba66d, User-Agent=UnityPlayer/2017.4.30f1 (UnityWebRequest/1.0, libcurl/7.51.0-DEV), Accept-Encoding=identity, X-Rpc-Combo_version=2.27.0, X-Rpc-Device_fp=38d81c81f33c2, Authorization=e4efe026704a397597ee13c5a5a5c701b364946d, X-Rpc-Sys_version=Windows%2011%20%20%2810.0.28000%29%2064bit, X-Rpc-Game_biz=hk4e_global, X-Rpc-Device_name=BIGWORKSTATION, X-Rpc-Channel_version=2.27.0.0, X-Rpc-Client_type=3, X-Rpc-Sub_channel_id=1, Content-Length=1365, Content-Type=application/json, X-Rpc-Device_id=b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145, X-Rpc-Channel_id=1, Accept=*/*, X-Unity-Version=2017.4.30f1, X-Rpc-Mdk_version=2.27.0.0, Host=127.0.0.1:8088, X-Rpc-Device_model=B760M%20GAMING%20AC%20DDR4%20%28Gigabyte%20Technology%20Co.,%20Ltd.%29, Date=1792822508483, Content-MD5=61FE855454BBF7C726966C44837EBC99, Expect=100-continue, X-Rpc-Goods_third_party=unsupported, Cms-Signature=hmac-sha1, X-Rpc-Payment_version=2.27.0}
+    Cookies: {}
+    Body: [{"applicationId":900001,"applicationName":"mihoyosdk","msgId":"b3be686fc95d5ff222de0caa763cbc6af80e04081792822508483","eventTime":"1792822508","eventId":900001,"eventName":"UserBehavior","uploadContent":{"eventTimeMs":"1792822508483","launchTraceId":"3f576a21-a807-4279-a7e5-4567f0afd736","deviceInfo":{"ip":"","platform":3,"systemInfo":"Windows 11  (10.0.28000) 64bit","deviceId":"b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145","deviceName":"BIGWORKSTATION","deviceModel":"B760M GAMING AC DDR4 (Gigabyte Technology Co., Ltd.)","registerCPS":"","cps":"","uapc":"","bundleId":"hk4e_global","isp":"","device_fp":"38d81c81f33c2","device_sciX":3840,"device_sciY":2160,"soft_sciX":3840,"soft_sciY":2160,"romCapacity":476923.0,"romRemain":248915.25,"ramCapacity":16218.0,"ramRemain":9170.02,"network_type":"","wmac":"","addressMac":"10FFE00D6585","gpuName":"NVIDIA GeForce RTX 4060","gpuMemSize":7957.0,"processorCount":16,"processorFrequency":3.6,"processorType":"12th Gen Intel(R) Core(TM) i5-12600KF"},"userInfo":{"userId":"","accountType":"1","accountId":"10002","channelId":"1"},"versionInfo":{"clientVersion":"2.27.0.0","logVersion":"1.0.0"},"logInfo":{"logTime":"1792822508","actionId":1008,"actionName":"pay","cBody":"{\"payResult\":\"false\",\"type\":14,\"stage\":10,\"gamebiz\":\"hk4e_global\",\"env\":2,\"channelId\":\"1\",\"subchannelId\":\"1\"}"}}}]
+    QueryString: null
+    QueryParams: {}
+    FormParams: {}
+Response: [200 OK], execution took 0.61 ms
+    Headers: {Date=Sat, 24 Oct 2026 06:15:08 GMT, Content-Type=text/plain}
+    Body is 10 bytes (starts on next line):
+    {"code":0}
+----------------------------------------------------------------------------------
+14:15:09 <INFO:GameSession> 客户端 /127.0.0.1:51712 已连接
+14:15:09 <ERROR:GameSession> Bad Data Package Received: got -10174 ,expect 17767
+14:15:18 <ERROR:GameSession> Bad Data Package Received: got -15451 ,expect 17767
+14:15:28 <ERROR:GameSession> Bad Data Package Received: got -6232 ,expect 17767
+14:15:37 <INFO:GameSession> 客户端 /127.0.0.1:64557 已断开连接
+14:15:37 <INFO:GameSession> SEND: ServerDisconnectClientNotify (27072)
+14:15:38 <ERROR:GameSession> Bad Data Package Received: got -29069 ,expect 17767
+14:15:39 <INFO:JavalinLogger> JAVALIN REQUEST DEBUG LOG:
+Request: POST [/sdk/dataUpload]
+    Matching endpoint-handlers: [BEFORE=*, POST=/sdk/dataUpload, AFTER=*]
+    Headers: {X-Rpc-Language=zh-cn, X-Rpc-Lifecycle_id=e271183c-2861-4967-9ed4-6e160b5ba66d, User-Agent=UnityPlayer/2017.4.30f1 (UnityWebRequest/1.0, libcurl/7.51.0-DEV), Accept-Encoding=identity, X-Rpc-Combo_version=2.27.0, X-Rpc-Device_fp=38d81c81f33c2, Authorization=c7e9e63956a09d6a8db9466c0cbafd3f96d91aca, X-Rpc-Sys_version=Windows%2011%20%20%2810.0.28000%29%2064bit, X-Rpc-Game_biz=hk4e_global, X-Rpc-Device_name=BIGWORKSTATION, X-Rpc-Channel_version=2.27.0.0, X-Rpc-Client_type=3, X-Rpc-Sub_channel_id=1, Content-Length=1365, Content-Type=application/json, X-Rpc-Device_id=b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145, X-Rpc-Channel_id=1, Accept=*/*, X-Unity-Version=2017.4.30f1, X-Rpc-Mdk_version=2.27.0.0, Host=127.0.0.1:8088, X-Rpc-Device_model=B760M%20GAMING%20AC%20DDR4%20%28Gigabyte%20Technology%20Co.,%20Ltd.%29, Date=1792822539232, Content-MD5=8F0B8163059B624D0D3C69779A3EDD0E, Expect=100-continue, X-Rpc-Goods_third_party=unsupported, Cms-Signature=hmac-sha1, X-Rpc-Payment_version=2.27.0}
+    Cookies: {}
+    Body: [{"applicationId":900001,"applicationName":"mihoyosdk","msgId":"b3be686fc95d5ff222de0caa763cbc6af80e04081792822539232","eventTime":"1792822539","eventId":900001,"eventName":"UserBehavior","uploadContent":{"eventTimeMs":"1792822539232","launchTraceId":"3f576a21-a807-4279-a7e5-4567f0afd736","deviceInfo":{"ip":"","platform":3,"systemInfo":"Windows 11  (10.0.28000) 64bit","deviceId":"b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145","deviceName":"BIGWORKSTATION","deviceModel":"B760M GAMING AC DDR4 (Gigabyte Technology Co., Ltd.)","registerCPS":"","cps":"","uapc":"","bundleId":"hk4e_global","isp":"","device_fp":"38d81c81f33c2","device_sciX":3840,"device_sciY":2160,"soft_sciX":3840,"soft_sciY":2160,"romCapacity":476923.0,"romRemain":248914.75,"ramCapacity":16218.0,"ramRemain":9186.85,"network_type":"","wmac":"","addressMac":"10FFE00D6585","gpuName":"NVIDIA GeForce RTX 4060","gpuMemSize":7957.0,"processorCount":16,"processorFrequency":3.6,"processorType":"12th Gen Intel(R) Core(TM) i5-12600KF"},"userInfo":{"userId":"","accountType":"1","accountId":"10002","channelId":"1"},"versionInfo":{"clientVersion":"2.27.0.0","logVersion":"1.0.0"},"logInfo":{"logTime":"1792822539","actionId":1008,"actionName":"pay","cBody":"{\"payResult\":\"false\",\"type\":14,\"stage\":10,\"gamebiz\":\"hk4e_global\",\"env\":2,\"channelId\":\"1\",\"subchannelId\":\"1\"}"}}}]
+    QueryString: null
+    QueryParams: {}
+    FormParams: {}
+Response: [200 OK], execution took 0.22 ms
+    Headers: {Date=Sat, 24 Oct 2026 06:15:39 GMT, Content-Type=text/plain}
+    Body is 10 bytes (starts on next line):
+    {"code":0}
+----------------------------------------------------------------------------------
+14:15:39 <INFO:GameSession> 客户端 /127.0.0.1:65076 已连接
+14:15:39 <ERROR:GameSession> Bad Data Package Received: got 29639 ,expect 17767
+14:15:49 <ERROR:GameSession> Bad Data Package Received: got 331 ,expect 17767
+14:15:57 <INFO:JavalinLogger> JAVALIN REQUEST DEBUG LOG:
+Request: POST [/sdk/dataUpload]
+    Matching endpoint-handlers: [BEFORE=*, POST=/sdk/dataUpload, AFTER=*]
+    Headers: {X-Rpc-Language=zh-cn, X-Rpc-Lifecycle_id=e271183c-2861-4967-9ed4-6e160b5ba66d, User-Agent=UnityPlayer/2017.4.30f1 (UnityWebRequest/1.0, libcurl/7.51.0-DEV), Accept-Encoding=identity, X-Rpc-Combo_version=2.27.0, X-Rpc-Device_fp=38d81c81f33c2, Authorization=045b1a367ecad3a066b86489595559a20f241222, X-Rpc-Sys_version=Windows%2011%20%20%2810.0.28000%29%2064bit, X-Rpc-Game_biz=hk4e_global, X-Rpc-Device_name=BIGWORKSTATION, X-Rpc-Channel_version=2.27.0.0, X-Rpc-Client_type=3, X-Rpc-Sub_channel_id=1, Content-Length=1365, Content-Type=application/json, X-Rpc-Device_id=b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145, X-Rpc-Channel_id=1, Accept=*/*, X-Unity-Version=2017.4.30f1, X-Rpc-Mdk_version=2.27.0.0, Host=127.0.0.1:8088, X-Rpc-Device_model=B760M%20GAMING%20AC%20DDR4%20%28Gigabyte%20Technology%20Co.,%20Ltd.%29, Date=1792822557402, Content-MD5=97CBAB2D912D34EF66D0C424D31F16B1, Expect=100-continue, X-Rpc-Goods_third_party=unsupported, Cms-Signature=hmac-sha1, X-Rpc-Payment_version=2.27.0}
+    Cookies: {}
+    Body: [{"applicationId":900001,"applicationName":"mihoyosdk","msgId":"b3be686fc95d5ff222de0caa763cbc6af80e04081792822557401","eventTime":"1792822557","eventId":900001,"eventName":"UserBehavior","uploadContent":{"eventTimeMs":"1792822557401","launchTraceId":"3f576a21-a807-4279-a7e5-4567f0afd736","deviceInfo":{"ip":"","platform":3,"systemInfo":"Windows 11  (10.0.28000) 64bit","deviceId":"b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145","deviceName":"BIGWORKSTATION","deviceModel":"B760M GAMING AC DDR4 (Gigabyte Technology Co., Ltd.)","registerCPS":"","cps":"","uapc":"","bundleId":"hk4e_global","isp":"","device_fp":"38d81c81f33c2","device_sciX":3840,"device_sciY":2160,"soft_sciX":3840,"soft_sciY":2160,"romCapacity":476923.0,"romRemain":248914.54,"ramCapacity":16218.0,"ramRemain":9167.16,"network_type":"","wmac":"","addressMac":"10FFE00D6585","gpuName":"NVIDIA GeForce RTX 4060","gpuMemSize":7957.0,"processorCount":16,"processorFrequency":3.6,"processorType":"12th Gen Intel(R) Core(TM) i5-12600KF"},"userInfo":{"userId":"","accountType":"1","accountId":"10002","channelId":"1"},"versionInfo":{"clientVersion":"2.27.0.0","logVersion":"1.0.0"},"logInfo":{"logTime":"1792822557","actionId":1008,"actionName":"pay","cBody":"{\"payResult\":\"false\",\"type\":14,\"stage\":10,\"gamebiz\":\"hk4e_global\",\"env\":2,\"channelId\":\"1\",\"subchannelId\":\"1\"}"}}}]
+    QueryString: null
+    QueryParams: {}
+    FormParams: {}
+Response: [200 OK], execution took 0.24 ms
+    Headers: {Date=Sat, 24 Oct 2026 06:15:57 GMT, Content-Type=text/plain}
+    Body is 10 bytes (starts on next line):
+    {"code":0}
+----------------------------------------------------------------------------------
+14:15:57 <INFO:RegionHandler> [Dispatch] Client 127.0.0.1 request: query_region_list
+14:15:57 <INFO:JavalinLogger> JAVALIN REQUEST DEBUG LOG:
+Request: GET [/query_region_list]
+    Matching endpoint-handlers: [BEFORE=*, GET=/query_region_list, AFTER=*]
+    Headers: {Accept=*/*, X-Unity-Version=2017.4.30f1, User-Agent=UnityPlayer/2017.4.30f1 (UnityWebRequest/1.0, libcurl/7.51.0-DEV), Host=127.0.0.1:8088, Accept-Encoding=identity, Content-Type=application/x-www-form-urlencoded}
+    Cookies: {}
+    Body:
+    QueryString: version=OSRELWin4.8.0&lang=2&platform=3&binary=1&time=667&channel_id=1&sub_channel_id=1
+    QueryParams: {version=[OSRELWin4.8.0], lang=[2], platform=[3], binary=[1], time=[667], channel_id=[1], sub_channel_id=[1]}
+    FormParams: {}
+Response: [200 OK], execution took 1.06 ms
+    Headers: {Date=Sat, 24 Oct 2026 06:15:57 GMT, Content-Type=text/plain}
+    Body is 3172 bytes (starts on next line):
+    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
+----------------------------------------------------------------------------------
+14:15:57 <INFO:JavalinLogger> JAVALIN REQUEST DEBUG LOG:
+Request: GET [/admin/mi18n/plat_oversea/m2020030410/m2020030410-version.json]
+    Matching endpoint-handlers: [BEFORE=*, GET=/admin/mi18n/plat_oversea/*, AFTER=*]
+    Headers: {X-Rpc-Language=zh-cn, X-Rpc-Device_id=b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145, X-Rpc-Channel_id=1, Accept=*/*, X-Unity-Version=2017.4.30f1, X-Rpc-Lifecycle_id=e271183c-2861-4967-9ed4-6e160b5ba66d, X-Rpc-Mdk_version=2.27.0.0, User-Agent=UnityPlayer/2017.4.30f1 (UnityWebRequest/1.0, libcurl/7.51.0-DEV), Host=127.0.0.1:8088, Accept-Encoding=identity, X-Rpc-Device_model=B760M%20GAMING%20AC%20DDR4%20%28Gigabyte%20Technology%20Co.,%20Ltd.%29, X-Rpc-Combo_version=2.27.0, X-Rpc-Device_fp=38d81c81f33c2, X-Rpc-Sys_version=Windows%2011%20%20%2810.0.28000%29%2064bit, X-Rpc-Game_biz=hk4e_global, X-Rpc-Goods_third_party=unsupported, X-Rpc-Device_name=BIGWORKSTATION, X-Rpc-Channel_version=2.27.0.0, X-Rpc-Client_type=3, X-Rpc-Sub_channel_id=1, X-Rpc-Payment_version=2.27.0}
+    Cookies: {}
+    Body:
+    QueryString: null
+    QueryParams: {}
+    FormParams: {}
+Response: [200 OK], execution took 0.73 ms
+    Headers: {Date=Sat, 24 Oct 2026 06:15:57 GMT, Content-Type=application/json}
+    Body is 19 bytes (starts on next line):
+    {
+  "version": 51
+}
+----------------------------------------------------------------------------------
+14:15:57 <INFO:JavalinLogger> JAVALIN REQUEST DEBUG LOG:
+Request: GET [/admin/mi18n/plat_os/m09291531181441/m09291531181441-version.json]
+    Matching endpoint-handlers: [BEFORE=*, AFTER=*]
+    Headers: {X-Rpc-Language=zh-cn, X-Rpc-Device_id=b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145, X-Rpc-Channel_id=1, Accept=*/*, X-Unity-Version=2017.4.30f1, X-Rpc-Lifecycle_id=e271183c-2861-4967-9ed4-6e160b5ba66d, X-Rpc-Mdk_version=2.27.0.0, User-Agent=UnityPlayer/2017.4.30f1 (UnityWebRequest/1.0, libcurl/7.51.0-DEV), Host=127.0.0.1:8088, Accept-Encoding=identity, X-Rpc-Device_model=B760M%20GAMING%20AC%20DDR4%20%28Gigabyte%20Technology%20Co.,%20Ltd.%29, X-Rpc-Combo_version=2.27.0, X-Rpc-Device_fp=38d81c81f33c2, X-Rpc-Sys_version=Windows%2011%20%20%2810.0.28000%29%2064bit, X-Rpc-Game_biz=hk4e_global, X-Rpc-Goods_third_party=unsupported, X-Rpc-Device_name=BIGWORKSTATION, X-Rpc-Channel_version=2.27.0.0, X-Rpc-Client_type=3, X-Rpc-Sub_channel_id=1, X-Rpc-Payment_version=2.27.0}
+    Cookies: {}
+    Body:
+    QueryString: null
+    QueryParams: {}
+    FormParams: {}
+Response: [404 Not Found], execution took 0.29 ms
+    Headers: {Date=Sat, 24 Oct 2026 06:15:57 GMT, Content-Type=text/html}
+    Body is 337 bytes (starts on next line):
+    <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf8">
+    </head>
+
+    <body>
+        <img src="https://http.cat/404" />
+        <h1>Grasscutter cannot find the route you're trying to access.</h1>
+        <p>Your proxy is active, so if you're trying to download something close the game/stop the proxy.</p>
+    </body>
+</html>
+
+----------------------------------------------------------------------------------
+14:15:57 <INFO:JavalinLogger> JAVALIN REQUEST DEBUG LOG:
+Request: POST [/sdk/dataUpload]
+    Matching endpoint-handlers: [BEFORE=*, POST=/sdk/dataUpload, AFTER=*]
+    Headers: {X-Rpc-Language=zh-cn, X-Rpc-Lifecycle_id=e271183c-2861-4967-9ed4-6e160b5ba66d, User-Agent=UnityPlayer/2017.4.30f1 (UnityWebRequest/1.0, libcurl/7.51.0-DEV), Accept-Encoding=identity, X-Rpc-Combo_version=2.27.0, X-Rpc-Device_fp=38d81c81f33c2, Authorization=9bb4280b5ff12ba2282d91f7d1744e168092bbc7, X-Rpc-Sys_version=Windows%2011%20%20%2810.0.28000%29%2064bit, X-Rpc-Game_biz=hk4e_global, X-Rpc-Device_name=BIGWORKSTATION, X-Rpc-Channel_version=2.27.0.0, X-Rpc-Client_type=3, X-Rpc-Sub_channel_id=1, Content-Length=1339, Content-Type=application/json, X-Rpc-Device_id=b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145, X-Rpc-Channel_id=1, Accept=*/*, X-Unity-Version=2017.4.30f1, X-Rpc-Mdk_version=2.27.0.0, Host=127.0.0.1:8088, X-Rpc-Device_model=B760M%20GAMING%20AC%20DDR4%20%28Gigabyte%20Technology%20Co.,%20Ltd.%29, Date=1792822557751, Content-MD5=3A68637043DCF3ED589D3E0EBB850371, Expect=100-continue, X-Rpc-Goods_third_party=unsupported, Cms-Signature=hmac-sha1, X-Rpc-Payment_version=2.27.0}
+    Cookies: {}
+    Body: [{"applicationId":900001,"applicationName":"mihoyosdk","msgId":"b3be686fc95d5ff222de0caa763cbc6af80e04081792822557751","eventTime":"1792822558","eventId":900001,"eventName":"UserBehavior","uploadContent":{"eventTimeMs":"1792822557751","launchTraceId":"3f576a21-a807-4279-a7e5-4567f0afd736","deviceInfo":{"ip":"","platform":3,"systemInfo":"Windows 11  (10.0.28000) 64bit","deviceId":"b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145","deviceName":"BIGWORKSTATION","deviceModel":"B760M GAMING AC DDR4 (Gigabyte Technology Co., Ltd.)","registerCPS":"","cps":"","uapc":"","bundleId":"hk4e_global","isp":"","device_fp":"38d81c81f33c2","device_sciX":3840,"device_sciY":2160,"soft_sciX":3840,"soft_sciY":2160,"romCapacity":476923.0,"romRemain":248914.54,"ramCapacity":16218.0,"ramRemain":9190.29,"network_type":"","wmac":"","addressMac":"10FFE00D6585","gpuName":"NVIDIA GeForce RTX 4060","gpuMemSize":7957.0,"processorCount":16,"processorFrequency":3.6,"processorType":"12th Gen Intel(R) Core(TM) i5-12600KF"},"userInfo":{"userId":"","accountType":"1","accountId":"10002","channelId":"1"},"versionInfo":{"clientVersion":"2.27.0.0","logVersion":"1.0.0"},"logInfo":{"logTime":"1792822558","actionId":100,"actionName":"main","cBody":"{\"type\":0,\"stage\":1,\"gamebiz\":\"hk4e_global\",\"env\":2,\"channelId\":\"1\",\"subchannelId\":\"1\"}"}}}]
+    QueryString: null
+    QueryParams: {}
+    FormParams: {}
+Response: [200 OK], execution took 0.10 ms
+    Headers: {Date=Sat, 24 Oct 2026 06:15:57 GMT, Content-Type=text/plain}
+    Body is 10 bytes (starts on next line):
+    {"code":0}
+----------------------------------------------------------------------------------
+14:15:57 <INFO:JavalinLogger> JAVALIN REQUEST DEBUG LOG:
+Request: GET [/combo/box/api/config/sdk/combo]
+    Matching endpoint-handlers: [BEFORE=*, GET=/combo/box/api/config/sdk/combo, AFTER=*]
+    Headers: {X-Rpc-Language=zh-cn, X-Rpc-Device_id=b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145, X-Rpc-Channel_id=1, Accept=*/*, X-Unity-Version=2017.4.30f1, X-Rpc-Lifecycle_id=e271183c-2861-4967-9ed4-6e160b5ba66d, X-Rpc-Mdk_version=2.27.0.0, User-Agent=UnityPlayer/2017.4.30f1 (UnityWebRequest/1.0, libcurl/7.51.0-DEV), Host=127.0.0.1:8088, Accept-Encoding=identity, X-Rpc-Device_model=B760M%20GAMING%20AC%20DDR4%20%28Gigabyte%20Technology%20Co.,%20Ltd.%29, X-Rpc-Combo_version=2.27.0, X-Rpc-Device_fp=38d81c81f33c2, X-Rpc-Sys_version=Windows%2011%20%20%2810.0.28000%29%2064bit, X-Rpc-Game_biz=hk4e_global, X-Rpc-Goods_third_party=unsupported, X-Rpc-Device_name=BIGWORKSTATION, X-Rpc-Channel_version=2.27.0.0, X-Rpc-Client_type=3, X-Rpc-Sub_channel_id=1, X-Rpc-Payment_version=2.27.0}
+    Cookies: {}
+    Body:
+    QueryString: biz_key=hk4e_global&client_type=3
+    QueryParams: {biz_key=[hk4e_global], client_type=[3]}
+    FormParams: {}
+Response: [200 OK], execution took 0.17 ms
+    Headers: {Date=Sat, 24 Oct 2026 06:15:57 GMT, Content-Type=text/plain}
+    Body is 140 bytes (starts on next line):
+    {"retcode":0,"message":"OK","data":{"vals":{"disable_email_bind_skip":"false","email_bind_remind_interval":"7","email_bind_remind":"true"}}}
+----------------------------------------------------------------------------------
+14:15:57 <INFO:JavalinLogger> JAVALIN REQUEST DEBUG LOG:
+Request: GET [/device-fp/api/getExtList]
+    Matching endpoint-handlers: [BEFORE=*, AFTER=*]
+    Headers: {X-Rpc-Language=zh-cn, X-Rpc-Device_id=b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145, X-Rpc-Channel_id=1, Accept=*/*, X-Unity-Version=2017.4.30f1, X-Rpc-Lifecycle_id=e271183c-2861-4967-9ed4-6e160b5ba66d, X-Rpc-Mdk_version=2.27.0.0, User-Agent=UnityPlayer/2017.4.30f1 (UnityWebRequest/1.0, libcurl/7.51.0-DEV), Host=127.0.0.1:8088, Accept-Encoding=identity, X-Rpc-Device_model=B760M%20GAMING%20AC%20DDR4%20%28Gigabyte%20Technology%20Co.,%20Ltd.%29, X-Rpc-Combo_version=2.27.0, X-Rpc-Device_fp=38d81c81f33c2, X-Rpc-Sys_version=Windows%2011%20%20%2810.0.28000%29%2064bit, X-Rpc-Game_biz=hk4e_global, X-Rpc-Goods_third_party=unsupported, X-Rpc-Device_name=BIGWORKSTATION, X-Rpc-Channel_version=2.27.0.0, X-Rpc-Client_type=3, X-Rpc-Sub_channel_id=1, X-Rpc-Payment_version=2.27.0}
+    Cookies: {}
+    Body:
+    QueryString: platform=3
+    QueryParams: {platform=[3]}
+    FormParams: {}
+Response: [404 Not Found], execution took 0.26 ms
+    Headers: {Date=Sat, 24 Oct 2026 06:15:57 GMT, Content-Type=text/html}
+    Body is 337 bytes (starts on next line):
+    <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf8">
+    </head>
+
+    <body>
+        <img src="https://http.cat/404" />
+        <h1>Grasscutter cannot find the route you're trying to access.</h1>
+        <p>Your proxy is active, so if you're trying to download something close the game/stop the proxy.</p>
+    </body>
+</html>
+
+----------------------------------------------------------------------------------
+14:15:57 <INFO:JavalinLogger> JAVALIN REQUEST DEBUG LOG:
+Request: POST [/hk4e_global/combo/granter/api/compareProtocolVersion]
+    Matching endpoint-handlers: [BEFORE=*, POST=/hk4e_global/combo/granter/api/compareProtocolVersion, AFTER=*]
+    Headers: {X-Rpc-Language=zh-cn, X-Rpc-Device_id=b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145, X-Rpc-Channel_id=1, Accept=*/*, X-Unity-Version=2017.4.30f1, X-Rpc-Lifecycle_id=e271183c-2861-4967-9ed4-6e160b5ba66d, X-Rpc-Mdk_version=2.27.0.0, User-Agent=UnityPlayer/2017.4.30f1 (UnityWebRequest/1.0, libcurl/7.51.0-DEV), Host=127.0.0.1:8088, Accept-Encoding=identity, X-Rpc-Device_model=B760M%20GAMING%20AC%20DDR4%20%28Gigabyte%20Technology%20Co.,%20Ltd.%29, X-Rpc-Combo_version=2.27.0, X-Rpc-Device_fp=38d81c81f33c2, X-Rpc-Sys_version=Windows%2011%20%20%2810.0.28000%29%2064bit, X-Rpc-Game_biz=hk4e_global, X-Rpc-Goods_third_party=unsupported, X-Rpc-Device_name=BIGWORKSTATION, X-Rpc-Channel_version=2.27.0.0, Content-Length=74, X-Rpc-Client_type=3, X-Rpc-Sub_channel_id=1, X-Rpc-Payment_version=2.27.0, Content-Type=application/json}
+    Cookies: {}
+    Body: {"app_id":"4","channel_id":"1","language":"zh-cn","major":"","minimum":""}
+    QueryString:
+    QueryParams: {}
+    FormParams: {}
+Response: [200 OK], execution took 0.09 ms
+    Headers: {Date=Sat, 24 Oct 2026 06:15:57 GMT, Content-Type=text/plain}
+    Body is 209 bytes (starts on next line):
+    {"retcode":0,"message":"OK","data":{"modified":true,"protocol":{"id":0,"app_id":4,"language":"en","user_proto":"","priv_proto":"","major":7,"minimum":0,"create_time":"0","teenager_proto":"","third_proto":""}}}
+----------------------------------------------------------------------------------
+14:15:57 <INFO:JavalinLogger> JAVALIN REQUEST DEBUG LOG:
+Request: GET [/hk4e_global/combo/granter/api/getConfig]
+    Matching endpoint-handlers: [BEFORE=*, GET=/hk4e_global/combo/granter/api/getConfig, AFTER=*]
+    Headers: {X-Rpc-Language=zh-cn, X-Rpc-Device_id=b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145, X-Rpc-Channel_id=1, Accept=*/*, X-Unity-Version=2017.4.30f1, X-Rpc-Lifecycle_id=e271183c-2861-4967-9ed4-6e160b5ba66d, X-Rpc-Mdk_version=2.27.0.0, User-Agent=UnityPlayer/2017.4.30f1 (UnityWebRequest/1.0, libcurl/7.51.0-DEV), Host=127.0.0.1:8088, Accept-Encoding=identity, X-Rpc-Device_model=B760M%20GAMING%20AC%20DDR4%20%28Gigabyte%20Technology%20Co.,%20Ltd.%29, X-Rpc-Combo_version=2.27.0, X-Rpc-Device_fp=38d81c81f33c2, X-Rpc-Sys_version=Windows%2011%20%20%2810.0.28000%29%2064bit, X-Rpc-Game_biz=hk4e_global, X-Rpc-Goods_third_party=unsupported, X-Rpc-Device_name=BIGWORKSTATION, X-Rpc-Channel_version=2.27.0.0, X-Rpc-Client_type=3, X-Rpc-Sub_channel_id=1, X-Rpc-Payment_version=2.27.0}
+    Cookies: {}
+    Body:
+    QueryString: app_id=4&channel_id=1&client_type=3
+    QueryParams: {app_id=[4], channel_id=[1], client_type=[3]}
+    FormParams: {}
+Response: [200 OK], execution took 0.08 ms
+    Headers: {Date=Sat, 24 Oct 2026 06:15:57 GMT, Content-Type=text/plain}
+    Body is 392 bytes (starts on next line):
+    {"retcode":0,"message":"OK","data":{"protocol":true,"qr_enabled":false,"log_level":"INFO","announce_url":"https://webstatic-sea.hoyoverse.com/hk4e/announcement/index.html?sdk_presentation_style=fullscreen\u0026sdk_screen_transparent=true\u0026game_biz=hk4e_global\u0026auth_appid=announcement\u0026game=hk4e#/","push_alias_type":2,"disable_ysdk_guard":false,"enable_announce_pic_popup":true}}
+----------------------------------------------------------------------------------
+14:15:57 <INFO:JavalinLogger> JAVALIN REQUEST DEBUG LOG:
+Request: GET [/hk4e_global/mdk/shield/api/loadConfig]
+    Matching endpoint-handlers: [BEFORE=*, GET=/hk4e_global/mdk/shield/api/loadConfig, AFTER=*]
+    Headers: {X-Rpc-Language=zh-cn, X-Rpc-Device_id=b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145, X-Rpc-Channel_id=1, Accept=*/*, X-Unity-Version=2017.4.30f1, X-Rpc-Lifecycle_id=e271183c-2861-4967-9ed4-6e160b5ba66d, X-Rpc-Mdk_version=2.27.0.0, User-Agent=UnityPlayer/2017.4.30f1 (UnityWebRequest/1.0, libcurl/7.51.0-DEV), Host=127.0.0.1:8088, Accept-Encoding=identity, X-Rpc-Device_model=B760M%20GAMING%20AC%20DDR4%20%28Gigabyte%20Technology%20Co.,%20Ltd.%29, X-Rpc-Combo_version=2.27.0, X-Rpc-Device_fp=38d81c81f33c2, X-Rpc-Sys_version=Windows%2011%20%20%2810.0.28000%29%2064bit, X-Rpc-Game_biz=hk4e_global, X-Rpc-Goods_third_party=unsupported, X-Rpc-Device_name=BIGWORKSTATION, X-Rpc-Channel_version=2.27.0.0, X-Rpc-Client_type=3, X-Rpc-Sub_channel_id=1, X-Rpc-Payment_version=2.27.0}
+    Cookies: {}
+    Body:
+    QueryString: client=3&game_key=hk4e_global
+    QueryParams: {client=[3], game_key=[hk4e_global]}
+    FormParams: {}
+Response: [200 OK], execution took 0.11 ms
+    Headers: {Date=Sat, 24 Oct 2026 06:15:57 GMT, Content-Type=text/plain}
+    Body is 525 bytes (starts on next line):
+    {"retcode":0,"message":"OK","data":{"id":6,"game_key":"hk4e_global","client":"PC","identity":"I_IDENTITY","guest":false,"ignore_versions":"","scene":"S_NORMAL","name":"????","disable_regist":false,"enable_email_captcha":false,"thirdparty":["fb","tw"],"disable_mmt":false,"server_guest":false,"thirdparty_ignore":{"tw":"","fb":""},"enable_ps_bind_account":false,"thirdparty_login_configs":{"tw":{"token_type":"TK_GAME_TOKEN","game_token_expires_in":604800},"fb":{"token_type":"TK_GAME_TOKEN","game_token_expires_in":604800}}}}
+----------------------------------------------------------------------------------
+14:15:57 <INFO:JavalinLogger> JAVALIN REQUEST DEBUG LOG:
+Request: POST [/sdk/dataUpload]
+    Matching endpoint-handlers: [BEFORE=*, POST=/sdk/dataUpload, AFTER=*]
+    Headers: {X-Rpc-Language=zh-cn, X-Rpc-Lifecycle_id=e271183c-2861-4967-9ed4-6e160b5ba66d, User-Agent=UnityPlayer/2017.4.30f1 (UnityWebRequest/1.0, libcurl/7.51.0-DEV), Accept-Encoding=identity, X-Rpc-Combo_version=2.27.0, X-Rpc-Device_fp=38d81c81f33c2, Authorization=ad824e4f1d67872679d80e25451b3d458cf4f18c, X-Rpc-Sys_version=Windows%2011%20%20%2810.0.28000%29%2064bit, X-Rpc-Game_biz=hk4e_global, X-Rpc-Device_name=BIGWORKSTATION, X-Rpc-Channel_version=2.27.0.0, X-Rpc-Client_type=3, X-Rpc-Sub_channel_id=1, Content-Length=1430, Content-Type=application/json, X-Rpc-Device_id=b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145, X-Rpc-Channel_id=1, Accept=*/*, X-Unity-Version=2017.4.30f1, X-Rpc-Mdk_version=2.27.0.0, Host=127.0.0.1:8088, X-Rpc-Device_model=B760M%20GAMING%20AC%20DDR4%20%28Gigabyte%20Technology%20Co.,%20Ltd.%29, Date=1792822557776, Content-MD5=52F82E71A124F7D5F99E12D13D5235EA, Expect=100-continue, X-Rpc-Goods_third_party=unsupported, Cms-Signature=hmac-sha1, X-Rpc-Payment_version=2.27.0}
+    Cookies: {}
+    Body: [{"applicationId":900001,"applicationName":"mihoyosdk","msgId":"b3be686fc95d5ff222de0caa763cbc6af80e04081792822557756","eventTime":"1792822558","eventId":900001,"eventName":"UserBehavior","uploadContent":{"eventTimeMs":"1792822557756","launchTraceId":"3f576a21-a807-4279-a7e5-4567f0afd736","deviceInfo":{"ip":"","platform":3,"systemInfo":"Windows 11  (10.0.28000) 64bit","deviceId":"b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145","deviceName":"BIGWORKSTATION","deviceModel":"B760M GAMING AC DDR4 (Gigabyte Technology Co., Ltd.)","registerCPS":"","cps":"","uapc":"","bundleId":"hk4e_global","isp":"","device_fp":"38d81c81f33c2","device_sciX":3840,"device_sciY":2160,"soft_sciX":3840,"soft_sciY":2160,"romCapacity":476923.0,"romRemain":248914.54,"ramCapacity":16218.0,"ramRemain":9190.23,"network_type":"","wmac":"","addressMac":"10FFE00D6585","gpuName":"NVIDIA GeForce RTX 4060","gpuMemSize":7957.0,"processorCount":16,"processorFrequency":3.6,"processorType":"12th Gen Intel(R) Core(TM) i5-12600KF"},"userInfo":{"userId":"","accountType":"1","accountId":"10002","channelId":"1"},"versionInfo":{"clientVersion":"2.27.0.0","logVersion":"1.0.0"},"logInfo":{"logTime":"1792822558","actionId":100,"actionName":"main","cBody":"{\"mac_address\":\"10FFE00D6585\",\"type\":0,\"stage\":0,\"lifecycle_id\":\"e271183c-2861-4967-9ed4-6e160b5ba66d\",\"gamebiz\":\"hk4e_global\",\"env\":2,\"channelId\":\"1\",\"subchannelId\":\"1\"}"}}}]
+    QueryString: null
+    QueryParams: {}
+    FormParams: {}
+Response: [200 OK], execution took 0.28 ms
+    Headers: {Date=Sat, 24 Oct 2026 06:15:57 GMT, Content-Type=text/plain}
+    Body is 10 bytes (starts on next line):
+    {"code":0}
+----------------------------------------------------------------------------------
+14:15:57 <INFO:JavalinLogger> JAVALIN REQUEST DEBUG LOG:
+Request: POST [/sdk/dataUpload]
+    Matching endpoint-handlers: [BEFORE=*, POST=/sdk/dataUpload, AFTER=*]
+    Headers: {X-Rpc-Language=zh-cn, X-Rpc-Lifecycle_id=50d30de0-e194-438d-9d64-896f47e37844, User-Agent=UnityPlayer/2017.4.30f1 (UnityWebRequest/1.0, libcurl/7.51.0-DEV), Accept-Encoding=identity, X-Rpc-Combo_version=2.27.0, X-Rpc-Device_fp=38d81c81f33c2, Authorization=39ae85148bb8e4822461e111f245340ac0a35e74, X-Rpc-Sys_version=Windows%2011%20%20%2810.0.28000%29%2064bit, X-Rpc-Game_biz=hk4e_global, X-Rpc-Device_name=BIGWORKSTATION, X-Rpc-Channel_version=2.27.0.0, X-Rpc-Client_type=3, X-Rpc-Sub_channel_id=1, Content-Length=4211, Content-Type=application/json, X-Rpc-Device_id=b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145, X-Rpc-Channel_id=1, Accept=*/*, X-Unity-Version=2017.4.30f1, X-Rpc-Mdk_version=2.27.0.0, Host=127.0.0.1:8088, X-Rpc-Device_model=B760M%20GAMING%20AC%20DDR4%20%28Gigabyte%20Technology%20Co.,%20Ltd.%29, Date=1792822557797, Content-MD5=99C3659A56AF7A5F846AA8E69E811F83, Expect=100-continue, X-Rpc-Goods_third_party=unsupported, Cms-Signature=hmac-sha1, X-Rpc-Payment_version=2.27.0}
+    Cookies: {}
+    Body: [{"applicationId":900001,"applicationName":"mihoyosdk","msgId":"b3be686fc95d5ff222de0caa763cbc6af80e04081792822557777","eventTime":"1792822558","eventId":900001,"eventName":"UserBehavior","uploadContent":{"eventTimeMs":"1792822557777","launchTraceId":"3f576a21-a807-4279-a7e5-4567f0afd736","deviceInfo":{"ip":"","platform":3,"systemInfo":"Windows 11  (10.0.28000) 64bit","deviceId":"b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145","deviceName":"BIGWORKSTATION","deviceModel":"B760M GAMING AC DDR4 (Gigabyte Technology Co., Ltd.)","registerCPS":"","cps":"","uapc":"","bundleId":"hk4e_global","isp":"","device_fp":"38d81c81f33c2","device_sciX":3840,"device_sciY":2160,"soft_sciX":3840,"soft_sciY":2160,"romCapacity":476923.0,"romRemain":248914.54,"ramCapacity":16218.0,"ramRemain":9184.29,"network_type":"","wmac":"","addressMac":"10FFE00D6585","gpuName":"NVIDIA GeForce RTX 4060","gpuMemSize":7957.0,"processorCount":16,"processorFrequency":3.6,"processorType":"12th Gen Intel(R) Core(TM) i5-12600KF"},"userInfo":{"userId":"","accountType":"1","accountId":"10002","channelId":"1"},"versionInfo":{"clientVersion":"2.27.0.0","logVersion":"1.0.0"},"logInfo":{"logTime":"1792822558","actionId":100,"actionName":"main","cBody":"{\"type\":0,\"stage\":2,\"lifecycle_id\":\"50d30de0-e194-438d-9d64-896f47e37844\",\"gamebiz\":\"hk4e_global\",\"env\":2,\"channelId\":\"1\",\"subchannelId\":\"1\"}"}}},{"applicationId":900001,"applicationName":"mihoyosdk","msgId":"b3be686fc95d5ff222de0caa763cbc6af80e04081792822557777","eventTime":"1792822558","eventId":900001,"eventName":"UserBehavior","uploadContent":{"eventTimeMs":"1792822557777","launchTraceId":"3f576a21-a807-4279-a7e5-4567f0afd736","deviceInfo":{"ip":"","platform":3,"systemInfo":"Windows 11  (10.0.28000) 64bit","deviceId":"b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145","deviceName":"BIGWORKSTATION","deviceModel":"B760M GAMING AC DDR4 (Gigabyte Technology Co., Ltd.)","registerCPS":"","cps":"","uapc":"","bundleId":"hk4e_global","isp":"","device_fp":"38d81c81f33c2","device_sciX":3840,"device_sciY":2160,"soft_sciX":3840,"soft_sciY":2160,"romCapacity":476923.0,"romRemain":248914.54,"ramCapacity":16218.0,"ramRemain":9184.29,"network_type":"","wmac":"","addressMac":"10FFE00D6585","gpuName":"NVIDIA GeForce RTX 4060","gpuMemSize":7957.0,"processorCount":16,"processorFrequency":3.6,"processorType":"12th Gen Intel(R) Core(TM) i5-12600KF"},"userInfo":{"userId":"","accountType":"1","accountId":"10002","channelId":"1"},"versionInfo":{"clientVersion":"2.27.0.0","logVersion":"1.0.0"},"logInfo":{"logTime":"1792822558","actionId":100,"actionName":"main","cBody":"{\"type\":0,\"stage\":3,\"lifecycle_id\":\"50d30de0-e194-438d-9d64-896f47e37844\",\"gamebiz\":\"hk4e_global\",\"env\":2,\"channelId\":\"1\",\"subchannelId\":\"1\"}"}}},{"applicationId":900001,"applicationName":"mihoyosdk","msgId":"b3be686fc95d5ff222de0caa763cbc6af80e04081792822557778","eventTime":"1792822558","eventId":900001,"eventName":"UserBehavior","uploadContent":{"eventTimeMs":"1792822557778","launchTraceId":"3f576a21-a807-4279-a7e5-4567f0afd736","deviceInfo":{"ip":"","platform":3,"systemInfo":"Windows 11  (10.0.28000) 64bit","deviceId":"b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145","deviceName":"BIGWORKSTATION","deviceModel":"B760M GAMING AC DDR4 (Gigabyte Technology Co., Ltd.)","registerCPS":"","cps":"","uapc":"","bundleId":"hk4e_global","isp":"","device_fp":"38d81c81f33c2","device_sciX":3840,"device_sciY":2160,"soft_sciX":3840,"soft_sciY":2160,"romCapacity":476923.0,"romRemain":248914.54,"ramCapacity":16218.0,"ramRemain":9184.29,"network_type":"","wmac":"","addressMac":"10FFE00D6585","gpuName":"NVIDIA GeForce RTX 4060","gpuMemSize":7957.0,"processorCount":16,"processorFrequency":3.6,"processorType":"12th Gen Intel(R) Core(TM) i5-12600KF"},"userInfo":{"userId":"","accountType":"1","accountId":"10002","channelId":"1"},"versionInfo":{"clientVersion":"2.27.0.0","logVersion":"1.0.0"},"logInfo":{"logTime":"1792822558","actionId":102,"actionName":"login","cBody":"{\"type\":2,\"stage\":2,\"lifecycle_id\":\"50d30de0-e194-438d-9d64-896f47e37844\",\"autologin_type\":2,\"gamebiz\":\"hk4e_global\",\"env\":2,\"channelId\":\"1\",\"subchannelId\":\"1\"}"}}}]
+    QueryString: null
+    QueryParams: {}
+    FormParams: {}
+Response: [200 OK], execution took 0.30 ms
+    Headers: {Date=Sat, 24 Oct 2026 06:15:57 GMT, Content-Type=text/plain}
+    Body is 10 bytes (starts on next line):
+    {"code":0}
+----------------------------------------------------------------------------------
+14:15:57 <INFO:DefaultAuthenticators$TokenAuthenticator> [Dispatch] 客户端 127.0.0.1 正在尝试通过 token 登录
+14:15:57 <INFO:DefaultAuthenticators$TokenAuthenticator> [Dispatch] 客户端 127.0.0.1 已通过 token 登录，UID 为 10002
+14:15:57 <DEBUG:AuthenticationHandler> [Dispatch] 客户端 127.0.0.1 正在尝试登录
+14:15:57 <INFO:JavalinLogger> JAVALIN REQUEST DEBUG LOG:
+Request: POST [/hk4e_global/mdk/shield/api/verify]
+    Matching endpoint-handlers: [BEFORE=*, POST=/hk4e_global/mdk/shield/api/verify, AFTER=*]
+    Headers: {X-Rpc-Language=zh-cn, X-Rpc-Device_id=b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145, X-Rpc-Channel_id=1, Accept=*/*, X-Unity-Version=2017.4.30f1, X-Rpc-Lifecycle_id=50d30de0-e194-438d-9d64-896f47e37844, X-Rpc-Mdk_version=2.27.0.0, User-Agent=UnityPlayer/2017.4.30f1 (UnityWebRequest/1.0, libcurl/7.51.0-DEV), Host=127.0.0.1:8088, Accept-Encoding=identity, X-Rpc-Device_model=B760M%20GAMING%20AC%20DDR4%20%28Gigabyte%20Technology%20Co.,%20Ltd.%29, X-Rpc-Combo_version=2.27.0, X-Rpc-Device_fp=38d81c81f33c2, X-Rpc-Sys_version=Windows%2011%20%20%2810.0.28000%29%2064bit, X-Rpc-Game_biz=hk4e_global, X-Rpc-Goods_third_party=unsupported, X-Rpc-Device_name=BIGWORKSTATION, X-Rpc-Channel_version=2.27.0.0, Content-Length=90, X-Rpc-Client_type=3, X-Rpc-Sub_channel_id=1, X-Rpc-Payment_version=2.27.0, Content-Type=application/json}
+    Cookies: {}
+    Body: {"uid":"10002","token":"d4985c03f73886fdfaeaad3f520160e73b07255446fc0dfcfd87452b4a8c1d0e"}
+    QueryString:
+    QueryParams: {}
+    FormParams: {}
+Response: [200 OK], execution took 3.77 ms
+    Headers: {Date=Sat, 24 Oct 2026 06:15:57 GMT, Content-Type=application/json}
+    Body is 590 bytes (starts on next line):
+    {"message":"OK","retcode":0,"data":{"account":{"uid":"10002","name":"","email":"9@grasscutter.io@grasscutter.io","mobile":"","is_email_verify":"0","realname":"","identity_card":"","token":"d4985c03f73886fdfaeaad3f520160e73b07255446fc0dfcfd87452b4a8c1d0e","safe_mobile":"","facebook_name":"","twitter_name":"","game_center_name":"","google_name":"","apple_name":"","sony_name":"","tap_name":"","country":"US","reactivate_ticket":"","area_code":"**","device_grant_ticket":""},"device_grant_required":false,"realname_operation":"NONE","realperson_required":false,"safe_mobile_required":false}}
+----------------------------------------------------------------------------------
+14:15:57 <INFO:JavalinLogger> JAVALIN REQUEST DEBUG LOG:
+Request: POST [/sdk/dataUpload]
+    Matching endpoint-handlers: [BEFORE=*, POST=/sdk/dataUpload, AFTER=*]
+    Headers: {X-Rpc-Language=zh-cn, X-Rpc-Lifecycle_id=50d30de0-e194-438d-9d64-896f47e37844, User-Agent=UnityPlayer/2017.4.30f1 (UnityWebRequest/1.0, libcurl/7.51.0-DEV), Accept-Encoding=identity, X-Rpc-Combo_version=2.27.0, X-Rpc-Device_fp=38d81c81f33c2, Authorization=bb3b92850ecbfecf4fb5994b69ab16dc777fbbe4, X-Rpc-Sys_version=Windows%2011%20%20%2810.0.28000%29%2064bit, X-Rpc-Game_biz=hk4e_global, X-Rpc-Device_name=BIGWORKSTATION, X-Rpc-Channel_version=2.27.0.0, X-Rpc-Client_type=3, X-Rpc-Sub_channel_id=1, Content-Length=1397, Content-Type=application/json, X-Rpc-Device_id=b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145, X-Rpc-Channel_id=1, Accept=*/*, X-Unity-Version=2017.4.30f1, X-Rpc-Mdk_version=2.27.0.0, Host=127.0.0.1:8088, X-Rpc-Device_model=B760M%20GAMING%20AC%20DDR4%20%28Gigabyte%20Technology%20Co.,%20Ltd.%29, Date=1792822557818, Content-MD5=0A4FDEE38B014DC81C7AC4E122464B6C, Expect=100-continue, X-Rpc-Goods_third_party=unsupported, Cms-Signature=hmac-sha1, X-Rpc-Payment_version=2.27.0}
+    Cookies: {}
+    Body: [{"applicationId":900001,"applicationName":"mihoyosdk","msgId":"b3be686fc95d5ff222de0caa763cbc6af80e04081792822557818","eventTime":"1792822558","eventId":900001,"eventName":"UserBehavior","uploadContent":{"eventTimeMs":"1792822557818","launchTraceId":"3f576a21-a807-4279-a7e5-4567f0afd736","deviceInfo":{"ip":"","platform":3,"systemInfo":"Windows 11  (10.0.28000) 64bit","deviceId":"b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145","deviceName":"BIGWORKSTATION","deviceModel":"B760M GAMING AC DDR4 (Gigabyte Technology Co., Ltd.)","registerCPS":"","cps":"","uapc":"","bundleId":"hk4e_global","isp":"","device_fp":"38d81c81f33c2","device_sciX":3840,"device_sciY":2160,"soft_sciX":3840,"soft_sciY":2160,"romCapacity":476923.0,"romRemain":248914.54,"ramCapacity":16218.0,"ramRemain":9181.81,"network_type":"","wmac":"","addressMac":"10FFE00D6585","gpuName":"NVIDIA GeForce RTX 4060","gpuMemSize":7957.0,"processorCount":16,"processorFrequency":3.6,"processorType":"12th Gen Intel(R) Core(TM) i5-12600KF"},"userInfo":{"userId":"","accountType":"1","accountId":"10002","channelId":"1"},"versionInfo":{"clientVersion":"2.27.0.0","logVersion":"1.0.0"},"logInfo":{"logTime":"1792822558","actionId":100,"actionName":"main","cBody":"{\"type\":0,\"stage\":4,\"lifecycle_id\":\"50d30de0-e194-438d-9d64-896f47e37844\",\"gamebiz\":\"hk4e_global\",\"env\":2,\"channelId\":\"1\",\"subchannelId\":\"1\"}"}}}]
+    QueryString: null
+    QueryParams: {}
+    FormParams: {}
+Response: [200 OK], execution took 0.25 ms
+    Headers: {Date=Sat, 24 Oct 2026 06:15:57 GMT, Content-Type=text/plain}
+    Body is 10 bytes (starts on next line):
+    {"code":0}
+----------------------------------------------------------------------------------
+14:15:57 <INFO:DefaultAuthenticators$SessionKeyAuthenticator> [Dispatch] 客户端 127.0.0.1 成功交换 token
+14:15:57 <DEBUG:AuthenticationHandler> [Dispatch] 客户端 127.0.0.1 正在尝试登录
+14:15:57 <INFO:JavalinLogger> JAVALIN REQUEST DEBUG LOG:
+Request: POST [/hk4e_global/combo/granter/login/v2/login]
+    Matching endpoint-handlers: [BEFORE=*, POST=/hk4e_global/combo/granter/login/v2/login, AFTER=*]
+    Headers: {X-Rpc-Language=zh-cn, X-Rpc-Device_id=b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145, X-Rpc-Channel_id=1, Accept=*/*, X-Unity-Version=2017.4.30f1, X-Rpc-Lifecycle_id=50d30de0-e194-438d-9d64-896f47e37844, X-Rpc-Mdk_version=2.27.0.0, User-Agent=UnityPlayer/2017.4.30f1 (UnityWebRequest/1.0, libcurl/7.51.0-DEV), Host=127.0.0.1:8088, Accept-Encoding=identity, X-Rpc-Device_model=B760M%20GAMING%20AC%20DDR4%20%28Gigabyte%20Technology%20Co.,%20Ltd.%29, X-Rpc-Combo_version=2.27.0, X-Rpc-Device_fp=38d81c81f33c2, X-Rpc-Sys_version=Windows%2011%20%20%2810.0.28000%29%2064bit, X-Rpc-Game_biz=hk4e_global, X-Rpc-Goods_third_party=unsupported, X-Rpc-Device_name=BIGWORKSTATION, X-Rpc-Channel_version=2.27.0.0, Content-Length=290, X-Rpc-Client_type=3, X-Rpc-Sub_channel_id=1, X-Rpc-Payment_version=2.27.0, Content-Type=application/json}
+    Cookies: {}
+    Body: {"data":"{\"uid\":\"10002\",\"guest\":false,\"token\":\"d4985c03f73886fdfaeaad3f520160e73b07255446fc0dfcfd87452b4a8c1d0e\"}","app_id":4,"channel_id":1,"device":"b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145","sign":"aa6c9a9786f3812a56830505a5cbc32fb12f06bdb97186c4e61894a7fbab4678"}
+    QueryString:
+    QueryParams: {}
+    FormParams: {}
+Response: [200 OK], execution took 2.54 ms
+    Headers: {Date=Sat, 24 Oct 2026 06:15:57 GMT, Content-Type=application/json}
+    Body is 221 bytes (starts on next line):
+    {"message":"OK","retcode":0,"data":{"account_type":1,"heartbeat":false,"combo_id":"157795300","combo_token":"85dd418c6e23d7a6092eeb6ee224e7e524f6a03551c21a8e4b5a84bfcaf48d14","open_id":"10002","data":"{\"guest\":false}"}}
+----------------------------------------------------------------------------------
+14:15:57 <INFO:JavalinLogger> JAVALIN REQUEST DEBUG LOG:
+Request: POST [/sdk/dataUpload]
+    Matching endpoint-handlers: [BEFORE=*, POST=/sdk/dataUpload, AFTER=*]
+    Headers: {X-Rpc-Language=zh-cn, X-Rpc-Lifecycle_id=50d30de0-e194-438d-9d64-896f47e37844, User-Agent=UnityPlayer/2017.4.30f1 (UnityWebRequest/1.0, libcurl/7.51.0-DEV), Accept-Encoding=identity, X-Rpc-Combo_version=2.27.0, X-Rpc-Device_fp=38d81c81f33c2, Authorization=fa72d64a29dde2b958e1eea5986d149acdf92716, X-Rpc-Sys_version=Windows%2011%20%20%2810.0.28000%29%2064bit, X-Rpc-Game_biz=hk4e_global, X-Rpc-Device_name=BIGWORKSTATION, X-Rpc-Channel_version=2.27.0.0, X-Rpc-Client_type=3, X-Rpc-Sub_channel_id=1, Content-Length=2815, Content-Type=application/json, X-Rpc-Device_id=b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145, X-Rpc-Channel_id=1, Accept=*/*, X-Unity-Version=2017.4.30f1, X-Rpc-Mdk_version=2.27.0.0, Host=127.0.0.1:8088, X-Rpc-Device_model=B760M%20GAMING%20AC%20DDR4%20%28Gigabyte%20Technology%20Co.,%20Ltd.%29, Date=1792822557833, Content-MD5=58B1D55D560F13310729D39047F6C5B8, Expect=100-continue, X-Rpc-Goods_third_party=unsupported, Cms-Signature=hmac-sha1, X-Rpc-Payment_version=2.27.0}
+    Cookies: {}
+    Body: [{"applicationId":900001,"applicationName":"mihoyosdk","msgId":"b3be686fc95d5ff222de0caa763cbc6af80e04081792822557819","eventTime":"1792822558","eventId":900001,"eventName":"UserBehavior","uploadContent":{"eventTimeMs":"1792822557819","launchTraceId":"3f576a21-a807-4279-a7e5-4567f0afd736","deviceInfo":{"ip":"","platform":3,"systemInfo":"Windows 11  (10.0.28000) 64bit","deviceId":"b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145","deviceName":"BIGWORKSTATION","deviceModel":"B760M GAMING AC DDR4 (Gigabyte Technology Co., Ltd.)","registerCPS":"","cps":"","uapc":"","bundleId":"hk4e_global","isp":"","device_fp":"38d81c81f33c2","device_sciX":3840,"device_sciY":2160,"soft_sciX":3840,"soft_sciY":2160,"romCapacity":476923.0,"romRemain":248914.54,"ramCapacity":16218.0,"ramRemain":9181.96,"network_type":"","wmac":"","addressMac":"10FFE00D6585","gpuName":"NVIDIA GeForce RTX 4060","gpuMemSize":7957.0,"processorCount":16,"processorFrequency":3.6,"processorType":"12th Gen Intel(R) Core(TM) i5-12600KF"},"userInfo":{"userId":"","accountType":"1","accountId":"10002","channelId":"1"},"versionInfo":{"clientVersion":"2.27.0.0","logVersion":"1.0.0"},"logInfo":{"logTime":"1792822558","actionId":100,"actionName":"main","cBody":"{\"type\":0,\"stage\":6,\"lifecycle_id\":\"50d30de0-e194-438d-9d64-896f47e37844\",\"gamebiz\":\"hk4e_global\",\"env\":2,\"channelId\":\"1\",\"subchannelId\":\"1\"}"}}},{"applicationId":900001,"applicationName":"mihoyosdk","msgId":"b3be686fc95d5ff222de0caa763cbc6af80e04081792822557820","eventTime":"1792822558","eventId":900001,"eventName":"UserBehavior","uploadContent":{"eventTimeMs":"1792822557820","launchTraceId":"3f576a21-a807-4279-a7e5-4567f0afd736","deviceInfo":{"ip":"","platform":3,"systemInfo":"Windows 11  (10.0.28000) 64bit","deviceId":"b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145","deviceName":"BIGWORKSTATION","deviceModel":"B760M GAMING AC DDR4 (Gigabyte Technology Co., Ltd.)","registerCPS":"","cps":"","uapc":"","bundleId":"hk4e_global","isp":"","device_fp":"38d81c81f33c2","device_sciX":3840,"device_sciY":2160,"soft_sciX":3840,"soft_sciY":2160,"romCapacity":476923.0,"romRemain":248914.54,"ramCapacity":16218.0,"ramRemain":9181.96,"network_type":"","wmac":"","addressMac":"10FFE00D6585","gpuName":"NVIDIA GeForce RTX 4060","gpuMemSize":7957.0,"processorCount":16,"processorFrequency":3.6,"processorType":"12th Gen Intel(R) Core(TM) i5-12600KF"},"userInfo":{"userId":"","accountType":"1","accountId":"10002","channelId":"1"},"versionInfo":{"clientVersion":"2.27.0.0","logVersion":"1.0.0"},"logInfo":{"logTime":"1792822558","actionId":102,"actionName":"login","cBody":"{\"type\":2,\"stage\":3,\"lifecycle_id\":\"50d30de0-e194-438d-9d64-896f47e37844\",\"autologin_type\":2,\"gamebiz\":\"hk4e_global\",\"env\":2,\"channelId\":\"1\",\"subchannelId\":\"1\"}"}}}]
+    QueryString: null
+    QueryParams: {}
+    FormParams: {}
+Response: [200 OK], execution took 0.26 ms
+    Headers: {Date=Sat, 24 Oct 2026 06:15:57 GMT, Content-Type=text/plain}
+    Body is 10 bytes (starts on next line):
+    {"code":0}
+----------------------------------------------------------------------------------
+14:15:57 <INFO:JavalinLogger> JAVALIN REQUEST DEBUG LOG:
+Request: GET [/hk4e_global/mdk/agreement/api/getAgreementInfos]
+    Matching endpoint-handlers: [BEFORE=*, GET=/hk4e_global/mdk/agreement/api/getAgreementInfos, AFTER=*]
+    Headers: {X-Rpc-Language=zh-cn, X-Rpc-Device_id=b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145, X-Rpc-Channel_id=1, Accept=*/*, X-Unity-Version=2017.4.30f1, X-Rpc-Lifecycle_id=50d30de0-e194-438d-9d64-896f47e37844, X-Rpc-Mdk_version=2.27.0.0, User-Agent=UnityPlayer/2017.4.30f1 (UnityWebRequest/1.0, libcurl/7.51.0-DEV), Host=127.0.0.1:8088, Accept-Encoding=identity, X-Rpc-Device_model=B760M%20GAMING%20AC%20DDR4%20%28Gigabyte%20Technology%20Co.,%20Ltd.%29, X-Rpc-Combo_version=2.27.0, X-Rpc-Device_fp=38d81c81f33c2, X-Rpc-Sys_version=Windows%2011%20%20%2810.0.28000%29%2064bit, X-Rpc-Game_biz=hk4e_global, X-Rpc-Goods_third_party=unsupported, X-Rpc-Device_name=BIGWORKSTATION, X-Rpc-Channel_version=2.27.0.0, X-Rpc-Client_type=3, X-Rpc-Sub_channel_id=1, X-Rpc-Payment_version=2.27.0}
+    Cookies: {}
+    Body:
+    QueryString: biz_key=hk4e_global&country_code=US&token=d4985c03f73886fdfaeaad3f520160e73b07255446fc0dfcfd87452b4a8c1d0e&uid=10002
+    QueryParams: {biz_key=[hk4e_global], country_code=[US], token=[d4985c03f73886fdfaeaad3f520160e73b07255446fc0dfcfd87452b4a8c1d0e], uid=[10002]}
+    FormParams: {}
+Response: [200 OK], execution took 0.13 ms
+    Headers: {Date=Sat, 24 Oct 2026 06:15:57 GMT, Content-Type=text/plain}
+    Body is 63 bytes (starts on next line):
+    {"retcode":0,"message":"OK","data":{"marketing_agreements":[]}}
+----------------------------------------------------------------------------------
+14:15:57 <INFO:JavalinLogger> JAVALIN REQUEST DEBUG LOG:
+Request: POST [/sdk/dataUpload]
+    Matching endpoint-handlers: [BEFORE=*, POST=/sdk/dataUpload, AFTER=*]
+    Headers: {X-Rpc-Language=zh-cn, X-Rpc-Lifecycle_id=50d30de0-e194-438d-9d64-896f47e37844, User-Agent=UnityPlayer/2017.4.30f1 (UnityWebRequest/1.0, libcurl/7.51.0-DEV), Accept-Encoding=identity, X-Rpc-Combo_version=2.27.0, X-Rpc-Device_fp=38d81c81f33c2, Authorization=3c35029e50871d39a9bda5008efbda278c22af91, X-Rpc-Sys_version=Windows%2011%20%20%2810.0.28000%29%2064bit, X-Rpc-Game_biz=hk4e_global, X-Rpc-Device_name=BIGWORKSTATION, X-Rpc-Channel_version=2.27.0.0, X-Rpc-Client_type=3, X-Rpc-Sub_channel_id=1, Content-Length=1397, Content-Type=application/json, X-Rpc-Device_id=b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145, X-Rpc-Channel_id=1, Accept=*/*, X-Unity-Version=2017.4.30f1, X-Rpc-Mdk_version=2.27.0.0, Host=127.0.0.1:8088, X-Rpc-Device_model=B760M%20GAMING%20AC%20DDR4%20%28Gigabyte%20Technology%20Co.,%20Ltd.%29, Date=1792822557850, Content-MD5=F4D17D6581DAC856EB8D3CA38CD670CF, Expect=100-continue, X-Rpc-Goods_third_party=unsupported, Cms-Signature=hmac-sha1, X-Rpc-Payment_version=2.27.0}
+    Cookies: {}
+    Body: [{"applicationId":900001,"applicationName":"mihoyosdk","msgId":"b3be686fc95d5ff222de0caa763cbc6af80e04081792822557834","eventTime":"1792822558","eventId":900001,"eventName":"UserBehavior","uploadContent":{"eventTimeMs":"1792822557834","launchTraceId":"3f576a21-a807-4279-a7e5-4567f0afd736","deviceInfo":{"ip":"","platform":3,"systemInfo":"Windows 11  (10.0.28000) 64bit","deviceId":"b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145","deviceName":"BIGWORKSTATION","deviceModel":"B760M GAMING AC DDR4 (Gigabyte Technology Co., Ltd.)","registerCPS":"","cps":"","uapc":"","bundleId":"hk4e_global","isp":"","device_fp":"38d81c81f33c2","device_sciX":3840,"device_sciY":2160,"soft_sciX":3840,"soft_sciY":2160,"romCapacity":476923.0,"romRemain":248914.54,"ramCapacity":16218.0,"ramRemain":9181.57,"network_type":"","wmac":"","addressMac":"10FFE00D6585","gpuName":"NVIDIA GeForce RTX 4060","gpuMemSize":7957.0,"processorCount":16,"processorFrequency":3.6,"processorType":"12th Gen Intel(R) Core(TM) i5-12600KF"},"userInfo":{"userId":"","accountType":"1","accountId":"10002","channelId":"1"},"versionInfo":{"clientVersion":"2.27.0.0","logVersion":"1.0.0"},"logInfo":{"logTime":"1792822558","actionId":100,"actionName":"main","cBody":"{\"type\":0,\"stage\":7,\"lifecycle_id\":\"50d30de0-e194-438d-9d64-896f47e37844\",\"gamebiz\":\"hk4e_global\",\"env\":2,\"channelId\":\"1\",\"subchannelId\":\"1\"}"}}}]
+    QueryString: null
+    QueryParams: {}
+    FormParams: {}
+Response: [200 OK], execution took 0.13 ms
+    Headers: {Date=Sat, 24 Oct 2026 06:15:57 GMT, Content-Type=text/plain}
+    Body is 10 bytes (starts on next line):
+    {"code":0}
+----------------------------------------------------------------------------------
+14:15:57 <INFO:JavalinLogger> JAVALIN REQUEST DEBUG LOG:
+Request: POST [/sdk/dataUpload]
+    Matching endpoint-handlers: [BEFORE=*, POST=/sdk/dataUpload, AFTER=*]
+    Headers: {X-Rpc-Language=zh-cn, X-Rpc-Lifecycle_id=50d30de0-e194-438d-9d64-896f47e37844, User-Agent=UnityPlayer/2017.4.30f1 (UnityWebRequest/1.0, libcurl/7.51.0-DEV), Accept-Encoding=identity, X-Rpc-Combo_version=2.27.0, X-Rpc-Device_fp=38d81c81f33c2, Authorization=438a25b4a92f427823f83982c026c5b2ba08365e, X-Rpc-Sys_version=Windows%2011%20%20%2810.0.28000%29%2064bit, X-Rpc-Game_biz=hk4e_global, X-Rpc-Device_name=BIGWORKSTATION, X-Rpc-Channel_version=2.27.0.0, X-Rpc-Client_type=3, X-Rpc-Sub_channel_id=1, Content-Length=1216, Content-Type=application/json, X-Rpc-Device_id=b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145, X-Rpc-Channel_id=1, Accept=*/*, X-Unity-Version=2017.4.30f1, X-Rpc-Mdk_version=2.27.0.0, Host=127.0.0.1:8088, X-Rpc-Device_model=B760M%20GAMING%20AC%20DDR4%20%28Gigabyte%20Technology%20Co.,%20Ltd.%29, Date=1792822557852, Content-MD5=B843AD05D205C700E62BF9D9E45A98EA, Expect=100-continue, X-Rpc-Goods_third_party=unsupported, Cms-Signature=hmac-sha1, X-Rpc-Payment_version=2.27.0}
+    Cookies: {}
+    Body: [{"applicationId":100001,"applicationName":"hk4e","msgId":"b3be686fc95d5ff222de0caa763cbc6af80e04081792822557852","eventTime":"1792822558","eventId":100004,"eventName":"ClientReport","uploadContent":{"launchTraceId":"3f576a21-a807-4279-a7e5-4567f0afd736","device_info":{"ip":"192.168.0.136","plat":3,"device_id":"b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145","device_name":"BIGWORKSTATION","device_model":"B760M GAMING AC DDR4 (Gigabyte Technology Co., Ltd.)","register_cps":"","current_cps":"","uapc":"","bundle_id":"hk4e_global","os":"Windows 11  (10.0.28000) 64bit","channel_id":"1","channel_subid":"1","network_type":"wired"},"user_info":{"uid":"0","level":"0","account_type":"1","open_id":"10002","tag":""},"version_info":{"client_version":"OSRELWin4.8.0_R24822834_S24441452_D24795089","sdk_env":2,"sdk_version":"2.27.0.0","log_version":"1.0.0"},"log_info":{"log_time":"1792822558","region":"os_usa","action_id":1000,"action_name":"FUNNEL_PASS","c_body":"{\"serial_number\":\"1792822404\", \"funnel_state\":\"2\", \"server_name\":\"\", \"packet_size\":\"0.00 MB\", \"ua_pc\":\"\", \"trace_id\":\"1792822557_b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145_38d81c81f33c2\"}","platform_type":"3"}}}]
+    QueryString: null
+    QueryParams: {}
+    FormParams: {}
+Response: [200 OK], execution took 0.11 ms
+    Headers: {Date=Sat, 24 Oct 2026 06:15:57 GMT, Content-Type=text/plain}
+    Body is 10 bytes (starts on next line):
+    {"code":0}
+----------------------------------------------------------------------------------
+14:15:57 <INFO:JavalinLogger> JAVALIN REQUEST DEBUG LOG:
+Request: POST [/sdk/dataUpload]
+    Matching endpoint-handlers: [BEFORE=*, POST=/sdk/dataUpload, AFTER=*]
+    Headers: {X-Rpc-Language=zh-cn, X-Rpc-Lifecycle_id=50d30de0-e194-438d-9d64-896f47e37844, User-Agent=UnityPlayer/2017.4.30f1 (UnityWebRequest/1.0, libcurl/7.51.0-DEV), Accept-Encoding=identity, X-Rpc-Combo_version=2.27.0, X-Rpc-Device_fp=38d81c81f33c2, Authorization=0237f505a03d92fe8f9ff22d831dd96c9659da04, X-Rpc-Sys_version=Windows%2011%20%20%2810.0.28000%29%2064bit, X-Rpc-Game_biz=hk4e_global, X-Rpc-Device_name=BIGWORKSTATION, X-Rpc-Channel_version=2.27.0.0, X-Rpc-Client_type=3, X-Rpc-Sub_channel_id=1, Content-Length=1125, Content-Type=application/json, X-Rpc-Device_id=b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145, X-Rpc-Channel_id=1, Accept=*/*, X-Unity-Version=2017.4.30f1, X-Rpc-Mdk_version=2.27.0.0, Host=127.0.0.1:8088, X-Rpc-Device_model=B760M%20GAMING%20AC%20DDR4%20%28Gigabyte%20Technology%20Co.,%20Ltd.%29, Date=1792822557864, Content-MD5=185F909A8A842A8B3786657BD0393319, Expect=100-continue, X-Rpc-Goods_third_party=unsupported, Cms-Signature=hmac-sha1, X-Rpc-Payment_version=2.27.0}
+    Cookies: {}
+    Body: [{"applicationId":100001,"applicationName":"hk4e","msgId":"b3be686fc95d5ff222de0caa763cbc6af80e04081792822557853","eventTime":"1792822558","eventId":100004,"eventName":"ClientReport","uploadContent":{"launchTraceId":"3f576a21-a807-4279-a7e5-4567f0afd736","device_info":{"ip":"192.168.0.136","plat":3,"device_id":"b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145","device_name":"BIGWORKSTATION","device_model":"B760M GAMING AC DDR4 (Gigabyte Technology Co., Ltd.)","register_cps":"","current_cps":"","uapc":"","bundle_id":"hk4e_global","os":"Windows 11  (10.0.28000) 64bit","channel_id":"1","channel_subid":"1","network_type":"wired"},"user_info":{"uid":"0","level":"0","account_type":"1","open_id":"10002","tag":""},"version_info":{"client_version":"OSRELWin4.8.0_R24822834_S24441452_D24795089","sdk_env":2,"sdk_version":"2.27.0.0","log_version":"1.0.0"},"log_info":{"log_time":"1792822558","region":"os_usa","action_id":1000,"action_name":"FUNNEL_PASS","c_body":"{\"serial_number\":\"1792822404\", \"funnel_state\":\"3\", \"server_name\":\"os_usa\", \"packet_size\":\"0.00 MB\", \"ua_pc\":\"\"}","platform_type":"3"}}}]
+    QueryString: null
+    QueryParams: {}
+    FormParams: {}
+Response: [200 OK], execution took 0.23 ms
+    Headers: {Date=Sat, 24 Oct 2026 06:15:57 GMT, Content-Type=text/plain}
+    Body is 10 bytes (starts on next line):
+    {"code":0}
+----------------------------------------------------------------------------------
+14:15:57 <INFO:RegionHandler> Client 127.0.0.1 request: query_cur_region/os_usa
+14:15:57 <INFO:JavalinLogger> JAVALIN REQUEST DEBUG LOG:
+Request: GET [/query_cur_region/os_usa]
+    Matching endpoint-handlers: [BEFORE=*, GET=/query_cur_region/{region}, AFTER=*]
+    Headers: {Accept=*/*, X-Unity-Version=2017.4.30f1, User-Agent=UnityPlayer/2017.4.30f1 (UnityWebRequest/1.0, libcurl/7.51.0-DEV), Host=127.0.0.1:8088, Accept-Encoding=identity, Content-Type=application/x-www-form-urlencoded}
+    Cookies: {}
+    Body:
+    QueryString: version=OSRELWin4.8.0&lang=2&platform=3&binary=1&time=851&channel_id=1&sub_channel_id=1&account_type=1&dispatchSeed=708a43efa38f3121&key_id=5&aid=10002
+    QueryParams: {version=[OSRELWin4.8.0], lang=[2], platform=[3], binary=[1], time=[851], channel_id=[1], sub_channel_id=[1], account_type=[1], dispatchSeed=[708a43efa38f3121], key_id=[5], aid=[10002]}
+    FormParams: {}
+Response: [200 OK], execution took 11.55 ms
+    Headers: {Date=Sat, 24 Oct 2026 06:15:57 GMT, Content-Type=application/json}
+    Body is 3450 bytes (starts on next line):
+    {"content":"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","sign":"FfnUIbsN0xhKM6Ssr6YXiFK5PA5Ggwi1KVCIh0r686uVzicgmd+b3T0JjlYZmJfTAafqmo6FKxcLpOMd2hbkLs52yi6LiagVmjTdpQnAmCIU//lUcJdlQQTt/UU1C/xAL4MeGxrs9LUoYqkkMtcNdpjtGswgKeWh/3VfIDwdWDGQBQZjrDIkr0c/R9XTV1tM5TUq9IxNjwOC03MrASV3A1Ycvb/8bH/npqtlyaUMj3KhVPCkW0hhOne8j+LZEs4VSG5+MIaCiOY5Zbypf9eMZSpMF0uU+v8f0GitQusp6CBlqcfP2q67up/NHkuxf45eAyK+u7k7RrxIURjTkx8gPA\u003d\u003d"}
+----------------------------------------------------------------------------------
+14:15:58 <INFO:JavalinLogger> JAVALIN REQUEST DEBUG LOG:
+Request: POST [/sdk/dataUpload]
+    Matching endpoint-handlers: [BEFORE=*, POST=/sdk/dataUpload, AFTER=*]
+    Headers: {X-Rpc-Language=zh-cn, X-Rpc-Lifecycle_id=50d30de0-e194-438d-9d64-896f47e37844, User-Agent=UnityPlayer/2017.4.30f1 (UnityWebRequest/1.0, libcurl/7.51.0-DEV), Accept-Encoding=identity, X-Rpc-Combo_version=2.27.0, X-Rpc-Device_fp=38d81c81f33c2, Authorization=ddbe83da6b051337a871ec746a6aab881979ff23, X-Rpc-Sys_version=Windows%2011%20%20%2810.0.28000%29%2064bit, X-Rpc-Game_biz=hk4e_global, X-Rpc-Device_name=BIGWORKSTATION, X-Rpc-Channel_version=2.27.0.0, X-Rpc-Client_type=3, X-Rpc-Sub_channel_id=1, Content-Length=1119, Content-Type=application/json, X-Rpc-Device_id=b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145, X-Rpc-Channel_id=1, Accept=*/*, X-Unity-Version=2017.4.30f1, X-Rpc-Mdk_version=2.27.0.0, Host=127.0.0.1:8088, X-Rpc-Device_model=B760M%20GAMING%20AC%20DDR4%20%28Gigabyte%20Technology%20Co.,%20Ltd.%29, Date=1792822558362, Content-MD5=58ADFE959937A185C9491F652E802D2C, Expect=100-continue, X-Rpc-Goods_third_party=unsupported, Cms-Signature=hmac-sha1, X-Rpc-Payment_version=2.27.0}
+    Cookies: {}
+    Body: [{"applicationId":100001,"applicationName":"hk4e","msgId":"b3be686fc95d5ff222de0caa763cbc6af80e04081792822558362","eventTime":"1792822558","eventId":100004,"eventName":"ClientReport","uploadContent":{"launchTraceId":"3f576a21-a807-4279-a7e5-4567f0afd736","device_info":{"ip":"192.168.0.136","plat":3,"device_id":"b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145","device_name":"BIGWORKSTATION","device_model":"B760M GAMING AC DDR4 (Gigabyte Technology Co., Ltd.)","register_cps":"","current_cps":"","uapc":"","bundle_id":"hk4e_global","os":"Windows 11  (10.0.28000) 64bit","channel_id":"1","channel_subid":"1","network_type":"wired"},"user_info":{"uid":"0","level":"0","account_type":"1","open_id":"10002","tag":""},"version_info":{"client_version":"OSRELWin4.8.0_R24822834_S24441452_D24795089","sdk_env":2,"sdk_version":"2.27.0.0","log_version":"1.0.0"},"log_info":{"log_time":"1792822558","region":"os_usa","action_id":1000,"action_name":"FUNNEL_PASS","c_body":"{\"serial_number\":\"1792822404\", \"funnel_state\":\"4\", \"server_name\":\"\", \"packet_size\":\"0.00 MB\", \"ua_pc\":\"\"}","platform_type":"3"}}}]
+    QueryString: null
+    QueryParams: {}
+    FormParams: {}
+Response: [200 OK], execution took 0.17 ms
+    Headers: {Date=Sat, 24 Oct 2026 06:15:58 GMT, Content-Type=text/plain}
+    Body is 10 bytes (starts on next line):
+    {"code":0}
+----------------------------------------------------------------------------------
+14:15:59 <INFO:JavalinLogger> JAVALIN REQUEST DEBUG LOG:
+Request: GET [/admin/mi18n/plat_os/m09291531181441/m09291531181441-version.json]
+    Matching endpoint-handlers: [BEFORE=*, AFTER=*]
+    Headers: {X-Rpc-Language=zh-cn, X-Rpc-Device_id=b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145, X-Rpc-Channel_id=1, Accept=*/*, X-Unity-Version=2017.4.30f1, X-Rpc-Lifecycle_id=50d30de0-e194-438d-9d64-896f47e37844, X-Rpc-Mdk_version=2.27.0.0, User-Agent=UnityPlayer/2017.4.30f1 (UnityWebRequest/1.0, libcurl/7.51.0-DEV), Host=127.0.0.1:8088, Accept-Encoding=identity, X-Rpc-Device_model=B760M%20GAMING%20AC%20DDR4%20%28Gigabyte%20Technology%20Co.,%20Ltd.%29, X-Rpc-Combo_version=2.27.0, X-Rpc-Device_fp=38d81c81f33c2, X-Rpc-Sys_version=Windows%2011%20%20%2810.0.28000%29%2064bit, X-Rpc-Game_biz=hk4e_global, X-Rpc-Goods_third_party=unsupported, X-Rpc-Device_name=BIGWORKSTATION, X-Rpc-Channel_version=2.27.0.0, X-Rpc-Client_type=3, X-Rpc-Sub_channel_id=1, X-Rpc-Payment_version=2.27.0}
+    Cookies: {}
+    Body:
+    QueryString: null
+    QueryParams: {}
+    FormParams: {}
+Response: [404 Not Found], execution took 0.29 ms
+    Headers: {Date=Sat, 24 Oct 2026 06:15:59 GMT, Content-Type=text/html}
+    Body is 337 bytes (starts on next line):
+    <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf8">
+    </head>
+
+    <body>
+        <img src="https://http.cat/404" />
+        <h1>Grasscutter cannot find the route you're trying to access.</h1>
+        <p>Your proxy is active, so if you're trying to download something close the game/stop the proxy.</p>
+    </body>
+</html>
+
+----------------------------------------------------------------------------------
+14:15:59 <INFO:JavalinLogger> JAVALIN REQUEST DEBUG LOG:
+Request: GET [/device-fp/api/getExtList]
+    Matching endpoint-handlers: [BEFORE=*, AFTER=*]
+    Headers: {X-Rpc-Language=zh-cn, X-Rpc-Device_id=b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145, X-Rpc-Channel_id=1, Accept=*/*, X-Unity-Version=2017.4.30f1, X-Rpc-Lifecycle_id=50d30de0-e194-438d-9d64-896f47e37844, X-Rpc-Mdk_version=2.27.0.0, User-Agent=UnityPlayer/2017.4.30f1 (UnityWebRequest/1.0, libcurl/7.51.0-DEV), Host=127.0.0.1:8088, Accept-Encoding=identity, X-Rpc-Device_model=B760M%20GAMING%20AC%20DDR4%20%28Gigabyte%20Technology%20Co.,%20Ltd.%29, X-Rpc-Combo_version=2.27.0, X-Rpc-Device_fp=38d81c81f33c2, X-Rpc-Sys_version=Windows%2011%20%20%2810.0.28000%29%2064bit, X-Rpc-Game_biz=hk4e_global, X-Rpc-Goods_third_party=unsupported, X-Rpc-Device_name=BIGWORKSTATION, X-Rpc-Channel_version=2.27.0.0, X-Rpc-Client_type=3, X-Rpc-Sub_channel_id=1, X-Rpc-Payment_version=2.27.0}
+    Cookies: {}
+    Body:
+    QueryString: platform=3
+    QueryParams: {platform=[3]}
+    FormParams: {}
+Response: [404 Not Found], execution took 0.79 ms
+    Headers: {Date=Sat, 24 Oct 2026 06:15:59 GMT, Content-Type=text/html}
+    Body is 337 bytes (starts on next line):
+    <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf8">
+    </head>
+
+    <body>
+        <img src="https://http.cat/404" />
+        <h1>Grasscutter cannot find the route you're trying to access.</h1>
+        <p>Your proxy is active, so if you're trying to download something close the game/stop the proxy.</p>
+    </body>
+</html>
+
+----------------------------------------------------------------------------------
+14:16:04 <INFO:JavalinLogger> JAVALIN REQUEST DEBUG LOG:
+Request: POST [/sdk/dataUpload]
+    Matching endpoint-handlers: [BEFORE=*, POST=/sdk/dataUpload, AFTER=*]
+    Headers: {X-Rpc-Language=zh-cn, X-Rpc-Lifecycle_id=50d30de0-e194-438d-9d64-896f47e37844, User-Agent=UnityPlayer/2017.4.30f1 (UnityWebRequest/1.0, libcurl/7.51.0-DEV), Accept-Encoding=identity, X-Rpc-Combo_version=2.27.0, X-Rpc-Device_fp=38d81c81f33c2, Authorization=a8f1f891189bacdc9b623f6e3a1234c82031c0a1, X-Rpc-Sys_version=Windows%2011%20%20%2810.0.28000%29%2064bit, X-Rpc-Game_biz=hk4e_global, X-Rpc-Device_name=BIGWORKSTATION, X-Rpc-Channel_version=2.27.0.0, X-Rpc-Client_type=3, X-Rpc-Sub_channel_id=1, Content-Length=1119, Content-Type=application/json, X-Rpc-Device_id=b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145, X-Rpc-Channel_id=1, Accept=*/*, X-Unity-Version=2017.4.30f1, X-Rpc-Mdk_version=2.27.0.0, Host=127.0.0.1:8088, X-Rpc-Device_model=B760M%20GAMING%20AC%20DDR4%20%28Gigabyte%20Technology%20Co.,%20Ltd.%29, Date=1792822564232, Content-MD5=0DF650365226146F004FBA57E64EE2E2, Expect=100-continue, X-Rpc-Goods_third_party=unsupported, Cms-Signature=hmac-sha1, X-Rpc-Payment_version=2.27.0}
+    Cookies: {}
+    Body: [{"applicationId":100001,"applicationName":"hk4e","msgId":"b3be686fc95d5ff222de0caa763cbc6af80e04081792822564232","eventTime":"1792822564","eventId":100004,"eventName":"ClientReport","uploadContent":{"launchTraceId":"3f576a21-a807-4279-a7e5-4567f0afd736","device_info":{"ip":"192.168.0.136","plat":3,"device_id":"b3be686fc95d5ff222de0caa763cbc6af80e04081789741294145","device_name":"BIGWORKSTATION","device_model":"B760M GAMING AC DDR4 (Gigabyte Technology Co., Ltd.)","register_cps":"","current_cps":"","uapc":"","bundle_id":"hk4e_global","os":"Windows 11  (10.0.28000) 64bit","channel_id":"1","channel_subid":"1","network_type":"wired"},"user_info":{"uid":"0","level":"0","account_type":"1","open_id":"10002","tag":""},"version_info":{"client_version":"OSRELWin4.8.0_R24822834_S24441452_D24795089","sdk_env":2,"sdk_version":"2.27.0.0","log_version":"1.0.0"},"log_info":{"log_time":"1792822564","region":"os_usa","action_id":1000,"action_name":"FUNNEL_PASS","c_body":"{\"serial_number\":\"1792822404\", \"funnel_state\":\"5\", \"server_name\":\"\", \"packet_size\":\"0.00 MB\", \"ua_pc\":\"\"}","platform_type":"3"}}}]
+    QueryString: null
+    QueryParams: {}
+    FormParams: {}
+Response: [200 OK], execution took 0.14 ms
+    Headers: {Date=Sat, 24 Oct 2026 06:16:04 GMT, Content-Type=text/plain}
+    Body is 10 bytes (starts on next line):
+    {"code":0}
+----------------------------------------------------------------------------------
+14:16:08 <INFO:GameSession> 客户端 /127.0.0.1:51712 已断开连接
+14:16:08 <INFO:GameSession> SEND: ServerDisconnectClientNotify (27072)
+14:1
