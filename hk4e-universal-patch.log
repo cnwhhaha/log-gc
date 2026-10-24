@@ -1,0 +1,48 @@
+Genshin Impact encryption patch
+Made by xeondev
+(Modded for all version > 5.0)
+Current executable name: GenshinImpact.exe
+Initializing modules...
+mhyrsa_perform_crypto_action: 7ff70301ef00
+key_sign_check: 7ff70301e701
+sdk_util_rsa_encrypt: 7ff7120724c0
+ptr_to_string_ansi: 7ff711bc0ed0
+set_custom_property_float: 7ff703a84430
+Successfully initialized!
+[*] SDK RSA: key replaced
+[*] SDK RSA: key replaced
+[*] SDK RSA: key replaced
+key: 18202000102A404
+len: 4A6
+key sign check!
+key: D700010182020A01
+len: 10C
+[*] key replaced
+key sign check!
+key: D700010182020A01
+len: 10C
+[*] key replaced
+key sign check!
+key: D700010182020A01
+len: 10C
+[*] key replaced
+key sign check!
+key: D700010182020A01
+len: 10C
+[*] key replaced
+key sign check!
+key: D700010182020A01
+len: 10C
+[*] key replaced
+key sign check!
+key: D700010182020A01
+len: 10C
+[*] key replaced
+key sign check!
+key: 18202000102A404
+len: 4A6
+key sign check!
+key: D700010182020A01
+len: 10C
+[*] key replaced
+key sign check!
